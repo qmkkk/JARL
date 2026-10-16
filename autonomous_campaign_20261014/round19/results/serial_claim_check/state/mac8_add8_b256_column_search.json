@@ -1,0 +1,39 @@
+{
+  "case": "mac8_add8_b256_column",
+  "status": "COMPLETE",
+  "candidate_pairs": 24,
+  "author_error": 256,
+  "author_abstract_cost": 65,
+  "author_selection": [
+    0
+  ],
+  "selected": [
+    0
+  ],
+  "implementation": [
+    0
+  ],
+  "selected_query": {
+    "query": 1,
+    "selected": [
+      0
+    ],
+    "impl": [
+      0
+    ],
+    "status": "FULL_DOMAIN",
+    "WCE": 256,
+    "inputs": 16777216,
+    "witness_A": 80,
+    "witness_B": 10,
+    "witness_Y": 1056,
+    "wall_s": 0.237433849,
+    "MAE": 88.1831054688,
+    "graph_sha256": "98b6e5b65e3cb932c705f061b996634e71749d988720feead3d4f1ad2a001419"
+  },
+  "endpoint_protection_changed_selection": false,
+  "queries": 53,
+  "full_inputs": 889192448,
+  "full_eval_wall_s": 12.904458048,
+  "invalid_graphs": 0
+}

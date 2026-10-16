@@ -1,0 +1,15 @@
+umul8_b16 0 support 4 to 0
+umul8_b16 1 support 4 to 0
+umul8_b16 2 support 4 to 4
+umul8_b16 3 support 4 to 4
+umul8_b16 4 support 2 to 2
+umul8_b16 5 support 6 to 6
+umul8_b16 6 support 6 to 1
+umul8_b16 7 support 6 to 6
+umul8_b16 8 support 6 to 1
+umul8_b16 9 support 6 to 6
+umul8_b16 10 support 6 to 6
+umul8_b16 11 support 6 to 6
+umul8_b16 12 support 4 to 4
+umul8_b16 13 support 5 to 5
+SERIAL_SUPPORT_COMPLETE umul8_b16

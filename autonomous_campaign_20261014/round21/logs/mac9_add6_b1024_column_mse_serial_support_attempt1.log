@@ -1,0 +1,21 @@
+mac9_add6_b1024_column_mse 0 support 6 to 6
+mac9_add6_b1024_column_mse 1 support 6 to 6
+mac9_add6_b1024_column_mse 2 support 4 to 3
+mac9_add6_b1024_column_mse 3 support 4 to 4
+mac9_add6_b1024_column_mse 4 support 4 to 2
+mac9_add6_b1024_column_mse 5 support 5 to 5
+mac9_add6_b1024_column_mse 6 support 6 to 2
+mac9_add6_b1024_column_mse 7 support 6 to 6
+mac9_add6_b1024_column_mse 8 support 6 to 6
+mac9_add6_b1024_column_mse 9 support 6 to 6
+mac9_add6_b1024_column_mse 10 support 4 to 4
+mac9_add6_b1024_column_mse 11 support 5 to 5
+mac9_add6_b1024_column_mse 12 support 5 to 5
+mac9_add6_b1024_column_mse 13 support 5 to 5
+mac9_add6_b1024_column_mse 14 support 2 to 2
+mac9_add6_b1024_column_mse 15 support 4 to 4
+mac9_add6_b1024_column_mse 16 support 4 to 4
+mac9_add6_b1024_column_mse 17 support 2 to 2
+mac9_add6_b1024_column_mse 18 support 4 to 4
+mac9_add6_b1024_column_mse 19 support 2 to 2
+SERIAL_SUPPORT_COMPLETE mac9_add6_b1024_column_mse

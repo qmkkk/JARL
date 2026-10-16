@@ -1,0 +1,7 @@
+{
+  "case": "umul8_b256",
+  "status": "PASS",
+  "selected_pairs": 0,
+  "topology_truth_checks": 0,
+  "source_selected_graph_sha256": "625cee6ef784e781b15453191bebdc5ca8371c7864ca63c626013bf42fc2206a"
+}

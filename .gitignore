@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.Xil/
+xsim.dir/
+*.dcp
+*.exe
+*.zip
+replay/

@@ -1,0 +1,33 @@
+{
+  "round": 21,
+  "status": "COMPLETE_ANALYZED",
+  "score": 88,
+  "score_components": {
+    "quality_advantage": 25,
+    "physical_advantage": 20,
+    "causal_fairness": 23,
+    "correctness": 20
+  },
+  "decision": "KEEP_QUALITY_CANDIDATE_AND_TEST_DIRECT_SIGNED16_SCALABILITY",
+  "next_round_authorized": true,
+  "successful_project_archive": false,
+  "report": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\reports\\ROUND21_ANALYSIS_ZH.md",
+  "report_sha256": "45e14d26464a63452652dc4c784f4b80fd69bba85b5382fcba99957c222ecf30",
+  "summary": {
+    "status": "COMPLETE_AWAIT_DECISION",
+    "endpoints": 12,
+    "unique_synth": 12,
+    "unique_route": 12,
+    "timing_pass": 12,
+    "hdl_checks": 51760,
+    "quality_changed_cases": 3,
+    "quality_pareto_improved_cases": 3,
+    "quality_improvement_count": 3,
+    "mechanism_status_counts": {
+      "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY": 20,
+      "ACCEPTED_QUALITY": 3
+    },
+    "finished": "2026-10-15T15:04:30.131736+08:00"
+  },
+  "completed": "2026-10-15T15:08:26.775078+08:00"
+}

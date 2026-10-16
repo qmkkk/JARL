@@ -1,0 +1,318 @@
+{
+  "case": "dot2_u4_b4",
+  "status": "COMPLETE",
+  "roots": 8,
+  "history": [
+    {
+      "root": "Y_3__i_19",
+      "old_support": 6,
+      "new_support": 0,
+      "rank": [
+        0,
+        4,
+        28,
+        0,
+        0
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single0.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 64,
+        "witness_B": 16,
+        "witness_Y": 0,
+        "MAE": 1.75,
+        "query": 0,
+        "wall_with_compile_s": 0.7131511000006867,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q000.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q000.csv"
+      }
+    },
+    {
+      "root": "Y_7__i_19",
+      "old_support": 6,
+      "new_support": 2,
+      "rank": [
+        2,
+        4,
+        14,
+        10,
+        8
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single1.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 64,
+        "witness_B": 16,
+        "witness_Y": 0,
+        "MAE": 1.75,
+        "query": 1,
+        "wall_with_compile_s": 0.7062394000022323,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q001.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q001.csv"
+      }
+    },
+    {
+      "root": "Y_3__i_12",
+      "old_support": 4,
+      "new_support": 4,
+      "rank": [
+        4,
+        4,
+        0,
+        15,
+        30856
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single2.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 64,
+        "witness_B": 16,
+        "witness_Y": 0,
+        "MAE": 1.75,
+        "query": 2,
+        "wall_with_compile_s": 0.7295522999993409,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q002.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q002.csv"
+      }
+    },
+    {
+      "root": "Y_3__i_8",
+      "old_support": 4,
+      "new_support": 4,
+      "rank": [
+        4,
+        4,
+        0,
+        15,
+        30856
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single3.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 64,
+        "witness_B": 16,
+        "witness_Y": 0,
+        "MAE": 1.75,
+        "query": 3,
+        "wall_with_compile_s": 0.7183441999986826,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q003.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q003.csv"
+      }
+    },
+    {
+      "root": "Y_3__i_16",
+      "old_support": 4,
+      "new_support": 4,
+      "rank": [
+        4,
+        4,
+        0,
+        15,
+        30856
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single4.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 64,
+        "witness_B": 16,
+        "witness_Y": 0,
+        "MAE": 1.75,
+        "query": 4,
+        "wall_with_compile_s": 0.710367400002724,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q004.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q004.csv"
+      }
+    },
+    {
+      "root": "Y_3__i_20",
+      "old_support": 4,
+      "new_support": 4,
+      "rank": [
+        4,
+        4,
+        5,
+        15,
+        10402
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single5.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 80,
+        "witness_B": 16,
+        "witness_Y": 1,
+        "MAE": 1.75,
+        "query": 5,
+        "wall_with_compile_s": 0.7117471999990812,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q005.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q005.csv"
+      }
+    },
+    {
+      "root": "Y_3__i_11",
+      "old_support": 6,
+      "new_support": 6,
+      "rank": [
+        6,
+        4,
+        0,
+        63,
+        9761403244881934472
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single6.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 80,
+        "witness_B": 16,
+        "witness_Y": 1,
+        "MAE": 1.75,
+        "query": 6,
+        "wall_with_compile_s": 0.7154890000019805,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q006.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q006.csv"
+      }
+    },
+    {
+      "root": "Y_7__i_10",
+      "old_support": 6,
+      "new_support": 6,
+      "rank": [
+        6,
+        4,
+        0,
+        63,
+        1690961474626781184
+      ],
+      "table": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_single7.csv",
+      "check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 80,
+        "witness_B": 16,
+        "witness_Y": 1,
+        "MAE": 1.75,
+        "query": 7,
+        "wall_with_compile_s": 0.7226030999991053,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q007.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q007.csv"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 64,
+      "witness_B": 16,
+      "witness_Y": 0,
+      "MAE": 1.75,
+      "query": 0,
+      "wall_with_compile_s": 0.7131511000006867,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q000.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q000.csv"
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 64,
+      "witness_B": 16,
+      "witness_Y": 0,
+      "MAE": 1.75,
+      "query": 1,
+      "wall_with_compile_s": 0.7062394000022323,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q001.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q001.csv"
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 64,
+      "witness_B": 16,
+      "witness_Y": 0,
+      "MAE": 1.75,
+      "query": 2,
+      "wall_with_compile_s": 0.7295522999993409,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q002.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q002.csv"
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 64,
+      "witness_B": 16,
+      "witness_Y": 0,
+      "MAE": 1.75,
+      "query": 3,
+      "wall_with_compile_s": 0.7183441999986826,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q003.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q003.csv"
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 64,
+      "witness_B": 16,
+      "witness_Y": 0,
+      "MAE": 1.75,
+      "query": 4,
+      "wall_with_compile_s": 0.710367400002724,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q004.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q004.csv"
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 80,
+      "witness_B": 16,
+      "witness_Y": 1,
+      "MAE": 1.75,
+      "query": 5,
+      "wall_with_compile_s": 0.7117471999990812,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q005.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q005.csv"
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 80,
+      "witness_B": 16,
+      "witness_Y": 1,
+      "MAE": 1.75,
+      "query": 6,
+      "wall_with_compile_s": 0.7154890000019805,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q006.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q006.csv"
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 80,
+      "witness_B": 16,
+      "witness_Y": 1,
+      "MAE": 1.75,
+      "query": 7,
+      "wall_with_compile_s": 0.7226030999991053,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q007.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q007.csv"
+    }
+  ],
+  "final": {
+    "inputs": 65536,
+    "WCE": 4,
+    "witness_A": 80,
+    "witness_B": 16,
+    "witness_Y": 1,
+    "MAE": 1.75,
+    "query": 8,
+    "wall_with_compile_s": 0.7166586999992433,
+    "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\dot2_u4_b4_q008.cpp",
+    "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\dot2_u4_b4_q008.csv"
+  },
+  "seconds": 12.562465999999404
+}

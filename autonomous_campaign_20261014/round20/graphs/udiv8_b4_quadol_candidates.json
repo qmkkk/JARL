@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "a": "n169",
+    "b": "n166",
+    "HD": 0,
+    "mux_type": "MUX_B",
+    "mux_inverse": true,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 2
+  },
+  {
+    "id": 1,
+    "a": "n169",
+    "b": "n176",
+    "HD": 13,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 2
+  },
+  {
+    "id": 2,
+    "a": "n166",
+    "b": "n176",
+    "HD": 16,
+    "mux_type": "MUX_B",
+    "mux_inverse": true,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 3,
+    "a": "n178",
+    "b": "n176",
+    "HD": 4,
+    "mux_type": "MUX_B",
+    "mux_inverse": true,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 2
+  }
+]

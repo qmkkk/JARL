@@ -1,0 +1,26 @@
+[
+  {
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w8_coeff.hex",
+    "sha256": "fd61ce94239828d9ba72f5c1e4d12c420094f1c23bc258be6d703fb494d88cf4"
+  },
+  {
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w8_samples.hex",
+    "sha256": "ca58346a9da9b0bf16a16b6c9944a38026a58d0d474baf3460ca20c58131b6d4"
+  },
+  {
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w9_coeff.hex",
+    "sha256": "cc9d3681e5fafad548134a3d2d95c052158c018b55b21b1ba2ea2ed0914cd868"
+  },
+  {
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w9_samples.hex",
+    "sha256": "46e0b1c3511521b88c461e858a1b6e002c4d89d7e26af127cbef9102d904175b"
+  },
+  {
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w10_coeff.hex",
+    "sha256": "843435550caddc742167ee8835bf3f36f6d9104742a52772ef4ce251e9d882c0"
+  },
+  {
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w10_samples.hex",
+    "sha256": "f50d480b26c9ccc5b8d884de75f318cf34ff8918d2b000653e0a07eaa1ca1913"
+  }
+]

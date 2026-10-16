@@ -1,0 +1,7 @@
+{
+  "status": "ALL_REGISTERED_EXECUTION_COMPLETE",
+  "rtl_designs": 12,
+  "physical_endpoints": 24,
+  "rtl_checks": 73728,
+  "routed_checks": 147456
+}

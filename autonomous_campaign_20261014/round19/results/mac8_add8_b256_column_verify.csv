@@ -1,0 +1,7 @@
+method,inputs,WCE,seed_max_delta,witness_A,witness_B,witness_Y,MAE_at_lowbits_zero
+seed,16777216,161,0,63,63,3808,84.6685
+quadol_wce,16777216,161,0,63,63,3808,84.6685
+static_full,16777216,225,64,127,63,7776,119.33
+state_const5,16777216,225,64,127,63,7776,119.33
+state_exact,16777216,161,0,63,63,3808,84.6685
+state_window,16777216,225,64,127,63,7776,119.33

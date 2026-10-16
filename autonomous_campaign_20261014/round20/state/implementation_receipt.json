@@ -1,0 +1,36 @@
+{
+  "created": "2026-10-15T13:09:44.233242+08:00",
+  "scope": "New R20 syntax, input/output adapters and source fingerprint only; no historical re-audit",
+  "source_hashes": {
+    "tools/analyze20.py": "14f3912a7deb735c704766700dca46c6bdf88d463520d50e15d9b5baf184b8ff",
+    "tools/common20.py": "7654c831f1f03e6f95616ae7bb9d42a7b4fb5bc463e97dc7b5e915186d162b58",
+    "tools/configure20.py": "8e8bc57ea5611508e2f1c348ad1a913d1293a2aecec671acef0d3080146828d2",
+    "tools/direct20.py": "8ca0d8da98fefb8ebf45de38da1ba76b357a2a5aaf5adc757460544d146cb295",
+    "tools/export20.py": "d665d552a51661628d280c35a4900e2c407c60927a4f02edf00aa630657f7582",
+    "tools/hardware20.py": "c3affe0268b37a5a00187aa030d48b62ee841ffd9e0ca067d07b6ad9b4ca5ee3",
+    "tools/map20.py": "1fc7bb0e4fcd44375f668581e43e3a0074423bc4d3f172eac273f78ce7a00a3b",
+    "tools/oracle20.py": "6611c9cf64145a7c043731c43dd8b35744296226b64308e1981238652298424a",
+    "tools/proposal20.py": "296d228f8df381abefe7227894d23a740240e727b2fa2f579a103cb3598cc38f",
+    "tools/quadol20.py": "d98e2c378db9257084b795103c4bad8ad3eab3ff3eabc2631aba819da78df876",
+    "tools/run20.py": "91d1153ef13eaf60872848a14f6b85758e8caedc543ba6963c04b88b9eea5e1f",
+    "tools/state20.py": "4088e4ccfc63c725cfe6938f0bcac8b73b259d7bc260f2a727f7a2fa56c9118f",
+    "tools/worker20.py": "acd8e535a47e7611504eba418d4c12aeccfcc754266d61164a8f4df0fe433771",
+    "serial/tools/common_serial.py": "ff71c3e3c8ad7c6dabcc8ea666bc64c5458c7fc30edd9b88a6b45d04a7c689bb",
+    "serial/tools/direct_serial.py": "4694bdd989430ad410287c4cadae8809cfb1e6cf34d692280758d13a07d7a1a2",
+    "serial/tools/oracle_serial.py": "fb2b50815c2679a35073c6f945cc81412cc85518db0e30e3bf2c0faa2428ad5d",
+    "serial/tools/quadol_serial.py": "744cd7d3fbdbca4ebd3e87e7c1498f05d09ba367c7f429bd6699a18fdb98f9c1",
+    "serial/tools/serial_support.py": "7550232b4281579a167c92b47dfb8ba02b06b375b576e6eb8a8fdbef448b54a9"
+  },
+  "plan_sha256": "72278b9b84b3f33381cf8e5a9c46c88b589f4cfc24c02896460f8ce656b598cf",
+  "first_map_attempt": {
+    "status": "UTF8_ADAPTER_ERROR_FIXED",
+    "evidence": "logs/map20.log",
+    "repair": "Use explicit Python UTF-8 mode in all subprocesses. No source or experimental hypothesis changed."
+  },
+  "scientific_limits": [
+    "R20 six small kernels test operator transfer, not representative large application speedup.",
+    "Trial-square integer sqrt source is a transparent exact RTL reference, not a demonstrated best isqrt mapping; prior optimized sqrt evidence remains necessary.",
+    "A new exact-start campaign is distinct from R19 compensated-MAC-start results.",
+    "All comparisons use the same WCE admission metric; this is not a full reproduction of original QUADOL ER/MRED experiments."
+  ]
+}

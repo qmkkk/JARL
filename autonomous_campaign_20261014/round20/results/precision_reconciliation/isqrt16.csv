@@ -1,0 +1,15 @@
+top,inputs,WCE,SAE,SSE
+r20_isqrt16_b1_quadol_wce,65536,1,29613,29613
+r20_isqrt16_b1_serial_then_quadol,65536,1,31352,31352
+r20_isqrt16_b1_state_window,65536,1,30886,30886
+r20_isqrt16_b2_serial_then_quadol,65536,2,43349,55599
+r20_isqrt16_b2_state_window,65536,2,48214,65296
+r20_isqrt16_b4_quadol_wce,65536,3,71508,132944
+r20_isqrt16_b4_serial_then_quadol,65536,4,112473,289011
+r20_isqrt16_b4_state_window,65536,4,100808,255722
+r20_isqrt16_b8_quadol_wce,65536,7,146724,525116
+r20_isqrt16_b8_serial_then_quadol,65536,8,166577,702317
+r20_isqrt16_b8_state_window,65536,8,158787,627647
+r20_isqrt16_b16_quadol_wce,65536,13,235794,1368292
+r20_isqrt16_b16_serial_then_quadol,65536,15,255680,1647510
+r20_isqrt16_b16_state_window,65536,12,167950,830336

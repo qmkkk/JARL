@@ -1,0 +1,7 @@
+{
+  "case": "mac9_add6_b1024_column_mse",
+  "status": "PASS",
+  "selected_pairs": 0,
+  "topology_truth_checks": 0,
+  "source_selected_graph_sha256": "9bef07116bd82eb3747ff95edf2b6f2a9ac97a21966403223128cb819efbb6e2"
+}

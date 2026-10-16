@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "pipelines": [
+    {
+      "directory": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19",
+      "effective_stages": 19,
+      "records": 22,
+      "preserved_failed_attempts": 3,
+      "effective_wall_s": 2290.6232975000057
+    },
+    {
+      "directory": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check",
+      "effective_stages": 11,
+      "records": 11,
+      "preserved_failed_attempts": 0,
+      "effective_wall_s": 621.8739014999919
+    }
+  ],
+  "counts": {
+    "formal_core_models": 21,
+    "formal_integrated_models": 12,
+    "fresh_physical_jobs": 33,
+    "application_records": 126,
+    "final_domain_model_input_evaluations": 352321536,
+    "core_hdl_comparisons": 90593,
+    "integration_done_checks": 26172,
+    "integration_sum_checks": 1536
+  },
+  "original_frozen_files_unchanged": true,
+  "formal_baseline_variation_disclosed": true,
+  "all_registered_clocks_pass": true,
+  "report_sha256": "43aaef3d1942a03ccf2f454f5429f765279e40e5d2b8b89559223770d0d4446b",
+  "serial_control": "COMPLETE",
+  "historical_reports_unchanged": true
+}

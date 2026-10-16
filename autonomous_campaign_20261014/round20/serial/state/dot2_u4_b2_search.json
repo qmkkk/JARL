@@ -1,0 +1,29 @@
+{
+  "case": "dot2_u4_b2",
+  "status": "COMPLETE",
+  "candidate_pairs": 50,
+  "author_error": 0,
+  "author_abstract_cost": 44,
+  "author_selection": [],
+  "selected": [],
+  "implementation": [],
+  "selected_query": {
+    "query": 0,
+    "selected": [],
+    "impl": [],
+    "status": "FULL_DOMAIN",
+    "WCE": 2,
+    "inputs": 65536,
+    "witness_A": 2,
+    "witness_B": 1,
+    "witness_Y": 4,
+    "wall_s": 0.000705438,
+    "MAE": 0.75,
+    "graph_sha256": "11210e449b9c272eab6b10b589ce070a85e867e37e3ad4d41e2bb0ca45a83c04"
+  },
+  "endpoint_protection_changed_selection": false,
+  "queries": 91,
+  "full_inputs": 5963776,
+  "full_eval_wall_s": 0.060417341,
+  "invalid_graphs": 0
+}

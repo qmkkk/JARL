@@ -1,0 +1,20 @@
+{
+  "case": "absdiff8_b2",
+  "status": "COMPLETE",
+  "roots": 0,
+  "history": [],
+  "checks": [],
+  "final": {
+    "inputs": 65536,
+    "WCE": 0,
+    "witness_A": 0,
+    "witness_B": 0,
+    "witness_Y": 0,
+    "MAE": 0.0,
+    "query": 0,
+    "wall_with_compile_s": 0.6456978999995044,
+    "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\src\\absdiff8_b2_q000.cpp",
+    "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\serial\\results\\absdiff8_b2_q000.csv"
+  },
+  "seconds": 0.6557331000003614
+}

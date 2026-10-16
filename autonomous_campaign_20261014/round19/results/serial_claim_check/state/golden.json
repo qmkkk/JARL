@@ -1,0 +1,23 @@
+[
+  {
+    "case": "mac8_add8_b256_column",
+    "vectors": 4284,
+    "designs": 1,
+    "checks": 4284,
+    "tb": "tb_mac8_add8_b256_column"
+  },
+  {
+    "case": "mac9_add6_b1024_column",
+    "vectors": 4313,
+    "designs": 1,
+    "checks": 4313,
+    "tb": "tb_mac9_add6_b1024_column"
+  },
+  {
+    "case": "mac10_add4_b4096_column",
+    "vectors": 4344,
+    "designs": 1,
+    "checks": 4344,
+    "tb": "tb_mac10_add4_b4096_column"
+  }
+]

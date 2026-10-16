@@ -1,0 +1,28 @@
+from pathlib import Path
+import json,shutil,hashlib,datetime,ast
+R=Path(__file__).resolve().parents[1];Q=R/'round14';old=R/'round13'
+load=lambda p:json.loads(p.read_text());dump=lambda p,x:p.write_text(json.dumps(x,indent=2,ensure_ascii=False),encoding='utf-8');h=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+assert load(old/'state/round_status.json')['status']=='COMPLETE';assert not Q.exists()
+for d in ['tools','configs','inputs','graphs','rtl','src','build','results/hardware','state','logs','reports']:(Q/d).mkdir(parents=True,exist_ok=True)
+cases=load(old/'configs/plan.json')['cases'];origins=[]
+for c in cases:
+ n=c['name']
+ for p in list((old/'graphs').glob(n+'*.json'))+list((old/'results').glob(n+'_pair*.csv'))+[old/f'inputs/{n}_original_methods.json',old/f'state/{n}_replay_manifest.json',old/f'results/{n}_replay.csv',old/f'rtl/{n}.xdc']:
+  dest=Q/p.relative_to(old);shutil.copy2(p,dest);origins.append(dict(source=str(p),target=str(dest),sha256=h(p)))
+ records=load(Q/f'inputs/{n}_original_methods.json')
+ for r in records:r['methods']={'numeric_window':r['methods']['numeric_window'],'repair_window':None}
+ dump(Q/f'results/{n}_methods.json',records)
+shutil.copy2(old/'state/physical_reuse_catalog.json',Q/'state/physical_reuse_catalog.json')
+plan=dict(round=14,registered=datetime.datetime.now().astimezone().isoformat(),question='Can counterexamples refine joint LUT6_2 function constraints and recover useful candidates discarded by one-shot full-domain admission?',cases=cases,methods=['seed','numeric_window','repair_window'],baselines=['strong input','unchanged numeric_window'],innovation='repair_window: exact full-domain witness constrains all four joint root assignments at its current support row, then regenerates legal hardware functions rather than dropping the whole window',hypothesis='R13 exposed six rejected original candidates in sqrt20_odd and four in div10_odd. A rejected function does not prove that its pair/window lacks a useful valid implementation.',algorithm='Original candidate pool/order/configs from completed original numeric_window. On failure, independently replay its witness, evaluate all four forced-root outputs in the current accepted circuit, merge worst-case errors into the proposal relation, and regenerate using the original structural completion objective. Preserve all prior accepted edits and baseline configs. No packing13 objective, PPA-based search, new roots, clock or error-budget adjustment.',limits=dict(refinements_per_pair=3,refinements_per_case=12,full_checks_per_case_max=49),completion_budget='Same8pinsets,8retained,top2completions,1024support masks,two2SATorders. One initial and at most3 refined configurations per selected pair; any repeated/cyclic/unresolved candidate is rejected. Five cases, all complete before analysis.',correctness='Every accepted replacement gets a fresh complete effective-domain mathematical check; full final verification, independent scalar witness reconstruction and vendor HDL. Scalar four-way witness outputs must reproduce the native failing output for the chosen q. All invalid proposals preserved.',novelty_boundary='Counterexample-guided synthesis and relation synthesis already exist (eSLIM, SimALS-MaxError). This tests their specific use to regenerate shared-half-table functions under real LUT6_2 and WCE constraints; not a claim of inventing CEGAR or proving global optimum.',physical='15models, original part/clocks/FF boundaries/DSP0. Reuse only exact canonical RTL+clock matches; route all novel outputs once. OOC core evidence, no board/application claim.',stop='Complete the fixed matrix, analyze, score, then choose next. Do not extend per-pair cap based on observed gains.',score=dict(innovation=25,physical_gain=25,problem_coverage=20,correctness=20,cost=10))
+dump(Q/'configs/plan.json',plan);dump(Q/'state/origins.json',origins);dump(Q/'state/engineering_repairs.json',[]);dump(Q/'state/progress.json',dict(phase='REGISTERED_IMPLEMENTING_DRIVERS'))
+dump(Q/'state/input_hashes.json',{p.relative_to(Q).as_posix():h(p)for sub in ['configs','inputs','graphs']for p in(Q/sub).rglob('*')if p.is_file()})
+c=load(R/'state/campaign.json');c.update(status='ROUND14_REGISTERED',active_round=14,root=str(Q),latest_progress='round14/state/progress.json');dump(R/'state/campaign.json',c)
+def save(n,s):ast.parse(s);(Q/'tools'/n).write_text(s,encoding='utf-8')
+save('common14.py',(old/'tools/common13.py').read_text())
+s=(R/'round12/tools/core12.py').read_text();head=s[:s.index('def independent_candidates')];body=s[s.index('def configure'):s.index('def optimize')];save('configure14.py',(head+body).replace('common12','common14'))
+s=(old/'tools/model13.py').read_text().replace('common13','common14').replace('packing_window','repair_window').replace('r13_','r14_').replace('R13_PASS','R14_PASS')
+s=s.replace('def choices(n,method):','def choices(n,method):\n if method==\'repair_window\':return load(Q/f\'state/{n}_repair.json\')[\'accepted\']')
+save('model14.py',s);save('hardware14.py',(old/'tools/hardware13.py').read_text().replace('model13','model14').replace('R13_PASS','R14_PASS'))
+s=(old/'tools/run13.py').read_text();a=s.index('steps=');b=s.index('\nrows=',a);s=s[:a]+"steps=[('repair14.py',),('model14.py','verify'),('model14.py','export'),('hardware14.py','simulation'),('hardware14.py','route'),('analyze14.py',)]"+s[b:];save('run14.py',s)
+(Q/'reports/REGISTERED_SCOPE_ZH.md').write_text('第14轮沿用五个强输入和两个基线，检验反例约束的联合函数再生成。每对最多3次、每例最多12次修正。全矩阵完成后分析；不改预算、不使用物理结果调参。详见configs/plan.json。',encoding='utf-8')
+print('Round14 registered; five fixed cases; bounded witness-guided resynthesis')

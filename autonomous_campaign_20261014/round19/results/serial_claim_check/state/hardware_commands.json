@@ -1,0 +1,503 @@
+[
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\s19_mac8_add8_b256_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\tb_mac8_add8_b256_column.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "returncode": 0,
+    "wall_s": 0.8266560000010941,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac8_add8_b256_column\\compile.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb_mac8_add8_b256_column",
+      "glbl",
+      "-s",
+      "round_sim"
+    ],
+    "returncode": 0,
+    "wall_s": 2.3479102999990573,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac8_add8_b256_column\\elaborate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "round_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/simulation_mac8_add8_b256_column/run.tcl"
+    ],
+    "returncode": 0,
+    "wall_s": 2.868706299999758,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac8_add8_b256_column\\simulate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\s19_mac9_add6_b1024_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\tb_mac9_add6_b1024_column.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "returncode": 0,
+    "wall_s": 0.644363199997315,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac9_add6_b1024_column\\compile.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb_mac9_add6_b1024_column",
+      "glbl",
+      "-s",
+      "round_sim"
+    ],
+    "returncode": 0,
+    "wall_s": 1.9112663000014436,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac9_add6_b1024_column\\elaborate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "round_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/simulation_mac9_add6_b1024_column/run.tcl"
+    ],
+    "returncode": 0,
+    "wall_s": 2.7318608000023232,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac9_add6_b1024_column\\simulate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\s19_mac10_add4_b4096_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\tb_mac10_add4_b4096_column.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "returncode": 0,
+    "wall_s": 0.6489486999998917,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac10_add4_b4096_column\\compile.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb_mac10_add4_b4096_column",
+      "glbl",
+      "-s",
+      "round_sim"
+    ],
+    "returncode": 0,
+    "wall_s": 2.2115558000004967,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac10_add4_b4096_column\\elaborate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "round_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/simulation_mac10_add4_b4096_column/run.tcl"
+    ],
+    "returncode": 0,
+    "wall_s": 2.781511600001977,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\simulation_mac10_add4_b4096_column\\simulate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac8_add8_b256_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac8_add8_b256_column_quadol_wce/sources.txt",
+      "s19_mac8_add8_b256_column_quadol_wce",
+      "forbid",
+      "synth",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/mac8_add8_b256_column.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 23.72735769999781,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\s19_mac8_add8_b256_column_quadol_wce\\synth.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac8_add8_b256_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac8_add8_b256_column_quadol_wce/sources.txt",
+      "s19_mac8_add8_b256_column_quadol_wce",
+      "forbid",
+      "impl",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/mac8_add8_b256_column.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 38.459815599999274,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\s19_mac8_add8_b256_column_quadol_wce\\impl.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac9_add6_b1024_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac9_add6_b1024_column_quadol_wce/sources.txt",
+      "s19_mac9_add6_b1024_column_quadol_wce",
+      "forbid",
+      "synth",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/mac9_add6_b1024_column.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 26.253761400002986,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\s19_mac9_add6_b1024_column_quadol_wce\\synth.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac9_add6_b1024_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac9_add6_b1024_column_quadol_wce/sources.txt",
+      "s19_mac9_add6_b1024_column_quadol_wce",
+      "forbid",
+      "impl",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/mac9_add6_b1024_column.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 38.05496029999995,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\s19_mac9_add6_b1024_column_quadol_wce\\impl.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac10_add4_b4096_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac10_add4_b4096_column_quadol_wce/sources.txt",
+      "s19_mac10_add4_b4096_column_quadol_wce",
+      "forbid",
+      "synth",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/mac10_add4_b4096_column.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 24.116074900000967,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\s19_mac10_add4_b4096_column_quadol_wce\\synth.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac10_add4_b4096_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/hardware/s19_mac10_add4_b4096_column_quadol_wce/sources.txt",
+      "s19_mac10_add4_b4096_column_quadol_wce",
+      "forbid",
+      "impl",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/mac10_add4_b4096_column.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 40.52523400000064,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\hardware\\s19_mac10_add4_b4096_column_quadol_wce\\impl.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\s19_mac8_add8_b256_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\integration\\s19_dot16_mac8_add8_b256_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\integration\\tb_dot16_mac8_add8_b256_column.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "returncode": 0,
+    "wall_s": 0.6826999000004434,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac8_add8_b256_column\\compile.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb_dot16_mac8_add8_b256_column",
+      "glbl",
+      "-s",
+      "dot_sim"
+    ],
+    "returncode": 0,
+    "wall_s": 2.299124400000437,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac8_add8_b256_column\\elaborate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "dot_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/simulation_mac8_add8_b256_column/run.tcl"
+    ],
+    "returncode": 0,
+    "wall_s": 2.7828067999980703,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac8_add8_b256_column\\simulate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\s19_mac9_add6_b1024_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\integration\\s19_dot16_mac9_add6_b1024_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\integration\\tb_dot16_mac9_add6_b1024_column.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "returncode": 0,
+    "wall_s": 0.68777460000274,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac9_add6_b1024_column\\compile.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb_dot16_mac9_add6_b1024_column",
+      "glbl",
+      "-s",
+      "dot_sim"
+    ],
+    "returncode": 0,
+    "wall_s": 2.0182168999999703,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac9_add6_b1024_column\\elaborate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "dot_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/simulation_mac9_add6_b1024_column/run.tcl"
+    ],
+    "returncode": 0,
+    "wall_s": 2.6996422999982315,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac9_add6_b1024_column\\simulate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\s19_mac10_add4_b4096_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\integration\\s19_dot16_mac10_add4_b4096_column_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\rtl\\integration\\tb_dot16_mac10_add4_b4096_column.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "returncode": 0,
+    "wall_s": 0.6852431000006618,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac10_add4_b4096_column\\compile.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb_dot16_mac10_add4_b4096_column",
+      "glbl",
+      "-s",
+      "dot_sim"
+    ],
+    "returncode": 0,
+    "wall_s": 2.316420199997083,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac10_add4_b4096_column\\elaborate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "dot_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/simulation_mac10_add4_b4096_column/run.tcl"
+    ],
+    "returncode": 0,
+    "wall_s": 2.7785588999977335,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\simulation_mac10_add4_b4096_column\\simulate.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac8_add8_b256_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac8_add8_b256_column_quadol_wce/sources.txt",
+      "s19_dot16_mac8_add8_b256_column_quadol_wce",
+      "forbid",
+      "synth",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/integration/s19_dot16_mac8_add8_b256_column_quadol_wce.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 24.226739999998244,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\s19_dot16_mac8_add8_b256_column_quadol_wce\\synth.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac8_add8_b256_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac8_add8_b256_column_quadol_wce/sources.txt",
+      "s19_dot16_mac8_add8_b256_column_quadol_wce",
+      "forbid",
+      "impl",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/integration/s19_dot16_mac8_add8_b256_column_quadol_wce.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 39.188392700001714,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\s19_dot16_mac8_add8_b256_column_quadol_wce\\impl.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac9_add6_b1024_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac9_add6_b1024_column_quadol_wce/sources.txt",
+      "s19_dot16_mac9_add6_b1024_column_quadol_wce",
+      "forbid",
+      "synth",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/integration/s19_dot16_mac9_add6_b1024_column_quadol_wce.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 26.394044000000576,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\s19_dot16_mac9_add6_b1024_column_quadol_wce\\synth.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac9_add6_b1024_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac9_add6_b1024_column_quadol_wce/sources.txt",
+      "s19_dot16_mac9_add6_b1024_column_quadol_wce",
+      "forbid",
+      "impl",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/integration/s19_dot16_mac9_add6_b1024_column_quadol_wce.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 39.5354883,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\s19_dot16_mac9_add6_b1024_column_quadol_wce\\impl.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac10_add4_b4096_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac10_add4_b4096_column_quadol_wce/sources.txt",
+      "s19_dot16_mac10_add4_b4096_column_quadol_wce",
+      "forbid",
+      "synth",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/integration/s19_dot16_mac10_add4_b4096_column_quadol_wce.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 24.77131119999831,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\s19_dot16_mac10_add4_b4096_column_quadol_wce\\synth.log"
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\tools\\route_clocked.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac10_add4_b4096_column_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/results/integration/s19_dot16_mac10_add4_b4096_column_quadol_wce/sources.txt",
+      "s19_dot16_mac10_add4_b4096_column_quadol_wce",
+      "forbid",
+      "impl",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/integration/s19_dot16_mac10_add4_b4096_column_quadol_wce.xdc"
+    ],
+    "returncode": 0,
+    "wall_s": 38.873587599999155,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\integration\\s19_dot16_mac10_add4_b4096_column_quadol_wce\\impl.log"
+  }
+]

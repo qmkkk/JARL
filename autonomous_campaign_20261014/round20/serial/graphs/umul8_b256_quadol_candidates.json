@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "a": "n85",
+    "b": "n89",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 1,
+    "a": "n85",
+    "b": "n141",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 2,
+    "a": "n85",
+    "b": "n143",
+    "HD": 11,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 3,
+    "a": "n128",
+    "b": "n131",
+    "HD": 10,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 4,
+    "a": "n128",
+    "b": "n155",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 5,
+    "a": "n131",
+    "b": "n155",
+    "HD": 11,
+    "mux_type": "MUX_A",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 6,
+    "a": "n141",
+    "b": "n143",
+    "HD": 10,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 7,
+    "a": "n91",
+    "b": "n102",
+    "HD": 6,
+    "mux_type": "NO_MUX",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 4
+  }
+]

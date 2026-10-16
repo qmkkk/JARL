@@ -1,0 +1,32 @@
+[
+  {
+    "case": "mac8_add8_b256_column",
+    "tb": "tb_dot16_mac8_add8_b256_column",
+    "cycles": 2181,
+    "blocks": 128,
+    "models": 3,
+    "done_checks": 6543,
+    "sum_checks": 384,
+    "status": "PASS"
+  },
+  {
+    "case": "mac9_add6_b1024_column",
+    "tb": "tb_dot16_mac9_add6_b1024_column",
+    "cycles": 2181,
+    "blocks": 128,
+    "models": 3,
+    "done_checks": 6543,
+    "sum_checks": 384,
+    "status": "PASS"
+  },
+  {
+    "case": "mac10_add4_b4096_column",
+    "tb": "tb_dot16_mac10_add4_b4096_column",
+    "cycles": 2181,
+    "blocks": 128,
+    "models": 3,
+    "done_checks": 6543,
+    "sum_checks": 384,
+    "status": "PASS"
+  }
+]

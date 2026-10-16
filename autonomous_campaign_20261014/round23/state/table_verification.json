@@ -1,0 +1,86 @@
+[
+  {
+    "top": "r23_fir8_quadol_wce",
+    "unsigned_inputs": 65536,
+    "scalar_checks": 261,
+    "slice_WCE": 256,
+    "sha256": "7cc4dc474ff092bfdc12a1c2bec834a35e853bf0512105e88d3f4b05fd6c2c0b"
+  },
+  {
+    "top": "r23_fir8_serial_then_quadol",
+    "unsigned_inputs": 65536,
+    "scalar_checks": 261,
+    "slice_WCE": 241,
+    "sha256": "e118c7bb7eae6b33407bc8b61304a05489a93f836de1fd30401000e4c31448bd"
+  },
+  {
+    "top": "r23_fir8_state_window",
+    "unsigned_inputs": 65536,
+    "scalar_checks": 261,
+    "slice_WCE": 241,
+    "sha256": "8bd036ddc6ca1a73252c3ad8109b22fdf570b6045e2e89ab9bc49388d186506c"
+  },
+  {
+    "top": "r23_fir8_quality_window",
+    "unsigned_inputs": 65536,
+    "scalar_checks": 261,
+    "slice_WCE": 245,
+    "sha256": "0d198cd75e686ae28c24dae0f5b20d84bd13db4a42bd0ae822aa366c9bdd9864"
+  },
+  {
+    "top": "r23_fir9_quadol_wce",
+    "unsigned_inputs": 262144,
+    "scalar_checks": 259,
+    "slice_WCE": 1024,
+    "sha256": "496fb5aeb14f111378529f1935c60203f7ff9d9d4315d87206f1f728d980c759"
+  },
+  {
+    "top": "r23_fir9_serial_then_quadol",
+    "unsigned_inputs": 262144,
+    "scalar_checks": 259,
+    "slice_WCE": 1024,
+    "sha256": "da9e707f2b1c308f1bfe8414a2242f0ef480d1d633bd8c84acda6188c7a95654"
+  },
+  {
+    "top": "r23_fir9_state_window",
+    "unsigned_inputs": 262144,
+    "scalar_checks": 259,
+    "slice_WCE": 1024,
+    "sha256": "d550647ae90307b13b7ea673f9271f2489618f996639a96f5c913895510ecd93"
+  },
+  {
+    "top": "r23_fir9_quality_window",
+    "unsigned_inputs": 262144,
+    "scalar_checks": 259,
+    "slice_WCE": 1024,
+    "sha256": "51311ec16a252c1d95eab52933e22204c24fdd1fbfe00f9da30b4e479ef9070c"
+  },
+  {
+    "top": "r23_fir10_quadol_wce",
+    "unsigned_inputs": 1048576,
+    "scalar_checks": 261,
+    "slice_WCE": 3841,
+    "sha256": "45431d708c3d592ef89796b56ef5805ad6e0e092f14bf0d4ca79a45a6e6545ba"
+  },
+  {
+    "top": "r23_fir10_serial_then_quadol",
+    "unsigned_inputs": 1048576,
+    "scalar_checks": 261,
+    "slice_WCE": 4096,
+    "sha256": "08de69a0a510566852e04adc2a2c3ab9a2a5ad10b9a5ebf7a071f7fcd559b5c4"
+  },
+  {
+    "top": "r23_fir10_state_window",
+    "unsigned_inputs": 1048576,
+    "scalar_checks": 261,
+    "slice_WCE": 4096,
+    "sha256": "af4302ba52c4e862c6f71a7daf5d24c2e02b1df77fdd988a86168e2419a0978a"
+  },
+  {
+    "top": "r23_fir10_quality_window",
+    "unsigned_inputs": 1048576,
+    "scalar_checks": 261,
+    "slice_WCE": 4096,
+    "sha256": "43588e0a8f0ac66f4977963f696ccbe62940ebb2ea34ee10a07a5a63e3cd3669"
+  }
+]

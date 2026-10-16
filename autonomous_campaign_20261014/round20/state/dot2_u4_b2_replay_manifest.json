@@ -1,0 +1,16 @@
+[
+  {
+    "method": "numeric_window",
+    "choices": [
+      [
+        0,
+        "numeric_window"
+      ],
+      [
+        1,
+        "numeric_window"
+      ]
+    ],
+    "cycle_rejected_pairs": []
+  }
+]

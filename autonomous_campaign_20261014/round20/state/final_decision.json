@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_ANALYZED",
+  "round": 20,
+  "score": 84,
+  "score_components": {
+    "cross_structure_evidence": 27,
+    "fairness_and_correctness": 24,
+    "resource_accuracy_advantage": 19,
+    "mechanistic_explanation": 14
+  },
+  "decision": "CONTINUE_QUALITY_FRONTIER_ON_COMMON_ANALYTICALLY_COMPENSATED_SEEDS",
+  "report": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\reports\\ROUND20_ANALYSIS_ZH.md",
+  "report_sha256": "cf88b1cd82616eaf04bcc9ca32242fe50cf47b0ec938c18a4e4914af83859a0c",
+  "strongest_new_result": "umul8 B16 routed67->64 LUT and MAE6.25->2.46875, all15ns pass",
+  "next_round_authorized": true,
+  "successful_project_archive": false,
+  "completed": "2026-10-15T14:36:44.982394+08:00",
+  "summary": {
+    "status": "COMPLETE_AWAIT_RESEARCH_DECISION",
+    "cells": 30,
+    "endpoints": 90,
+    "exhaustive_inputs_per_endpoint": 65536,
+    "unique_synthesized": 60,
+    "routed_registered": 18,
+    "routed_unique": 16,
+    "routed_timing_pass": 15,
+    "same_budget_wins": 19,
+    "same_budget_ties": 11,
+    "same_budget_losses": 0,
+    "positive_families": [
+      "isqrt16",
+      "mac6_add4",
+      "udiv8",
+      "umul8"
+    ],
+    "max_same_budget_gain_pct": 10.416666666666668,
+    "accepted_window_occurrences": 159,
+    "distinct_family_pair_windows": 48,
+    "joint_only_occurrences": 1,
+    "joint_only_distinct_windows": 1,
+    "hdl_checks": 111810,
+    "finished": "2026-10-15T14:33:59.440880+08:00"
+  }
+}

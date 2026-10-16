@@ -1,0 +1,12 @@
+{
+  "inputs": 16777216,
+  "WCE": 3073,
+  "witness_A": 511,
+  "witness_B": 511,
+  "witness_Y": 258048,
+  "MAE": 429.4172058105469,
+  "query": 0,
+  "wall_with_compile_s": 0.8803172999978415,
+  "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\src\\mac10_add4_b4096_column_mse_source_q000.cpp",
+  "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\results\\mac10_add4_b4096_column_mse_source_q000.csv"
+}

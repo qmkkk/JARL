@@ -1,0 +1,13 @@
+top,inputs,WCE,SAE,SSE
+r20_dot2_u4_b1_quadol_wce,65536,0,0,0
+r20_dot2_u4_b1_serial_then_quadol,65536,0,0,0
+r20_dot2_u4_b1_state_window,65536,0,0,0
+r20_dot2_u4_b2_serial_then_quadol,65536,2,49152,98304
+r20_dot2_u4_b2_state_window,65536,2,49152,98304
+r20_dot2_u4_b4_serial_then_quadol,65536,4,114688,376832
+r20_dot2_u4_b4_state_window,65536,4,114688,409600
+r20_dot2_u4_b8_serial_then_quadol,65536,8,200704,1048576
+r20_dot2_u4_b8_state_window,65536,8,204800,1097728
+r20_dot2_u4_b16_quadol_wce,65536,12,278528,2228224
+r20_dot2_u4_b16_serial_then_quadol,65536,16,589824,8028160
+r20_dot2_u4_b16_state_window,65536,16,598016,9568256

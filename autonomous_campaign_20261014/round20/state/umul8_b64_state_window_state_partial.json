@@ -1,0 +1,499 @@
+{
+  "case": "umul8_b64",
+  "history": [
+    {
+      "pair": 16,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 128,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9364481000011438,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair16.csv"
+      },
+      "solve_seconds": 0.6376902000010887,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          53,
+          59,
+          62,
+          69,
+          76
+        ],
+        "select": 75,
+        "mode": "f6",
+        "initA": "ffffffff",
+        "initB": "ffffffff",
+        "wce": 64,
+        "local_hd": 272,
+        "proxy": [
+          86,
+          366,
+          0,
+          0
+        ],
+        "distinct_completions": 33,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 128,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 0,
+        "witness_B": 0,
+        "witness_Y": 64,
+        "MAE": 36.0,
+        "query": 0,
+        "wall_with_compile_s": 0.7872352999984287,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q000.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q000.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 12,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9507615000002261,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair12.csv"
+      },
+      "solve_seconds": 0.009694100001070183,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 13,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9489011000005121,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair13.csv"
+      },
+      "solve_seconds": 0.009524099998088786,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 2,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9843607000002521,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair2.csv"
+      },
+      "solve_seconds": 0.31970759999967413,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          59,
+          69,
+          126,
+          127,
+          129
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "66aacc00",
+        "initB": "6ac06ac0",
+        "wce": 64,
+        "local_hd": 0,
+        "proxy": [
+          85,
+          366,
+          8,
+          4
+        ],
+        "distinct_completions": 3,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 0,
+        "witness_B": 0,
+        "witness_Y": 64,
+        "MAE": 36.0,
+        "query": 1,
+        "wall_with_compile_s": 0.7817544999998063,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q001.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q001.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 1,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9210991999971156,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair1.csv"
+      },
+      "solve_seconds": 0.4634948999992048,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          59,
+          69,
+          75,
+          76,
+          77
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "00000000",
+        "initB": "6a6ac0c0",
+        "wce": 64,
+        "local_hd": 12,
+        "proxy": [
+          85,
+          362,
+          4,
+          4
+        ],
+        "distinct_completions": 24,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 0,
+        "witness_B": 0,
+        "witness_Y": 64,
+        "MAE": 36.0,
+        "query": 2,
+        "wall_with_compile_s": 0.7769007999995665,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q002.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q002.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 34,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 80,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.939255500001309,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair34.csv"
+      },
+      "solve_seconds": 0.3898784000011801,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          52,
+          63,
+          88,
+          95,
+          119
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "0a00aa00",
+        "initB": "ffffffff",
+        "wce": 64,
+        "local_hd": 58,
+        "proxy": [
+          84,
+          358,
+          4,
+          4
+        ],
+        "distinct_completions": 18,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 0,
+        "witness_B": 0,
+        "witness_Y": 64,
+        "MAE": 36.0,
+        "query": 3,
+        "wall_with_compile_s": 0.7792391000002681,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q003.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q003.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 5,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9203253000014229,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair5.csv"
+      },
+      "solve_seconds": 0.16784779999943567,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 1
+        }
+      },
+      "configuration": {
+        "shared": [
+          53,
+          62,
+          75,
+          76,
+          77
+        ],
+        "select": 86,
+        "mode": "g6",
+        "initA": "eac08000",
+        "initB": "80008000",
+        "wce": 64,
+        "local_hd": 112,
+        "proxy": [
+          83,
+          356,
+          10,
+          6
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 0,
+        "witness_B": 0,
+        "witness_Y": 64,
+        "MAE": 37.0,
+        "query": 4,
+        "wall_with_compile_s": 0.7689686000012443,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q004.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q004.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 0,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 24,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9273753000015859,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_current_pair0.csv"
+      },
+      "solve_seconds": 0.29508139999961713,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          59,
+          63,
+          65,
+          66,
+          70
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "78888777",
+        "initB": "80008000",
+        "wce": 64,
+        "local_hd": 0,
+        "proxy": [
+          83,
+          356,
+          9,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 0,
+        "witness_B": 0,
+        "witness_Y": 64,
+        "MAE": 37.0,
+        "query": 5,
+        "wall_with_compile_s": 0.7775495000023511,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q005.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q005.csv"
+      },
+      "status": "ACCEPTED"
+    }
+  ],
+  "accepted": [
+    [
+      16,
+      "state_window"
+    ],
+    [
+      2,
+      "state_window"
+    ],
+    [
+      1,
+      "state_window"
+    ],
+    [
+      34,
+      "state_window"
+    ],
+    [
+      5,
+      "state_window"
+    ],
+    [
+      0,
+      "state_window"
+    ]
+  ],
+  "checks": [
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 0,
+      "witness_B": 0,
+      "witness_Y": 64,
+      "MAE": 36.0,
+      "query": 0,
+      "wall_with_compile_s": 0.7872352999984287,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q000.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q000.csv",
+      "pair": 16
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 0,
+      "witness_B": 0,
+      "witness_Y": 64,
+      "MAE": 36.0,
+      "query": 1,
+      "wall_with_compile_s": 0.7817544999998063,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q001.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q001.csv",
+      "pair": 2
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 0,
+      "witness_B": 0,
+      "witness_Y": 64,
+      "MAE": 36.0,
+      "query": 2,
+      "wall_with_compile_s": 0.7769007999995665,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q002.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q002.csv",
+      "pair": 1
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 0,
+      "witness_B": 0,
+      "witness_Y": 64,
+      "MAE": 36.0,
+      "query": 3,
+      "wall_with_compile_s": 0.7792391000002681,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q003.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q003.csv",
+      "pair": 34
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 0,
+      "witness_B": 0,
+      "witness_Y": 64,
+      "MAE": 37.0,
+      "query": 4,
+      "wall_with_compile_s": 0.7689686000012443,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q004.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q004.csv",
+      "pair": 5
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 0,
+      "witness_B": 0,
+      "witness_Y": 64,
+      "MAE": 37.0,
+      "query": 5,
+      "wall_with_compile_s": 0.7775495000023511,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\umul8_b64_state_window_q005.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\umul8_b64_state_window_q005.csv",
+      "pair": 0
+    }
+  ]
+}

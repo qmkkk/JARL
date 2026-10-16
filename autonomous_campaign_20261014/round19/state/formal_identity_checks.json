@@ -1,0 +1,24 @@
+[
+  {
+    "phase": "core",
+    "status": "PASS_WITH_DISCLOSED_BASELINE_VARIATION",
+    "identical_nonbaseline_models": 15,
+    "locked_fresh_baselines": 3,
+    "all_new_physical": true
+  },
+  {
+    "phase": "application_and_integration",
+    "status": "PASS_WITH_DISCLOSED_BASELINE_VARIATION",
+    "identical_nonbaseline_tables": 15,
+    "identical_nonbaseline_application_outputs": 90,
+    "identical_integration_wrappers": 9
+  },
+  {
+    "phase": "final",
+    "status": "PASS",
+    "original_frozen_files_unchanged": true,
+    "baseline_artifacts_unchanged": true,
+    "formal_core_models": 18,
+    "formal_integrated_models": 9
+  }
+]

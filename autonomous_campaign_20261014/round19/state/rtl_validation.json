@@ -1,0 +1,26 @@
+[
+  {
+    "case": "mac8_add8_b256_column",
+    "vectors": 4283,
+    "designs": 6,
+    "checks": 25698,
+    "tb": "tb_mac8_add8_b256_column",
+    "status": "PASS"
+  },
+  {
+    "case": "mac9_add6_b1024_column",
+    "vectors": 4314,
+    "designs": 6,
+    "checks": 25884,
+    "tb": "tb_mac9_add6_b1024_column",
+    "status": "PASS"
+  },
+  {
+    "case": "mac10_add4_b4096_column",
+    "vectors": 4345,
+    "designs": 6,
+    "checks": 26070,
+    "tb": "tb_mac10_add4_b4096_column",
+    "status": "PASS"
+  }
+]

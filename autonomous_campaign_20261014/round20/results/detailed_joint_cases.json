@@ -1,0 +1,119 @@
+[
+  {
+    "case": "mac6_add4_b128",
+    "budget": 128,
+    "pair": 18,
+    "candidate_class": "strict_new",
+    "support": 7,
+    "shared": 4,
+    "both_flattened_output_changes_fail": true,
+    "both_single_edits_fail": true,
+    "interpretation": "For dependent windows the per-output counterfactual holds the other flattened output fixed; it is not a proof about a literal first-root-only RTL edit. Serial control is the actual sequential comparison.",
+    "first_A_bound": 132,
+    "first_B_bound": 132,
+    "joint_WCE": 128,
+    "configuration": {
+      "shared": [
+        49,
+        54,
+        73,
+        78,
+        117
+      ],
+      "select": null,
+      "mode": "g6",
+      "initA": "dfff20a0",
+      "initB": "ffffffff",
+      "wce": 128,
+      "local_hd": 88,
+      "proxy": [
+        43,
+        173,
+        5,
+        5
+      ],
+      "distinct_completions": 20,
+      "context_error_kind": "numeric_WCE",
+      "first_A_only_sample_bound": 132,
+      "first_B_only_sample_bound": 132,
+      "both_single_edits_violate_sample_budget": true
+    },
+    "A_counterfactual": {
+      "support_row": 50,
+      "reachable_inputs": 416,
+      "original_q": 2,
+      "new_q": 1,
+      "A_only_q": 3,
+      "B_only_q": 0,
+      "A_only_bound": 132,
+      "B_only_bound": 92,
+      "joint_row_bound": 100,
+      "allowed_q": [
+        0,
+        1,
+        2
+      ],
+      "errors": {
+        "0": {
+          "count": 416,
+          "lo": -92,
+          "hi": 84
+        },
+        "1": {
+          "count": 416,
+          "lo": -76,
+          "hi": 100
+        },
+        "2": {
+          "count": 416,
+          "lo": -60,
+          "hi": 116
+        },
+        "3": {
+          "count": 416,
+          "lo": -44,
+          "hi": 132
+        }
+      }
+    },
+    "B_counterfactual": {
+      "support_row": 54,
+      "reachable_inputs": 480,
+      "original_q": 2,
+      "new_q": 1,
+      "A_only_q": 3,
+      "B_only_q": 0,
+      "A_only_bound": 112,
+      "B_only_bound": 132,
+      "joint_row_bound": 116,
+      "allowed_q": [
+        1,
+        2,
+        3
+      ],
+      "errors": {
+        "0": {
+          "count": 480,
+          "lo": -132,
+          "hi": 64
+        },
+        "1": {
+          "count": 480,
+          "lo": -116,
+          "hi": 80
+        },
+        "2": {
+          "count": 480,
+          "lo": -100,
+          "hi": 96
+        },
+        "3": {
+          "count": 480,
+          "lo": -84,
+          "hi": 112
+        }
+      }
+    },
+    "scope": "Full-domain reachable support-row certificates; the two maxima may occur on different primary inputs. Not a universal impossibility proof for every serial algorithm."
+  }
+]

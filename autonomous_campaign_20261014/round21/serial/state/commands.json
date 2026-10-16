@@ -1,0 +1,3986 @@
+[
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single0.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single0"
+    ],
+    "returncode": 0,
+    "seconds": 0.6191002000014123,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single0.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single0"
+    ],
+    "returncode": 0,
+    "seconds": 0.3114395999982662,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single0.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q000.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q000"
+    ],
+    "returncode": 0,
+    "seconds": 0.5993904999995721,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q000.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q000"
+    ],
+    "returncode": 0,
+    "seconds": 0.14389479999954347,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q000.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single1.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single1"
+    ],
+    "returncode": 0,
+    "seconds": 0.6061272999977518,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single1.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single1"
+    ],
+    "returncode": 0,
+    "seconds": 0.2989555999993172,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single1.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q001.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q001"
+    ],
+    "returncode": 0,
+    "seconds": 0.59747409999909,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q001.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q001"
+    ],
+    "returncode": 0,
+    "seconds": 0.14488630000050762,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q001.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single2.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single2"
+    ],
+    "returncode": 0,
+    "seconds": 0.6139624999996158,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single2.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single2"
+    ],
+    "returncode": 0,
+    "seconds": 0.2991870000005292,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single2.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q002.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q002"
+    ],
+    "returncode": 0,
+    "seconds": 0.6040706999992835,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q002.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q002"
+    ],
+    "returncode": 0,
+    "seconds": 0.14317619999928866,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q002.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single3.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single3"
+    ],
+    "returncode": 0,
+    "seconds": 0.5951225999997405,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single3.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single3"
+    ],
+    "returncode": 0,
+    "seconds": 0.29777659999672323,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single3.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q003.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q003"
+    ],
+    "returncode": 0,
+    "seconds": 0.5922572999988915,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q003.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q003"
+    ],
+    "returncode": 0,
+    "seconds": 0.1419729000008374,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q003.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single4.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single4"
+    ],
+    "returncode": 0,
+    "seconds": 0.6151406000026327,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single4.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single4"
+    ],
+    "returncode": 0,
+    "seconds": 0.28853979999985313,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single4.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q004.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q004"
+    ],
+    "returncode": 0,
+    "seconds": 0.6205236999994668,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q004.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q004"
+    ],
+    "returncode": 0,
+    "seconds": 0.14438099999824772,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q004.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single5.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single5"
+    ],
+    "returncode": 0,
+    "seconds": 0.6028222999993886,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single5.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single5"
+    ],
+    "returncode": 0,
+    "seconds": 0.2938967000009143,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single5.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q005.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q005"
+    ],
+    "returncode": 0,
+    "seconds": 0.6012656000020797,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q005.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q005"
+    ],
+    "returncode": 0,
+    "seconds": 0.14046539999981178,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q005.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single6.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single6"
+    ],
+    "returncode": 0,
+    "seconds": 0.6104979000010644,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single6.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single6"
+    ],
+    "returncode": 0,
+    "seconds": 0.30290120000063325,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single6.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q006.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q006"
+    ],
+    "returncode": 0,
+    "seconds": 0.6037108000018634,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q006.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q006"
+    ],
+    "returncode": 0,
+    "seconds": 0.15080289999968954,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q006.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single7.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single7"
+    ],
+    "returncode": 0,
+    "seconds": 0.6105514000009862,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single7.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single7"
+    ],
+    "returncode": 0,
+    "seconds": 0.2993967000002158,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single7.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q007.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q007"
+    ],
+    "returncode": 0,
+    "seconds": 0.592312500000844,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q007.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q007"
+    ],
+    "returncode": 0,
+    "seconds": 0.14189160000023548,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q007.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single8.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single8"
+    ],
+    "returncode": 0,
+    "seconds": 0.5943929999993998,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single8.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single8"
+    ],
+    "returncode": 0,
+    "seconds": 0.33008979999794974,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single8.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q008.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q008"
+    ],
+    "returncode": 0,
+    "seconds": 0.6011304000021482,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q008.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q008"
+    ],
+    "returncode": 0,
+    "seconds": 0.14607710000200314,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q008.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single9.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single9"
+    ],
+    "returncode": 0,
+    "seconds": 0.6058260999998311,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_single9.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_single9"
+    ],
+    "returncode": 0,
+    "seconds": 0.3265585999979521,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_single9.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q009.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q009"
+    ],
+    "returncode": 0,
+    "seconds": 0.5918649999985064,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q009.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q009"
+    ],
+    "returncode": 0,
+    "seconds": 0.1450330000006943,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q009.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q010.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q010"
+    ],
+    "returncode": 0,
+    "seconds": 0.5935018999989552,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac8_add8_b256_column_mse_q010.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac8_add8_b256_column_mse_q010"
+    ],
+    "returncode": 0,
+    "seconds": 0.1438293999999587,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac8_add8_b256_column_mse_q010.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/build/mac8_add8_b256_column_mse/oracle.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/build/mac8_add8_b256_column_mse/oracle"
+    ],
+    "returncode": 0,
+    "seconds": 0.7355843000004825,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\build\\mac8_add8_b256_column_mse\\compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single0.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single0"
+    ],
+    "returncode": 0,
+    "seconds": 0.6969769000024826,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single0.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single0"
+    ],
+    "returncode": 0,
+    "seconds": 0.32398729999840725,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single0.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q000.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q000"
+    ],
+    "returncode": 0,
+    "seconds": 0.6453855999970983,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q000.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q000"
+    ],
+    "returncode": 0,
+    "seconds": 0.14839139999821782,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q000.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single1.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single1"
+    ],
+    "returncode": 0,
+    "seconds": 0.6514502999998513,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single1.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single1"
+    ],
+    "returncode": 0,
+    "seconds": 0.3208297999990464,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single1.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q001.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q001"
+    ],
+    "returncode": 0,
+    "seconds": 0.6418524000000616,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q001.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q001"
+    ],
+    "returncode": 0,
+    "seconds": 0.15075120000255993,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q001.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single2.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single2"
+    ],
+    "returncode": 0,
+    "seconds": 0.6581922999976086,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single2.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single2"
+    ],
+    "returncode": 0,
+    "seconds": 0.33612969999740017,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single2.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q002.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q002"
+    ],
+    "returncode": 0,
+    "seconds": 0.6455918999999994,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q002.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q002"
+    ],
+    "returncode": 0,
+    "seconds": 0.14709140000195475,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q002.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single3.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single3"
+    ],
+    "returncode": 0,
+    "seconds": 0.6540201999996498,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single3.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single3"
+    ],
+    "returncode": 0,
+    "seconds": 0.34368259999973816,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single3.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q003.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q003"
+    ],
+    "returncode": 0,
+    "seconds": 0.6653579000012542,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q003.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q003"
+    ],
+    "returncode": 0,
+    "seconds": 0.15031590000216966,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q003.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single4.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single4"
+    ],
+    "returncode": 0,
+    "seconds": 0.7727362999976322,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single4.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single4"
+    ],
+    "returncode": 0,
+    "seconds": 0.33475819999875966,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single4.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q004.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q004"
+    ],
+    "returncode": 0,
+    "seconds": 0.7807071999995969,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q004.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q004"
+    ],
+    "returncode": 0,
+    "seconds": 0.1523325999987719,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q004.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single5.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single5"
+    ],
+    "returncode": 0,
+    "seconds": 0.6827669999984209,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single5.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single5"
+    ],
+    "returncode": 0,
+    "seconds": 0.3735521000016888,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single5.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q005.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q005"
+    ],
+    "returncode": 0,
+    "seconds": 0.6500076000011177,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q005.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q005"
+    ],
+    "returncode": 0,
+    "seconds": 0.14801230000011856,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q005.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single6.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single6"
+    ],
+    "returncode": 0,
+    "seconds": 0.6526728999997431,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single6.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single6"
+    ],
+    "returncode": 0,
+    "seconds": 0.3114072999997006,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single6.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q006.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q006"
+    ],
+    "returncode": 0,
+    "seconds": 0.6375418999996327,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q006.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q006"
+    ],
+    "returncode": 0,
+    "seconds": 0.14916710000034072,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q006.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single7.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single7"
+    ],
+    "returncode": 0,
+    "seconds": 0.6559789999992063,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single7.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single7"
+    ],
+    "returncode": 0,
+    "seconds": 0.32488329999978305,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single7.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q007.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q007"
+    ],
+    "returncode": 0,
+    "seconds": 0.6275356000005559,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q007.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q007"
+    ],
+    "returncode": 0,
+    "seconds": 0.14875360000223736,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q007.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single8.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single8"
+    ],
+    "returncode": 0,
+    "seconds": 0.6506446999992477,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single8.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single8"
+    ],
+    "returncode": 0,
+    "seconds": 0.32178249999924446,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single8.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q008.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q008"
+    ],
+    "returncode": 0,
+    "seconds": 0.6387836000030802,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q008.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q008"
+    ],
+    "returncode": 0,
+    "seconds": 0.14893129999836674,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q008.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single9.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single9"
+    ],
+    "returncode": 0,
+    "seconds": 0.6568617999982962,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single9.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single9"
+    ],
+    "returncode": 0,
+    "seconds": 0.32246350000059465,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single9.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q009.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q009"
+    ],
+    "returncode": 0,
+    "seconds": 0.6476822000004177,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q009.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q009"
+    ],
+    "returncode": 0,
+    "seconds": 0.14833920000091894,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q009.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single10.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single10"
+    ],
+    "returncode": 0,
+    "seconds": 0.6769095000017842,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single10.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single10"
+    ],
+    "returncode": 0,
+    "seconds": 0.3433632000014768,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single10.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q010.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q010"
+    ],
+    "returncode": 0,
+    "seconds": 0.7539188000009744,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q010.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q010"
+    ],
+    "returncode": 0,
+    "seconds": 0.14859580000120332,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q010.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single11.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single11"
+    ],
+    "returncode": 0,
+    "seconds": 0.6717056000015873,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single11.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single11"
+    ],
+    "returncode": 0,
+    "seconds": 0.3455020000001241,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single11.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q011.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q011"
+    ],
+    "returncode": 0,
+    "seconds": 0.6487624000001233,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q011.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q011"
+    ],
+    "returncode": 0,
+    "seconds": 0.1482596999994712,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q011.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single12.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single12"
+    ],
+    "returncode": 0,
+    "seconds": 0.6584221000011894,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single12.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single12"
+    ],
+    "returncode": 0,
+    "seconds": 0.33030950000102166,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single12.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q012.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q012"
+    ],
+    "returncode": 0,
+    "seconds": 0.647607999999309,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q012.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q012"
+    ],
+    "returncode": 0,
+    "seconds": 0.1472568000026513,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q012.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single13.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single13"
+    ],
+    "returncode": 0,
+    "seconds": 0.6550031000006129,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single13.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single13"
+    ],
+    "returncode": 0,
+    "seconds": 0.3261896000003617,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single13.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q013.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q013"
+    ],
+    "returncode": 0,
+    "seconds": 0.6684329999989131,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q013.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q013"
+    ],
+    "returncode": 0,
+    "seconds": 0.14974269999947865,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q013.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single14.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single14"
+    ],
+    "returncode": 0,
+    "seconds": 0.6580570999976771,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single14.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single14"
+    ],
+    "returncode": 0,
+    "seconds": 0.3129525999975158,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single14.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q014.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q014"
+    ],
+    "returncode": 0,
+    "seconds": 0.6580083000008017,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q014.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q014"
+    ],
+    "returncode": 0,
+    "seconds": 0.15168599999742582,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q014.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single15.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single15"
+    ],
+    "returncode": 0,
+    "seconds": 0.6706742999995186,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single15.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single15"
+    ],
+    "returncode": 0,
+    "seconds": 0.3145911999999953,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single15.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q015.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q015"
+    ],
+    "returncode": 0,
+    "seconds": 0.6416704000002937,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q015.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q015"
+    ],
+    "returncode": 0,
+    "seconds": 0.14862540000103763,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q015.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single16.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single16"
+    ],
+    "returncode": 0,
+    "seconds": 0.6639026999982889,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single16.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single16"
+    ],
+    "returncode": 0,
+    "seconds": 0.31468649999806075,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single16.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q016.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q016"
+    ],
+    "returncode": 0,
+    "seconds": 0.653115599998273,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q016.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q016"
+    ],
+    "returncode": 0,
+    "seconds": 0.14993750000212458,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q016.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single17.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single17"
+    ],
+    "returncode": 0,
+    "seconds": 0.659980500000529,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single17.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single17"
+    ],
+    "returncode": 0,
+    "seconds": 0.3170193999976618,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single17.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q017.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q017"
+    ],
+    "returncode": 0,
+    "seconds": 0.6244393000015407,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q017.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q017"
+    ],
+    "returncode": 0,
+    "seconds": 0.14594190000207163,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q017.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single18.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single18"
+    ],
+    "returncode": 0,
+    "seconds": 0.6437764000002062,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single18.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single18"
+    ],
+    "returncode": 0,
+    "seconds": 0.3141859999996086,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single18.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q018.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q018"
+    ],
+    "returncode": 0,
+    "seconds": 0.6410450000003038,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q018.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q018"
+    ],
+    "returncode": 0,
+    "seconds": 0.1516548999970837,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q018.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single19.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single19"
+    ],
+    "returncode": 0,
+    "seconds": 0.6473941000003833,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_single19.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_single19"
+    ],
+    "returncode": 0,
+    "seconds": 0.330940499999997,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_single19.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q019.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q019"
+    ],
+    "returncode": 0,
+    "seconds": 0.6475845000022673,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q019.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q019"
+    ],
+    "returncode": 0,
+    "seconds": 0.15076200000112294,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q019.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q020.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q020"
+    ],
+    "returncode": 0,
+    "seconds": 0.6985634000011487,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac9_add6_b1024_column_mse_q020.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac9_add6_b1024_column_mse_q020"
+    ],
+    "returncode": 0,
+    "seconds": 0.14796300000307383,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac9_add6_b1024_column_mse_q020.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/build/mac9_add6_b1024_column_mse/oracle.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/build/mac9_add6_b1024_column_mse/oracle"
+    ],
+    "returncode": 0,
+    "seconds": 0.7613512999996601,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\build\\mac9_add6_b1024_column_mse\\compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single0.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single0"
+    ],
+    "returncode": 0,
+    "seconds": 0.6499276999966241,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single0.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single0"
+    ],
+    "returncode": 0,
+    "seconds": 0.3454282000020612,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single0.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q000.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q000"
+    ],
+    "returncode": 0,
+    "seconds": 0.6369761999994807,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q000.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q000"
+    ],
+    "returncode": 0,
+    "seconds": 0.1467173000019102,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q000.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single1.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single1"
+    ],
+    "returncode": 0,
+    "seconds": 0.8097837999994226,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single1.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single1"
+    ],
+    "returncode": 0,
+    "seconds": 0.3277376000005461,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single1.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q001.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q001"
+    ],
+    "returncode": 0,
+    "seconds": 1.670886400002928,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q001.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q001"
+    ],
+    "returncode": 0,
+    "seconds": 0.14973989999998594,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q001.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single2.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single2"
+    ],
+    "returncode": 0,
+    "seconds": 1.8724001000009594,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single2.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single2"
+    ],
+    "returncode": 0,
+    "seconds": 0.3241454999988491,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single2.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q002.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q002"
+    ],
+    "returncode": 0,
+    "seconds": 0.7422440999980608,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q002.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q002"
+    ],
+    "returncode": 0,
+    "seconds": 0.1463285999998334,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q002.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single3.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single3"
+    ],
+    "returncode": 0,
+    "seconds": 0.635936099999526,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single3.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single3"
+    ],
+    "returncode": 0,
+    "seconds": 0.3060552999995707,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single3.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q003.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q003"
+    ],
+    "returncode": 0,
+    "seconds": 0.6356476000000839,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q003.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q003"
+    ],
+    "returncode": 0,
+    "seconds": 0.1460509999997157,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q003.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single4.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single4"
+    ],
+    "returncode": 0,
+    "seconds": 0.6284813000020222,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single4.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single4"
+    ],
+    "returncode": 0,
+    "seconds": 0.28873749999911524,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single4.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q004.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q004"
+    ],
+    "returncode": 0,
+    "seconds": 0.6222091999989061,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q004.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q004"
+    ],
+    "returncode": 0,
+    "seconds": 0.14236219999656896,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q004.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single5.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single5"
+    ],
+    "returncode": 0,
+    "seconds": 0.6316946999977517,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single5.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single5"
+    ],
+    "returncode": 0,
+    "seconds": 0.2885050000004412,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single5.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q005.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q005"
+    ],
+    "returncode": 0,
+    "seconds": 0.6191219000029378,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q005.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q005"
+    ],
+    "returncode": 0,
+    "seconds": 0.1416626999998698,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q005.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single6.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single6"
+    ],
+    "returncode": 0,
+    "seconds": 0.6329302000012831,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single6.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single6"
+    ],
+    "returncode": 0,
+    "seconds": 0.31954549999863957,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single6.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q006.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q006"
+    ],
+    "returncode": 0,
+    "seconds": 0.6239095999990241,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q006.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q006"
+    ],
+    "returncode": 0,
+    "seconds": 0.14744059999793535,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q006.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single7.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single7"
+    ],
+    "returncode": 0,
+    "seconds": 0.6304573000015807,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single7.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single7"
+    ],
+    "returncode": 0,
+    "seconds": 0.31200369999714894,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single7.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q007.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q007"
+    ],
+    "returncode": 0,
+    "seconds": 0.6112109999994573,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q007.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q007"
+    ],
+    "returncode": 0,
+    "seconds": 0.14050850000057835,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q007.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single8.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single8"
+    ],
+    "returncode": 0,
+    "seconds": 0.6381514999993669,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single8.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single8"
+    ],
+    "returncode": 0,
+    "seconds": 0.3146489999999176,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single8.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q008.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q008"
+    ],
+    "returncode": 0,
+    "seconds": 0.6108830999983184,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q008.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q008"
+    ],
+    "returncode": 0,
+    "seconds": 0.14293069999985164,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q008.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single9.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single9"
+    ],
+    "returncode": 0,
+    "seconds": 0.6390640999998141,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single9.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single9"
+    ],
+    "returncode": 0,
+    "seconds": 0.31978970000272966,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single9.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q009.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q009"
+    ],
+    "returncode": 0,
+    "seconds": 0.6076888999996299,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q009.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q009"
+    ],
+    "returncode": 0,
+    "seconds": 0.13830369999777758,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q009.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single10.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single10"
+    ],
+    "returncode": 0,
+    "seconds": 0.6315910999983316,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single10.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single10"
+    ],
+    "returncode": 0,
+    "seconds": 0.3152038000007451,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single10.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q010.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q010"
+    ],
+    "returncode": 0,
+    "seconds": 0.6168637000009767,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q010.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q010"
+    ],
+    "returncode": 0,
+    "seconds": 0.14573469999959343,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q010.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single11.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single11"
+    ],
+    "returncode": 0,
+    "seconds": 0.6629909000002954,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single11.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single11"
+    ],
+    "returncode": 0,
+    "seconds": 0.3115356999987853,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single11.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q011.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q011"
+    ],
+    "returncode": 0,
+    "seconds": 0.6320601000006718,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q011.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q011"
+    ],
+    "returncode": 0,
+    "seconds": 0.1409378000025754,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q011.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single12.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single12"
+    ],
+    "returncode": 0,
+    "seconds": 0.6975548999980674,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single12.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single12"
+    ],
+    "returncode": 0,
+    "seconds": 0.3016736000026867,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single12.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q012.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q012"
+    ],
+    "returncode": 0,
+    "seconds": 0.7219546000014816,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q012.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q012"
+    ],
+    "returncode": 0,
+    "seconds": 0.14176729999962845,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q012.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single13.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single13"
+    ],
+    "returncode": 0,
+    "seconds": 0.6405136000030325,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single13.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single13"
+    ],
+    "returncode": 0,
+    "seconds": 0.30751360000067507,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single13.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q013.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q013"
+    ],
+    "returncode": 0,
+    "seconds": 0.6338950999997905,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q013.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q013"
+    ],
+    "returncode": 0,
+    "seconds": 0.14136019999932614,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q013.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single14.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single14"
+    ],
+    "returncode": 0,
+    "seconds": 0.6252211999999417,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single14.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single14"
+    ],
+    "returncode": 0,
+    "seconds": 0.32809130000168807,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single14.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q014.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q014"
+    ],
+    "returncode": 0,
+    "seconds": 0.6119954000023426,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q014.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q014"
+    ],
+    "returncode": 0,
+    "seconds": 0.14068920000136131,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q014.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single15.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single15"
+    ],
+    "returncode": 0,
+    "seconds": 0.726690100000269,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single15.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single15"
+    ],
+    "returncode": 0,
+    "seconds": 0.32443339999736054,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single15.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q015.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q015"
+    ],
+    "returncode": 0,
+    "seconds": 0.653785999998945,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q015.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q015"
+    ],
+    "returncode": 0,
+    "seconds": 0.13863970000238623,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q015.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single16.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single16"
+    ],
+    "returncode": 0,
+    "seconds": 0.6294029000018782,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single16.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single16"
+    ],
+    "returncode": 0,
+    "seconds": 0.3179889999992156,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single16.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q016.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q016"
+    ],
+    "returncode": 0,
+    "seconds": 0.6132563999999547,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q016.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q016"
+    ],
+    "returncode": 0,
+    "seconds": 0.1426281000021845,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q016.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single17.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single17"
+    ],
+    "returncode": 0,
+    "seconds": 0.6338295999994443,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single17.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single17"
+    ],
+    "returncode": 0,
+    "seconds": 0.3213872000014817,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single17.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q017.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q017"
+    ],
+    "returncode": 0,
+    "seconds": 0.6214290999996592,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q017.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q017"
+    ],
+    "returncode": 0,
+    "seconds": 0.14017210000019986,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q017.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single18.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single18"
+    ],
+    "returncode": 0,
+    "seconds": 0.6788100999983726,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single18.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single18"
+    ],
+    "returncode": 0,
+    "seconds": 0.3109795000018494,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single18.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q018.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q018"
+    ],
+    "returncode": 0,
+    "seconds": 0.6307062000014412,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q018.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q018"
+    ],
+    "returncode": 0,
+    "seconds": 0.13964320000013686,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q018.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single19.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single19"
+    ],
+    "returncode": 0,
+    "seconds": 0.639460099999269,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single19.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single19"
+    ],
+    "returncode": 0,
+    "seconds": 0.32145350000064354,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single19.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q019.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q019"
+    ],
+    "returncode": 0,
+    "seconds": 0.8205557000001136,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q019.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q019"
+    ],
+    "returncode": 0,
+    "seconds": 0.1442736999997578,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q019.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single20.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single20"
+    ],
+    "returncode": 0,
+    "seconds": 0.6636761999980081,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single20.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single20"
+    ],
+    "returncode": 0,
+    "seconds": 0.3251505000007455,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single20.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q020.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q020"
+    ],
+    "returncode": 0,
+    "seconds": 0.6145036999987497,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q020.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q020"
+    ],
+    "returncode": 0,
+    "seconds": 0.1456027999993239,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q020.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single21.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single21"
+    ],
+    "returncode": 0,
+    "seconds": 0.6292745000027935,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single21.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single21"
+    ],
+    "returncode": 0,
+    "seconds": 0.2968485999990662,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single21.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q021.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q021"
+    ],
+    "returncode": 0,
+    "seconds": 0.6142193999985466,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q021.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q021"
+    ],
+    "returncode": 0,
+    "seconds": 0.1412806999978784,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q021.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single22.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single22"
+    ],
+    "returncode": 0,
+    "seconds": 0.6474462000005587,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single22.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single22"
+    ],
+    "returncode": 0,
+    "seconds": 0.322245399998792,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single22.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q022.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q022"
+    ],
+    "returncode": 0,
+    "seconds": 0.6147319999981846,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q022.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q022"
+    ],
+    "returncode": 0,
+    "seconds": 0.13846009999906528,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q022.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single23.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single23"
+    ],
+    "returncode": 0,
+    "seconds": 0.6274362999974983,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single23.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single23"
+    ],
+    "returncode": 0,
+    "seconds": 0.3213767999986885,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single23.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q023.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q023"
+    ],
+    "returncode": 0,
+    "seconds": 0.6082497999996122,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q023.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q023"
+    ],
+    "returncode": 0,
+    "seconds": 0.14180249999844818,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q023.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single24.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single24"
+    ],
+    "returncode": 0,
+    "seconds": 0.640243100002408,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single24.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single24"
+    ],
+    "returncode": 0,
+    "seconds": 0.30620570000246516,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single24.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q024.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q024"
+    ],
+    "returncode": 0,
+    "seconds": 0.6092649999991409,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q024.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q024"
+    ],
+    "returncode": 0,
+    "seconds": 0.14327509999930044,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q024.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single25.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single25"
+    ],
+    "returncode": 0,
+    "seconds": 0.6230271000022185,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single25.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single25"
+    ],
+    "returncode": 0,
+    "seconds": 0.3098205999995116,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single25.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q025.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q025"
+    ],
+    "returncode": 0,
+    "seconds": 0.6849763000027451,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q025.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q025"
+    ],
+    "returncode": 0,
+    "seconds": 0.1524518000005628,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q025.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single26.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single26"
+    ],
+    "returncode": 0,
+    "seconds": 0.6411699999989651,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single26.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single26"
+    ],
+    "returncode": 0,
+    "seconds": 0.29541389999940293,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single26.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q026.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q026"
+    ],
+    "returncode": 0,
+    "seconds": 0.6176756999993813,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q026.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q026"
+    ],
+    "returncode": 0,
+    "seconds": 0.1442533999979787,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q026.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single27.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single27"
+    ],
+    "returncode": 0,
+    "seconds": 0.6523678999983531,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_single27.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_single27"
+    ],
+    "returncode": 0,
+    "seconds": 0.2888156999979401,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_single27.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q027.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q027"
+    ],
+    "returncode": 0,
+    "seconds": 0.6125821999994514,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q027.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q027"
+    ],
+    "returncode": 0,
+    "seconds": 0.1446058000001358,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q027.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q028.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q028"
+    ],
+    "returncode": 0,
+    "seconds": 0.6086467000022822,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\src\\mac10_add4_b4096_column_mse_q028.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/src/mac10_add4_b4096_column_mse_q028"
+    ],
+    "returncode": 0,
+    "seconds": 0.14152440000179922,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\results\\mac10_add4_b4096_column_mse_q028.csv"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/build/mac10_add4_b4096_column_mse/oracle.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round21/serial/build/mac10_add4_b4096_column_mse/oracle"
+    ],
+    "returncode": 0,
+    "seconds": 0.7837070999994467,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\serial\\build\\mac10_add4_b4096_column_mse\\compile.log"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "case": "isqrt16_b8",
+  "status": "COMPLETE",
+  "candidate_pairs": 66,
+  "author_error": 8,
+  "author_abstract_cost": 365,
+  "author_selection": [
+    21,
+    35,
+    38,
+    48,
+    50,
+    59,
+    60
+  ],
+  "selected": [
+    21,
+    35,
+    38,
+    48,
+    50,
+    59,
+    60
+  ],
+  "implementation": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "selected_query": {
+    "query": 154,
+    "selected": [
+      21,
+      35,
+      38,
+      48,
+      50,
+      59,
+      60
+    ],
+    "impl": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "FULL_DOMAIN",
+    "WCE": 8,
+    "inputs": 65536,
+    "witness_A": 225,
+    "witness_B": 0,
+    "witness_Y": 7,
+    "wall_s": 0.007068956,
+    "MAE": 2.54176330566,
+    "graph_sha256": "3afd48bb089032b279c0e3ebbe25e4d56c293b6378b47f18bc669ffd98cc552e"
+  },
+  "endpoint_protection_changed_selection": false,
+  "queries": 166,
+  "full_inputs": 10878976,
+  "full_eval_wall_s": 1.131394668,
+  "invalid_graphs": 0
+}

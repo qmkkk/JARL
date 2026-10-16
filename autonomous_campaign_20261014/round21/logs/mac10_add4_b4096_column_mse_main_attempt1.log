@@ -1,0 +1,15 @@
+mac10_add4_b4096_column_mse 9 ACCEPTED
+mac10_add4_b4096_column_mse 15 NO_FEASIBLE_COMPLETION
+mac10_add4_b4096_column_mse 0 ACCEPTED
+mac10_add4_b4096_column_mse 30 ACCEPTED
+mac10_add4_b4096_column_mse 32 ACCEPTED
+mac10_add4_b4096_column_mse 38 NO_FEASIBLE_COMPLETION
+mac10_add4_b4096_column_mse 39 ACCEPTED
+mac10_add4_b4096_column_mse 33 NO_FEASIBLE_COMPLETION
+mac10_add4_b4096_column_mse 7 ACCEPTED
+mac10_add4_b4096_column_mse 1 ACCEPTED
+mac10_add4_b4096_column_mse 11 NO_FEASIBLE_COMPLETION
+mac10_add4_b4096_column_mse 4 ACCEPTED
+mac10_add4_b4096_column_mse 5 ACCEPTED
+mac10_add4_b4096_column_mse 23 NO_FEASIBLE_COMPLETION
+STATE_CASE_COMPLETE mac10_add4_b4096_column_mse

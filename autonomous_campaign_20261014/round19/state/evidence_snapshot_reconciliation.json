@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "original_primary_snapshot_preserved": true,
+  "expected_serial_progress_updates": [
+    {
+      "path": "results/serial_claim_check/state/commands.json",
+      "primary_stage_sha256": "f7ef8a162d579f6cd834484ed29f1184af317518593750b90d9646a08686e40e",
+      "final_sha256": "c0510f1e4f80125ed635bc62a34018cfac31a32fd738be2d3595c06b12bc4ecd",
+      "reason": "Serial execution metadata advanced after primary-stage snapshot; original result/source bytes unchanged."
+    },
+    {
+      "path": "results/serial_claim_check/state/pipeline.json",
+      "primary_stage_sha256": "46557f61d6f1c407f1277696f60dc82fa82458cd70cce6ff3004dc7d62a505eb",
+      "final_sha256": "f176d2f072dde1be031fabd6ead0cbf333aed030442ca5d0aae7901cde0b7dd5",
+      "reason": "Serial execution metadata advanced after primary-stage snapshot; original result/source bytes unchanged."
+    },
+    {
+      "path": "results/serial_claim_check/state/progress.json",
+      "primary_stage_sha256": "f9c45ceb29e2fc518b4fa91380828df4d0762becb2ba47702e5c087c882f0f7a",
+      "final_sha256": "1f276c96fedf59a3dc1043edc2658ef8ee8c608c6545aa8d7144645eb2fb8864",
+      "reason": "Serial execution metadata advanced after primary-stage snapshot; original result/source bytes unchanged."
+    }
+  ],
+  "final_authoritative_receipt": "Delivered ZIP MANIFEST.json and adjacent verification.json"
+}

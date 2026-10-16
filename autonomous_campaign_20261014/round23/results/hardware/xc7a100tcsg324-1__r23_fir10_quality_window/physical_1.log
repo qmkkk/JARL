@@ -1,0 +1,448 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 03-sep-2027.
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Thu Oct 15 16:34:59 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source {D:\paper_project_5\project_3\autonomous_campaign_20261014\round23\tools\physical23.tcl}
+# set out [lindex $argv 0]
+# set rtl [lindex $argv 1]
+# set top [lindex $argv 2]
+# set part [lindex $argv 3]
+# set xdc [lindex $argv 4]
+# set_param general.maxThreads 4
+# create_project -in_memory -part $part
+# read_verilog -sv $rtl
+# synth_design -mode out_of_context -top $top -part $part -max_dsp 0
+Command: synth_design -mode out_of_context -top r23_fir10_quality_window -part xc7a100tcsg324-1 -max_dsp 0
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a100t'
+INFO: [Vivado_Tcl 4-287] User specified maximum number of block DSP allowed in design is 0
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20064
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1168.359 ; gain = 571.359
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'r23_fir10_quality_window' [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v:207]
+INFO: [Synth 8-6157] synthesizing module 'r23_fir10_quality_window_signed' [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v:200]
+INFO: [Synth 8-6157] synthesizing module 'r21_mac10_add4_b4096_column_mse_quality_window' [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v:3]
+INFO: [Synth 8-6157] synthesizing module 'GND' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:50383]
+INFO: [Synth 8-6155] done synthesizing module 'GND' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:50383]
+INFO: [Synth 8-6157] synthesizing module 'VCC' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:174440]
+INFO: [Synth 8-6155] done synthesizing module 'VCC' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:174440]
+INFO: [Synth 8-6157] synthesizing module 'LUT3' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+	Parameter INIT bound to: 8'b10000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized0' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+	Parameter INIT bound to: 8'b10010110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized0' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+INFO: [Synth 8-6157] synthesizing module 'LUT6' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1000000000000000000000001000000000000000100000001000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized0' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b0111111110000000100000000111111110000000011111110111111110000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized0' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+	Parameter INIT bound to: 4'b1001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized0' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+	Parameter INIT bound to: 4'b0110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized0' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+INFO: [Synth 8-6157] synthesizing module 'LUT5' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+	Parameter INIT bound to: 32'b10010011001101100011011001101100 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized1' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+	Parameter INIT bound to: 8'b01010110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized1' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized0' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+	Parameter INIT bound to: 32'b10010110011010010110100101101001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized0' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized1' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1111100010000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized1' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b0000111101110000000000000000000001110000111100000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+	Parameter INIT bound to: 8'b11101000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized3' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b0001010101111111111010101000000011101010100000000001010101111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized3' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT4' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+	Parameter INIT bound to: 16'b1000011101111000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized1' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+	Parameter INIT bound to: 32'b11111111011010100110101000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized1' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+	Parameter INIT bound to: 32'b11111111111010001110100000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized0' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+	Parameter INIT bound to: 16'b1110101010000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized0' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized4' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1111100010001000100000000000000010000000000000001000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized4' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized1' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+	Parameter INIT bound to: 16'b0111100010001000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized1' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+	Parameter INIT bound to: 16'b1000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized1' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+	Parameter INIT bound to: 4'b0111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized1' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized5' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1111100010000000100010000000000010000000100000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized5' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized6' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1001011010010110100101100000000010010110000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized6' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized7' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1001010101101010011010101001010101101010100101010110101010010101 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized7' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized8' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1000011101110111011110001000100001111000100010000111100010001000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized8' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized3' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+	Parameter INIT bound to: 32'b11101000100010001010000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized3' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized9' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b0110101010010101100101010110101010010101011010101001010101101010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized9' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized10' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1110101010000000111111111111111100000000000000001110101010000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized10' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+	Parameter INIT bound to: 4'b1000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95257]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized4' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+	Parameter INIT bound to: 32'b11101000000101110001011111101000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized4' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized11' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b0111111011101000100000010001011110000001000101110111111011101000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized11' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized12' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+	Parameter INIT bound to: 64'b1101101010111111101100000100000000100101010000001011000001000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized12' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95433]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized3' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+	Parameter INIT bound to: 8'b01111000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized3' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95295]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized5' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+	Parameter INIT bound to: 32'b10000111111100000111100011110000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized5' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95383]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized3' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+	Parameter INIT bound to: 16'b1001011001100110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized3' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95337]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:49396]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:3094]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:3094]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b1111111111111111111111111111111111111111111111111111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized0' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000010100000101000001010000010100000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized0' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized1' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b1010000001011111111111110000000011111111111111111111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized1' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized2' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized2' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized3' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b0000000000000000111111111111111111111111111111111111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized3' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized4' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b1000100000000000100010000000000011110000000000001111000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized4' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized5' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b1100000000111111001111111100000011111111110000001100000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized5' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized6' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b0101000000000000111100000000000011010010111100001010101000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized6' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6157] synthesizing module 'LUT6_2__parameterized7' [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+	Parameter INIT bound to: 64'b1000010001001000100001000100100010010110011010010110100110010110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6_2__parameterized7' (0#1) [E:/AMDDesignTools/2026.1/Vivado/scripts/rt/data/unisim_comp.v:95479]
+INFO: [Synth 8-6155] done synthesizing module 'r21_mac10_add4_b4096_column_mse_quality_window' (0#1) [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'r23_fir10_quality_window_signed' (0#1) [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v:200]
+INFO: [Synth 8-6155] done synthesizing module 'r23_fir10_quality_window' (0#1) [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v:207]
+WARNING: [Synth 8-7129] Port A[15] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[14] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[13] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[12] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[10] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[15] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[14] in module r21_mac10_add4_b4096_column_mse_quality_window is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[14] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[13] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[12] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[10] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[14] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[13] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[12] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[11] in module r23_fir10_quality_window_signed is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[10] in module r23_fir10_quality_window_signed is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1292.082 ; gain = 695.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1292.082 ; gain = 695.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1292.082 ; gain = 695.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1292.082 ; gain = 695.082
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   40 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               40 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 16    
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	              160 Bit	(16 X 10 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   40 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (core/u/c87) is unused and will be removed from module r23_fir10_quality_window.
+WARNING: [Synth 8-3332] Sequential element (core/u/c109) is unused and will be removed from module r23_fir10_quality_window.
+WARNING: [Synth 8-3332] Sequential element (core/u/c110) is unused and will be removed from module r23_fir10_quality_window.
+WARNING: [Synth 8-3332] Sequential element (core/u/c111) is unused and will be removed from module r23_fir10_quality_window.
+WARNING: [Synth 8-3332] Sequential element (core/u/c124) is unused and will be removed from module r23_fir10_quality_window.
+WARNING: [Synth 8-3332] Sequential element (core/u/c125) is unused and will be removed from module r23_fir10_quality_window.
+WARNING: [Synth 8-3332] Sequential element (core/u/c126) is unused and will be removed from module r23_fir10_quality_window.
+WARNING: [Synth 8-3332] Sequential element (core/u/c127) is unused and will be removed from module r23_fir10_quality_window.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1522.891 ; gain = 925.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-------------------------+------------+-----------+----------------------+-------------+
+|Module Name              | RTL Object | Inference | Size (Depth x Width) | Primitives  | 
++-------------------------+------------+-----------+----------------------+-------------+
+|r23_fir10_quality_window | coeff_reg  | Implied   | 16 x 10              | RAM32M x 2  | 
++-------------------------+------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1530.516 ; gain = 933.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++-------------------------+------------+-----------+----------------------+-------------+
+|Module Name              | RTL Object | Inference | Size (Depth x Width) | Primitives  | 
++-------------------------+------------+-----------+----------------------+-------------+
+|r23_fir10_quality_window | coeff_reg  | Implied   | 16 x 10              | RAM32M x 2  | 
++-------------------------+------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1530.703 ; gain = 933.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    25|
+|2     |LUT1   |     2|
+|3     |LUT2   |    67|
+|4     |LUT3   |    44|
+|5     |LUT4   |    12|
+|6     |LUT5   |    17|
+|7     |LUT6   |   107|
+|9     |MUXF7  |    15|
+|10    |MUXF8  |     5|
+|11    |RAM32M |     2|
+|12    |FDRE   |   294|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------------------------------------------+------+
+|      |Instance |Module                                         |Cells |
++------+---------+-----------------------------------------------+------+
+|1     |top      |                                               |   590|
+|2     |  core   |r23_fir10_quality_window_signed                |   335|
+|3     |    u    |r21_mac10_add4_b4096_column_mse_quality_window |   221|
++------+---------+-----------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1778.637 ; gain = 1181.637
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1792.684 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1902.797 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 11 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 9 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+
+Synth Design complete | Checksum: 8f02d73a
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+115 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1903.762 ; gain = 1313.699
+# read_xdc $xdc
+Parsing XDC File [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc]
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc:4]
+Finished Parsing XDC File [D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc]
+# report_utilization -file $out/util_synth.rpt
+# write_checkpoint -force $out/synth.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1903.762 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quality_window/synth.dcp' has been generated.
+# opt_design
+Command: opt_design
+Attempting to get a license for feature 'Vivado_Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-814] Not all possible (connectivity based) DRCs may have been run because this design is seen as Out of Context.
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.298 . Memory (MB): peak = 1903.762 ; gain = 0.000
+
+Starting Cache Timing Information Task
+Ending Cache Timing Information Task | Checksum: 2fc7880c1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1903.762 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Vivado_Implementation
+5 Infos, 1 Warnings, 0 Critical Warnings and 1 Errors encountered.
+opt_design failed
+ERROR: [Synth 20-411]  
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 16:35:24 2026...

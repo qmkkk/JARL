@@ -1,0 +1,1 @@
+D:/paper_project_5/project_3/autonomous_campaign_20261014/round20/rtl/r20_dot2_u4_b8_serial_then_quadol.v

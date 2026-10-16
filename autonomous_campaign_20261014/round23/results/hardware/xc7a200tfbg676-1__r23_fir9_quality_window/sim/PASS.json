@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "top": "r23_fir9_quality_window",
+  "checks": 6144,
+  "latency": 19,
+  "II": 20,
+  "routed": true,
+  "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim\\simulate_1.log",
+  "saif_sha256": "d1a8641479d63c9e253652b6ba50d6977a112a9bae93548d1853a0c4aa53af41",
+  "saif_bytes": 138494
+}

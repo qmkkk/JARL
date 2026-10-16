@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-15T13:10:51.418670+08:00",
+  "status": "LITERATURE_AND_FEASIBILITY_NOT_AN_EXPERIMENT_RESULT",
+  "screenshot_assessment": {
+    "useful_priorities": [
+      "Cross-operator resource-error curves",
+      "Actual 16/32-tap FIR including delay line, coefficient access, control and accumulation",
+      "Witnesses explaining when joint changes outperform individually admissible edits",
+      "Signed-width/device portability and signal-driven power evidence"
+    ],
+    "not_automatic_requirements": [
+      "No venue tier is implied by a fixed benchmark count",
+      "Two 7-series devices test portability, not two different LUT architectures",
+      "A synthesized power estimate is not a board measurement",
+      "A period inferred from slack is not an independently swept maximum operating frequency"
+    ],
+    "ceiling_policy": "Complete fixed rounds; pursue supported material contribution or evidence gaps. Once complete, use a finite claim-focused audit/freeze. If only unsupported new mechanisms or negligible tuning remain, report an evidence-bounded ceiling, not universal optimality."
+  },
+  "primary_sources": [
+    {
+      "name": "QUADOL DATE2026",
+      "url": "https://research.tue.nl/en/publications/quadol-a-quality-driven-approximate-logic-synthesis-method-levera/",
+      "use": "Nearest approximate dual-LUT baseline; existing pinned code retained. Our distinction is not simply changing LUT truth tables."
+    },
+    {
+      "name": "FPGA Signed Approx Mul author repository",
+      "url": "https://github.com/YnuGuoLab/FPGA_Signed_Approx_Mul",
+      "use": "Provides 16/32 signed RTL and PPG/PPA libraries; author hardware target Virtex7. No new reproduction performed in this read."
+    },
+    {
+      "name": "Iterative dual-output-aware mapping preprint July2026",
+      "url": "https://arxiv.org/html/2607.22756v1",
+      "use": "Cut/packing feedback and support-specific timing already explored; do not claim feedback or matching as new. Preprint, not verified journal publication."
+    },
+    {
+      "name": "AMD UG835 read_saif 2026.1",
+      "url": "https://docs.amd.com/r/en-US/ug835-vivado-tcl-commands/read_saif",
+      "use": "Signal-driven power should report activity annotation/mapping coverage."
+    },
+    {
+      "name": "AMD UG997 power tutorial 2026.1",
+      "url": "https://docs.amd.com/r/en-US/ug997-vivado-power-analysis-optimization-tutorial/Step-3-Running-Report-Power-with-Vivado-Simulator-SAIF-Data",
+      "use": "Prefer timing-simulation activity to vectorless assumptions; inspect confidence/matched nets."
+    }
+  ],
+  "tool_availability": {
+    "windows_z3_python": false,
+    "retained_yosys": "Yosys0.52 fee39a3284c90249e1d9684cf6944ffbbcbb8f90; read-only existing REMV tool; outputs confined to Project3",
+    "device_directories": [
+      "artix7",
+      "virtex7"
+    ]
+  },
+  "next_round_options_NOT_REGISTERED": [
+    "Real FIR application with at least one held-out signal distribution and matched-quality selection",
+    "Two-device same-interface place/route plus activity-based power",
+    "SAT verification and width scaling with honest distinction between monolithic optimization and composition"
+  ],
+  "current_round_matrix_unchanged": true
+}

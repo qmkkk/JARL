@@ -1,0 +1,3229 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-15T17:15:51.725868+08:00",
+  "revised_matrix": "Artix100T and Artix200T; original Kintex unavailable retained separately",
+  "physical_receipts": 24,
+  "rtl_output_comparisons": 73728,
+  "routed_output_comparisons": 147456,
+  "plan_sha256": "28597f54c9c80661d50ab1ba4f9aa0b43ad2a44b861fc75d4484616f1da945b1",
+  "files": [
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac10_add4_b4096_column_mse_quadol_wce.v",
+      "bytes": 15049,
+      "sha256": "fcfd0bf97132de83c4c9d040f207e1213981825f2fa1103bc48b043dfc408b77"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac10_add4_b4096_column_mse_quality_window.v",
+      "bytes": 14493,
+      "sha256": "d98968dddb2e329ab1b2b22b3c8f13a64e4c554775d138feaae0e68e32d49eb5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac10_add4_b4096_column_mse_serial_then_quadol.v",
+      "bytes": 14343,
+      "sha256": "bb8f1c7844784aac336028ee9db44e15801d92200072ee6f66945c9359b4f573"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac10_add4_b4096_column_mse_state_window.v",
+      "bytes": 14491,
+      "sha256": "8a2fc5ff3bcfef8e9c03ca2bfe2b84942ba898d166b3db764b176d8c43314bb4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac8_add8_b256_column_mse_quadol_wce.v",
+      "bytes": 12734,
+      "sha256": "a613caa2970c5140d665e0b16f75a8e7bfc4e5ab642ee4d0baed3fdbe11cef46"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac8_add8_b256_column_mse_quality_window.v",
+      "bytes": 12348,
+      "sha256": "7d5a76a48a55cc62e85280aaed34c7dd22bc890f6618399db4456a941c139f7f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac8_add8_b256_column_mse_serial_then_quadol.v",
+      "bytes": 12638,
+      "sha256": "53375ab3f96eb4625d2156ba1e42f7000171ae707656cae38e80d50201bf41a5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac8_add8_b256_column_mse_state_window.v",
+      "bytes": 12346,
+      "sha256": "6b072b54458cee29197737a242e15726698c050bbd40832fa9ed0e5f7108f629"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac9_add6_b1024_column_mse_quadol_wce.v",
+      "bytes": 14678,
+      "sha256": "de1fe355ef59678757e79c4797ffc28a2868495542081b1e5e0c6ea07293c394"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac9_add6_b1024_column_mse_quality_window.v",
+      "bytes": 14251,
+      "sha256": "36ed131aaf783b7f07b79c053ebe772af6df47d6c869b0789c21af54cb3b4b32"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac9_add6_b1024_column_mse_serial_then_quadol.v",
+      "bytes": 14586,
+      "sha256": "171ea4983d62202b090b6bbef31a2dd0a60234e5812ee7aaa1ddbfea4733528d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round21\\rtl\\r21_mac9_add6_b1024_column_mse_state_window.v",
+      "bytes": 14249,
+      "sha256": "82f7afb37d568a01180782d3ffa698ea46b9b6028c5a5cebb69059d354a9e51d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\configs\\plan.json",
+      "bytes": 5044,
+      "sha256": "28597f54c9c80661d50ab1ba4f9aa0b43ad2a44b861fc75d4484616f1da945b1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\configs\\stimulus_definition.json",
+      "bytes": 654,
+      "sha256": "4dc40152e72dbfaffb483d5cd6b6e66ca18921651510699e58196d676b04ed1a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\crossref_3550470.json",
+      "bytes": 11047,
+      "sha256": "d4014da5199f6002ddca9cb08b5ea3c0c7d6d0623004791861adf3326a378b32"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\crossref_3559377.json",
+      "bytes": 11465,
+      "sha256": "8fd8519be91c9c9f3b5dec7926502efcf0bbf2fe1a15214c9aeac20cc8e71c25"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\crossref_3587279.json",
+      "bytes": 12944,
+      "sha256": "c0ce039899c1c33c00e2dff4d1edebe17d45c549c5322352b86c0acd6a9603e6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\crossref_3654164.json",
+      "bytes": 13112,
+      "sha256": "8ae966948768c1aa7c7db19c3495195277b85f679518df72ab427ac0723b52d6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\fir_system_harness_start.py",
+      "bytes": 3351,
+      "sha256": "87c94eede9e9db39eec6a74f4e7afdc0971d28dbdd7b165245fe9baf3bb4f3e4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\plan_before_device_availability_amendment.json",
+      "bytes": 4234,
+      "sha256": "a24c5c9d040fe40b146341ed278be6954d1454638011682b8beacc17a42175b8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\prepare23_before_tb_settle_fix.py",
+      "bytes": 9134,
+      "sha256": "c2b8ef3f63043875236327ea0905f642be7d2142cc989af75394cb681c049cb4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir10_quadol_wce_gold.hex",
+      "bytes": 73728,
+      "sha256": "f98d9f4d9dc5260a2f50e618624779e45377178e111bfe623def17046795e55b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir10_quality_window_gold.hex",
+      "bytes": 73728,
+      "sha256": "fa254be805d6d14360fda291b48ef83615e6792f8e66603f5b6807a4421cd606"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir10_serial_then_quadol_gold.hex",
+      "bytes": 73728,
+      "sha256": "4d239af98f8488b23e37280796c36cb51517ff48318a2fae18786009e40df2e0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir10_state_window_gold.hex",
+      "bytes": 73728,
+      "sha256": "c58eac74642dceaf61541e3fd426305bf34d33bea6efe30f270547bceed6e876"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir8_quadol_wce_gold.hex",
+      "bytes": 73728,
+      "sha256": "22d6938ce6666d98bed5b6e3637bc45573a139d79980d22bf179859f4ab5e6d8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir8_quality_window_gold.hex",
+      "bytes": 73728,
+      "sha256": "de580d26eb49a3045c7b52129ca9cc683a87f76249ad020051473ec80f0d8dcc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir8_serial_then_quadol_gold.hex",
+      "bytes": 73728,
+      "sha256": "57d500021fea87f9228e797323bdf16edb7e173e1ad4a4df17a13a35ada2ac1f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir8_state_window_gold.hex",
+      "bytes": 73728,
+      "sha256": "585df8fac0674d3bfe724c3032aff20a70f5f55bc00759c4686e442c15a935b8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir9_quadol_wce_gold.hex",
+      "bytes": 73728,
+      "sha256": "79038421e5e6998a4bbf41ec6fef67ced2dd3aa9321c3f27b9694d54192c756c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir9_quality_window_gold.hex",
+      "bytes": 73728,
+      "sha256": "d3470c91406035d3926ba5447492ee104e0acbf4ad5737df76831ca722941102"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir9_serial_then_quadol_gold.hex",
+      "bytes": 73728,
+      "sha256": "0ceaedac96cbfd276b73256bf4df1c68fd945967d317518c1947fb41fa0f0e53"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\r23_fir9_state_window_gold.hex",
+      "bytes": 73728,
+      "sha256": "1dd796ee5dcb164ee0975ef0ca2606da062e75d2201b8db2c0a3f3a2af5bc6fc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\run23_before_transient_retry_extension.py",
+      "bytes": 5951,
+      "sha256": "17ac16630ffdb6825bbf42d9dff8e49773727e878f43e19992ead0b21430c47e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\stimulus_manifest.json",
+      "bytes": 1217,
+      "sha256": "0570ed686a08a546cc85895d19b7277a3f934b4140ac1c24a7630eb845c4cff9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w10_coeff.hex",
+      "bytes": 480,
+      "sha256": "843435550caddc742167ee8835bf3f36f6d9104742a52772ef4ce251e9d882c0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w10_samples.hex",
+      "bytes": 30720,
+      "sha256": "f50d480b26c9ccc5b8d884de75f318cf34ff8918d2b000653e0a07eaa1ca1913"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w8_coeff.hex",
+      "bytes": 384,
+      "sha256": "fd61ce94239828d9ba72f5c1e4d12c420094f1c23bc258be6d703fb494d88cf4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w8_samples.hex",
+      "bytes": 24576,
+      "sha256": "ca58346a9da9b0bf16a16b6c9944a38026a58d0d474baf3460ca20c58131b6d4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w9_coeff.hex",
+      "bytes": 480,
+      "sha256": "cc9d3681e5fafad548134a3d2d95c052158c018b55b21b1ba2ea2ed0914cd868"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\inputs\\w9_samples.hex",
+      "bytes": 30720,
+      "sha256": "46e0b1c3511521b88c461e858a1b6e002c4d89d7e26af127cbef9102d904175b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\reports\\CONTEMPORARY_COMPARISON_ZH.md",
+      "bytes": 8101,
+      "sha256": "3b35d2ce424643ef3eb2ba8333ecb6d5c3a7a01f2aa949048672b289836b96ff"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\reports\\CONTRIBUTION_COMPARISON_ZH.md",
+      "bytes": 5299,
+      "sha256": "a80e25f3a2b178f54c0a4be7ae60f6ea2999744408d5f6d0628801c24d4791ed"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\reports\\EVIDENCE_READING_ORDER_ZH.md",
+      "bytes": 2337,
+      "sha256": "d2d8b49e23af348492e23f055f7c96453ad4bece3d915cb89db84fa88ee8b4bc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\reports\\EXECUTION_NOTES.md",
+      "bytes": 3769,
+      "sha256": "bf71b0ef8080f4b7029500606d406a62755bc602e20bdb686d4478cf630ae51a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\reports\\FINAL_R23_TVLSI_VERDICT_ZH.md",
+      "bytes": 13868,
+      "sha256": "db45971b0a9eca1e1aab9b724ff965cb4fe1d0bf34726890e22a5bf7e09b41ce"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\reports\\fir_quality.png",
+      "bytes": 228768,
+      "sha256": "9272ff930bce3c5c1eeb434fcaa0784887e3ae354bd2b8cc257c7c812b040415"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\reports\\fir_resources.png",
+      "bytes": 69815,
+      "sha256": "7bc84c6639c227bc1e2eac5838b705dd4dc549c043068f186b9dc0194c4f62a7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\analysis_summary.json",
+      "bytes": 18575,
+      "sha256": "82d1bc071376ac12b48cf0e5a8aa33589d088b063fa0b5b82ec79cb12e0dbb6c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\baseline_comparison.csv",
+      "bytes": 1280,
+      "sha256": "f122eec93cb9a75cbbf5d0a44dec0fbd8a48d6359e45c8b56ae2ee986c68c942"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce\\PASS.json",
+      "bytes": 272,
+      "sha256": "2fa7d73e7602abb6515964a851075028b5a54b7ec9e8b9b21724c70605988e9c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce\\simulate_1.log",
+      "bytes": 1039,
+      "sha256": "14e89bd9b0accd5d07ead3a21482d8d3e7d1d23195bd4dc55ff4391444aa8dc4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window\\PASS.json",
+      "bytes": 280,
+      "sha256": "022561f8cbf4e14f763e9e9a372a246ac932c25086384759625afcf6082cc841"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window\\simulate_1.log",
+      "bytes": 1051,
+      "sha256": "1100356c6abcb8e09515345a5e7e6233a929e8e1950ef24e0a48492fed476c11"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol\\PASS.json",
+      "bytes": 288,
+      "sha256": "d48be3c4a57518f82f68be69ab2c143c6e4522c60e1000422da51fb559fbb449"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol\\simulate_1.log",
+      "bytes": 1063,
+      "sha256": "4471fb39bc351f90c68a0a3d9846dece07e0cdfd7b7dc0a18a44c16a97f9a3a0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window\\PASS.json",
+      "bytes": 276,
+      "sha256": "5835c3307401d86b7573821b639a77234dbbc2d508244cfd4f15a2c196b9e362"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window\\simulate_1.log",
+      "bytes": 1045,
+      "sha256": "9121d6d718cae493356b849c5aef68bcfccd52fdeb1d04626cc184e9e0b30bb5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\PASS.json",
+      "bytes": 270,
+      "sha256": "9c4292b077d0f37618b1308718f0bbfd0d90e4a5fb80824c336061ddeedbe865"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\simulate_2.log",
+      "bytes": 1036,
+      "sha256": "297fef9c338e6daacadf5848e7d41664f1942cdf9ecbcacc5114bd3af67f0324"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window\\PASS.json",
+      "bytes": 278,
+      "sha256": "ca16c58b6e451441f6bde1e26e48e6cc3ae3a61319ae4a7d3b0fa046f4d34de6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window\\simulate_1.log",
+      "bytes": 1048,
+      "sha256": "75800e77882827c963f46bf347276f32c9bfada210e057ea39803acd34b94587"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol\\PASS.json",
+      "bytes": 286,
+      "sha256": "08825fc5534da8de7135627eb647f86e06c2d7fbedfeefa3f772e2f6508fe68d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol\\simulate_1.log",
+      "bytes": 1060,
+      "sha256": "371d26d5efac1f40ca1bd42a80ee46f2da682f1a924ba1829c6ea0df20dd9ef9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window\\PASS.json",
+      "bytes": 274,
+      "sha256": "338da343759f0c7a6522e1f8733710aa99eba339be7d18283aa14f8b66a47eaa"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window\\simulate_1.log",
+      "bytes": 1042,
+      "sha256": "dc55c735af13479ec31d0c104f3be2858a0298bc201c0934f442d3379948592e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce\\PASS.json",
+      "bytes": 270,
+      "sha256": "1bda121bd9a9cca440108c43081139f9c42f9c64fe1706bc5fb95adb7869d5bd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce\\simulate_1.log",
+      "bytes": 1036,
+      "sha256": "c5645ba326f8b0f7e73f134203899ea3fb6ae9fd079d4660cdb5efe37f33b0e9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window\\PASS.json",
+      "bytes": 278,
+      "sha256": "cca44bab7ebcb2ae00862e522a363a11af3218d2b03943d9dbdba1821a83a243"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window\\simulate_1.log",
+      "bytes": 1048,
+      "sha256": "af1bab4d35b01746eccb007d46d8f2adafd1403d7f6c1da76e9c865fe8d9969f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol\\PASS.json",
+      "bytes": 286,
+      "sha256": "3c5195c86c15897caeffa3664d3f9e6ee2b2bb1061f139558c75b1add6003255"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol\\simulate_1.log",
+      "bytes": 1060,
+      "sha256": "2e76ee9b5aaa1cdeac52a2ac0874630708918dcbdefaed99dd5b153a4288d693"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window\\PASS.json",
+      "bytes": 274,
+      "sha256": "434505d558d4f04b87e00295f149f650ddeb0ad39f8340ec164c503a1d7017a0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window\\simulate_1.log",
+      "bytes": 1042,
+      "sha256": "22b92b37c5000152baa6b5089a623abcd44ffd4d6113748d1af81b3788be29cf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\check_timing.rpt",
+      "bytes": 3429,
+      "sha256": "39271a2efb4e3a7b0da281bf2ad4e57928b18a790c3ab65786bd0546b0ff679e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\drc.rpt",
+      "bytes": 2844,
+      "sha256": "b4fd4c65382cf309256311c2e0de6ff1945a2acc5a8447b42d807a1a28d6501b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\ff_critical_path.rpt",
+      "bytes": 5772,
+      "sha256": "db7dd8db57851e306d3a062c326fe0e467d9c46d48469459cfe0c032817479c6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\physical_1.log",
+      "bytes": 76852,
+      "sha256": "55a78a71450a7f9e812019eaeee8ee4bda20af61c3dac636a583240cf75abbe7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\power.rpt",
+      "bytes": 9465,
+      "sha256": "259444c7156731e84d67a9891a27ab708a00bf899e11ef490204e50e1ba940d8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\power_1.log",
+      "bytes": 4897,
+      "sha256": "4dfe10a09fd7aec84ce748bfd4cb785ddaa6888c666636ca74b001f41d1c5975"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\route.complete",
+      "bytes": 64,
+      "sha256": "5fb6bf47204463da3ceaea4739348352732729050a6cd1981b3836ae587c599e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\route.dcp",
+      "bytes": 341158,
+      "sha256": "d73117cdff18c4c30ea11343024beeb673701ea5b8515ca1ad52dccf0746e269"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\routed.v",
+      "bytes": 127304,
+      "sha256": "55b4323a4b82b3dc0285b495bcc39ac9f2f5415706a2f5009a4cfa59f616916d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\saif_annotation.rpt",
+      "bytes": 18018,
+      "sha256": "774cd3438b21e788ac23f08547aafa85d183275bd9e0ecc76d34cb17c2102b26"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim\\activity.saif",
+      "bytes": 132829,
+      "sha256": "4bd484aa6e8d1b556e889884d5bf0a09bf95a6dd9bd06a3f45513cbe0e6d17b3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim\\PASS.json",
+      "bytes": 401,
+      "sha256": "56f5571925ef7d191d4c9e47d74435b2a118d4f24385ad3173661094903be133"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim\\simulate_1.log",
+      "bytes": 1381,
+      "sha256": "0b1fabc8a29015e2550b15596551cf3f0d9eed593f5c6608bceccce0c0263215"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\timing_route.rpt",
+      "bytes": 18245,
+      "sha256": "d6d3dc9c763676356479f847e5c79939406aac4ebe85e3625e076450abdcc1ff"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\util_route.rpt",
+      "bytes": 10878,
+      "sha256": "01c994cafca83a741a7e8dc7006a84dacc248bf9f9c85d0b15ca3f5a1c525d0b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\util_synth.rpt",
+      "bytes": 8694,
+      "sha256": "be28224aa23a1149d52bf1534da327cb3e5e1a3c77b6e594b649b4340aa0271a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\check_timing.rpt",
+      "bytes": 3445,
+      "sha256": "89e029f87e6e9a9470bebfae0722048267168ca7fe613fd469a09c486f0a88e6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\drc.rpt",
+      "bytes": 5502,
+      "sha256": "fc84df41c822008ef48d2833bf365016cfaa0a00ed4ce1be3bda314f34af6b60"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\ff_critical_path.rpt",
+      "bytes": 6208,
+      "sha256": "696fd3b2ba20ab028f97fc5f4473239c9aadb35d2d116985165f4b91404e2185"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\physical_1.log",
+      "bytes": 38780,
+      "sha256": "6529a89142fb94eef01f61108f37133e7becc98c6de6a3739aec6a911322a30d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\physical_2.log",
+      "bytes": 76069,
+      "sha256": "dda5d9591df846de28885781d049c01245813c6bca26de0111d375c6213b00fd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\power.rpt",
+      "bytes": 9565,
+      "sha256": "b003357d941846779b50cc25a3f155dbc588b5c70123a20f90a7506179c70134"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\power_1.log",
+      "bytes": 4909,
+      "sha256": "9e3ea0c96b2d67d50ab58f0fa06a4217873985aa7d6b79d9023b1f886f319c44"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\retry_open_fs.log",
+      "bytes": 243,
+      "sha256": "c31f04d23ea42272bcd6a8ef2386a89b2c1c6c32f4742166cb9f95d44f6ebcb1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\route.complete",
+      "bytes": 64,
+      "sha256": "606490ff0cc294dd0cc7993f70203141b921d87c273dd2a12f5893daefbca84a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\route.dcp",
+      "bytes": 338431,
+      "sha256": "b215ad8e864095dd5dee14ab900fca1f19335af6b242728eca6262142bc3a916"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\routed.v",
+      "bytes": 124434,
+      "sha256": "79b07027990327dcb64b541644ea05d94644afb621e623199c03e6bfd46dadcc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\saif_annotation.rpt",
+      "bytes": 19138,
+      "sha256": "b81ee3cf42784f9d0178a2c3eccb7c01546d4f08a3648e98cf01b6c27bd4ec2b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim\\activity.saif",
+      "bytes": 135831,
+      "sha256": "ff4dcf3f7f339045acf15abc59e3229cca74085ea79a2923b507c9a24e740683"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim\\PASS.json",
+      "bytes": 409,
+      "sha256": "01a5c8d1d9d2c3f39864efcc3decc0dfc5ed7cee13a9ec593e6c8760db16699e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim\\simulate_1.log",
+      "bytes": 1397,
+      "sha256": "0a04163123a7f925d7290fda14f995dfed6008517c089d5a22f666c4696b580a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\timing_route.rpt",
+      "bytes": 18681,
+      "sha256": "e9c3b452215f6e3277b15e7f4ef693c72623ba1ab38c3ff5c5208fbdd1949fd4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\util_route.rpt",
+      "bytes": 10894,
+      "sha256": "8a9357c20b78e8edc81ce32b5a7f55dd36839717fb7a17c8d67d4afecc493c4e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\util_synth.rpt",
+      "bytes": 8710,
+      "sha256": "0c846361ae98eb9cfb091d56be8e29da404a0f1a944794764ea49615b73e09c0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\check_timing.rpt",
+      "bytes": 3461,
+      "sha256": "bc2fbee539177204c9296f41f3a7b94b709152b186a0b5cdb232c1fa0f21317b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\drc.rpt",
+      "bytes": 2884,
+      "sha256": "218e3af984c29fed6f9270cbaf28ceeb5b8aba3eb7d9fc149ed448a2203e6fee"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\ff_critical_path.rpt",
+      "bytes": 6254,
+      "sha256": "ab354776938f3487e24caa36a97efbc055bd3f50cbe05c7b2cc4b83279aeed5b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\physical_1.log",
+      "bytes": 75355,
+      "sha256": "0238226e37c9e451225dbd14e72d22432ebe470fb01f1d7cd2f20b58396e9ad2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\power.rpt",
+      "bytes": 9665,
+      "sha256": "93d61cb5b43434e7ca76285207254eaba0545b6627b46aa88b52364358dd24d5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\power_1.log",
+      "bytes": 4921,
+      "sha256": "032ca95174cfcba14929c71cbb6363ac9d25293927270dc8aee0b496b2273f07"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\route.complete",
+      "bytes": 64,
+      "sha256": "3efb3c9e75ec6b0124ef7f21ae647f3381d584264d25768d3c4025762abafd06"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\route.dcp",
+      "bytes": 338034,
+      "sha256": "8307c2b4828e29fbb9e922b28e743c92e61b41cebd1a4b02fc3497e3f623ae28"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\routed.v",
+      "bytes": 124934,
+      "sha256": "e83f210cb15f87827b5f3baf28243670614592ba937d2ca03487455ab5247b10"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\saif_annotation.rpt",
+      "bytes": 19334,
+      "sha256": "7b6f4f5d506a82ec6df77132932a1b4b96b4e6b9b483eabb2b4c54cf886c909f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim\\activity.saif",
+      "bytes": 137115,
+      "sha256": "f762e3cc347efc2173d304079ac2b420a9549ed9ddceb97d8e69e0c6710bfd9b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim\\PASS.json",
+      "bytes": 417,
+      "sha256": "b0875ee705b7c48e5fd53e05b11a767839f409010f260e6ccf8eaaacd9796d34"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim\\simulate_1.log",
+      "bytes": 1413,
+      "sha256": "3ab622ebdb18b093c0a5fa6e952e11858d3a92786c3c9406ef0fdce7b400e777"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\timing_route.rpt",
+      "bytes": 18723,
+      "sha256": "6c416f070c897b5d90c502a3b8ed9b51c2ccbfd64356e1907be3cac848487d12"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\util_route.rpt",
+      "bytes": 10910,
+      "sha256": "18a0dd0c809476aae07e9f1e8e0a76263ba8c4283f28b593ce80168aa9ebf73f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\util_synth.rpt",
+      "bytes": 8726,
+      "sha256": "e6ca1b577073b93454ae820fff37e35ce81bbe8a577c2dd52225209588907bbe"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\check_timing.rpt",
+      "bytes": 3437,
+      "sha256": "5efdef57c6db17655342a55beb241a72bde5ee5c798b3f24b88d51118e1077b3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\drc.rpt",
+      "bytes": 5492,
+      "sha256": "fcfd4d19bcd9ebe057f4e00e89065e809745fb93305463f203c339a688fbead1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\ff_critical_path.rpt",
+      "bytes": 6200,
+      "sha256": "3caed1cd2da7bd116f37eca4eb95fbd8fd779c700b41dfef41544b19583794da"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\physical_1.log",
+      "bytes": 75950,
+      "sha256": "14ec631d8e03b734470637db03951bfaa7a37d4e3ba2c79dd7c2159ee6425369"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\power.rpt",
+      "bytes": 9515,
+      "sha256": "796845ec252fc6ae651ca2a9412cdf97bf1439302e463fbc01c20d06fa327cd0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\power_1.log",
+      "bytes": 4897,
+      "sha256": "d2738cb6d3ec6cbc8d01c69da62bc07e7b34c0725ce5e4110d6740892e32f89c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\retry_open_fs.log",
+      "bytes": 123,
+      "sha256": "c90989557b6098b5bc7c9b53b1b95bb16fdd3825f7fcebcf61421a5409c48041"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\route.complete",
+      "bytes": 64,
+      "sha256": "4d4311b0063ed254c769169fe11aa7f6fc9ebaf03a88c47bead89d104dd297de"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\route.dcp",
+      "bytes": 338422,
+      "sha256": "266a42618f31de6436917728bb28ba1106f3ae5ce37a6b64e8e5ed5525e2f0bf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\routed.v",
+      "bytes": 124415,
+      "sha256": "a09480c87d4955f8c729fadf7ecdad507cbda078a58e9a906bcff44f452d0ed3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\saif_annotation.rpt",
+      "bytes": 19138,
+      "sha256": "971006cc6ad218f4f7b4ff8f6e15551d2b03f63e189061a29beda0875d7d6969"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim\\activity.saif",
+      "bytes": 135849,
+      "sha256": "262e69d95c62e90d20aa590ea7cd78cdacf31504a5f9f6570b762fb0d5176de8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim\\PASS.json",
+      "bytes": 405,
+      "sha256": "e60013810dca75f47414d73dc5ad31a18e63c3e27888e79df0dd237a8acf43c0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim\\simulate_1.log",
+      "bytes": 1389,
+      "sha256": "66061b575e424fba236ee81c14024d7b76b761b62813daef521269be1d50bcd3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\timing_route.rpt",
+      "bytes": 18673,
+      "sha256": "2d4ce6820ea1ee94f5b9a9b1ef135a6e89c58c6dd5fd9bc323705319d3a2852e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\util_route.rpt",
+      "bytes": 10886,
+      "sha256": "54ce69922c3a67239aeff399fee08119992ec1837396f32fc42fb9beec53c49f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\util_synth.rpt",
+      "bytes": 8702,
+      "sha256": "ddc86afa9ba5764cf85213aff358b42d2ea012201b559b34a76ba6b0ab30c772"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\check_timing.rpt",
+      "bytes": 3425,
+      "sha256": "4438c057bf49a77eff74efea9be047de34e9ffb014bb486c2acf9092d5cef0a1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\drc.rpt",
+      "bytes": 2839,
+      "sha256": "ef96d8edd8b10c3fe7def907ca60f4711f39b92a32357d8606d007cecec6558e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\ff_critical_path.rpt",
+      "bytes": 5975,
+      "sha256": "f8bcf7f8af9b357e528e6128c9f2dec07d060fbfe8f61c94e80f83185dff60c1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\physical_1.log",
+      "bytes": 73523,
+      "sha256": "5ed3d7d28c0a9383e4d05bb27533a815ed1f8afccd928b2825ff0b8ee64d857c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\power.rpt",
+      "bytes": 9403,
+      "sha256": "a16de9de7ff96c2ebb13b9809f13ab8f047c03551a9c2c72bbc235a7c78cbc55"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\power_1.log",
+      "bytes": 4939,
+      "sha256": "2cdb0f61a3a538a05cd7440155caf64fb5fe21d9565789ff06b29d20abcb2cfc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\route.complete",
+      "bytes": 64,
+      "sha256": "da0c6b12512f1e468df6edda70ca01ef3393f1dca7d747076eb261b8361a6d31"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\route.dcp",
+      "bytes": 324066,
+      "sha256": "b413e9674300b9561b5c0ea2b5ffb489caf3828faf0a646087fac4bc272672c6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\routed.v",
+      "bytes": 116282,
+      "sha256": "dc30d18f671d230d2644b15c6afc1aadf33438e4f12d1ea85fe3a79a2ef372e0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\saif_annotation.rpt",
+      "bytes": 18163,
+      "sha256": "451d1128eb5242414c36e91dfe5384180f5040271a844bc740716205969a8b65"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim\\activity.saif",
+      "bytes": 121252,
+      "sha256": "c9297dd12ce9d77817aae5a9e88a22d7480650a216795deea47c2e6247eb5397"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim\\PASS.json",
+      "bytes": 399,
+      "sha256": "371e410e74c82b3f91dfc32619cde14ae28a9ae03867a8a512779f4afa157869"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim\\simulate_1.log",
+      "bytes": 1377,
+      "sha256": "3495ef60ee5988c674fbb16431141054e939d3773d14eda5130b7e86b0013e7b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\timing_route.rpt",
+      "bytes": 18418,
+      "sha256": "d5e9f9d0db479534373bd494077e208b4d9c7a2bf7ced120242f1fd01537d6aa"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\util_route.rpt",
+      "bytes": 10874,
+      "sha256": "094875ed2f2da1b6a565aaf053fb44dae008ebcc85cab15d45ea17d08ae0ead7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\util_synth.rpt",
+      "bytes": 8690,
+      "sha256": "226e5978e804a1c881b37299569d46b77aa85e3b147c3d895892fad52aeded1b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\check_timing.rpt",
+      "bytes": 3441,
+      "sha256": "619025242c960be5c17c2d3974c6377aca866ed5fe9f5b5a7e22bdf663360be9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\drc.rpt",
+      "bytes": 2859,
+      "sha256": "3faabb9d86f7bc954f24dd3ab4265107d60f7a6224d5cb5ae1067fe15a0f15d7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\ff_critical_path.rpt",
+      "bytes": 6025,
+      "sha256": "aff7a1d903dbf7b0a4d46d2e25831d09747cd7f003570f0d73c9337449834d09"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\physical_1.log",
+      "bytes": 72578,
+      "sha256": "98087a350d2511ab400d325c89d0b8b181c84f7168d7db0ab85565d175a9c37e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\power.rpt",
+      "bytes": 9499,
+      "sha256": "7ac570b2337a185f5dc3d6096ef408443c8f3c31da0ff0a98a0cf7b8b8558d65"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\power_1.log",
+      "bytes": 4955,
+      "sha256": "04bb0127dd27fa881640560944d91fc37a7888abf4f944cf653249dbeaef46b8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\route.complete",
+      "bytes": 64,
+      "sha256": "af62c2ba2cbba0d08f40defa924dd8ef31de8318b1ccea24911ee425d0a33f31"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\route.dcp",
+      "bytes": 324577,
+      "sha256": "4197fc0d025f3e47774740ac8fadb4e41786fe66a0340bb2e4f2a0ed30d8f127"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\routed.v",
+      "bytes": 116067,
+      "sha256": "11ae1a5b4bb43009bcffd174f86cf52c1ba4f8a10f19a19fdda432a8e15819ce"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\saif_annotation.rpt",
+      "bytes": 19351,
+      "sha256": "2900e29dfba983f55265cc4cb82c5ba67051d9c6406ba7029d1533e7476da6c1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim\\activity.saif",
+      "bytes": 124552,
+      "sha256": "06452ad98f8319fdcd42b4e494dcc02680cab662c921dd73118e9483c6b61abc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim\\PASS.json",
+      "bytes": 407,
+      "sha256": "e3113e6ee0969b258668a92a6747baeb9143f9600802a5f8904c54224a7eb4ac"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim\\simulate_1.log",
+      "bytes": 1393,
+      "sha256": "8a2649f54d304a13fae2a0c04e17d4a03020e70920f19bca968f0d8669b1137f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\timing_route.rpt",
+      "bytes": 18498,
+      "sha256": "dc9adda9d7550ee6c9d9a5e65842c1cd6642f8cef3ce46743eca7217e3df1d61"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\util_route.rpt",
+      "bytes": 10890,
+      "sha256": "51477dde31e73f20eeb7d434a09c801b0cc1aa2b2d4367605e08ff4d2ff1ee66"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\util_synth.rpt",
+      "bytes": 8706,
+      "sha256": "f68530b21166932f5448358855b60c74d00b7eda7ae13c9c45d34750c5d17417"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\check_timing.rpt",
+      "bytes": 3457,
+      "sha256": "d0b943b5cb396c4c92cce70d75b178a5ed092b0c5899135157a3d2ce91d96f29"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\drc.rpt",
+      "bytes": 2879,
+      "sha256": "a9490fcd7625090ebfeebe2187c90181d78a93830a32ce9536a9a086a046243f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\ff_critical_path.rpt",
+      "bytes": 5834,
+      "sha256": "b62a0b89b09494af0389bf9b5c435cd75bdfb0e41336d5788bb2967feff12661"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\physical_1.log",
+      "bytes": 74285,
+      "sha256": "bb6ddc3a5d8d7c1205e4644e4f8fd6181285473a4da5ebe3908c9adab30f822b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\power.rpt",
+      "bytes": 9595,
+      "sha256": "0f166646cedaf19983dec5c85ca59babe2263d9f646c78bbc32f79a456a4a318"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\power_1.log",
+      "bytes": 4975,
+      "sha256": "3fe35dbcc37535e7022f792c2f418113d597cfea06ab47e0d4da1647c623b68f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\route.complete",
+      "bytes": 64,
+      "sha256": "a1266db18e627c358dc31f8c920f973a8e423ddc6242b70d9bd73b18526284f7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\route.dcp",
+      "bytes": 322649,
+      "sha256": "18cec02ece170fa11ff737eccaa457e7c99be6d2b81d0c4335b8dab6d355205c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\routed.v",
+      "bytes": 117687,
+      "sha256": "8c22aba5662156393538554ce594431bc48321444be316f76d4508c1c32e7b7f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\saif_annotation.rpt",
+      "bytes": 18857,
+      "sha256": "dfefec2cf388d6341fb27297a9e6009ed9e3d0e738fda201c6249ccf08130923"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim\\activity.saif",
+      "bytes": 121323,
+      "sha256": "dca7e76a11bbbb7e3290b965edccdc69f5638317d091252c391218548b295837"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim\\PASS.json",
+      "bytes": 415,
+      "sha256": "2f712029812193637877d9af3db02a6afdcbd113d699239297d06d41dcde0ed1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim\\simulate_1.log",
+      "bytes": 1409,
+      "sha256": "27162ef97106fe11e3806a44f1fe19556c90391ce45f6b2f4a59ebf0789c5a9d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\timing_route.rpt",
+      "bytes": 16753,
+      "sha256": "53b14b31cccb44809bd871935a4229042a3ba5f8eea69bde57a287d6743d327f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\util_route.rpt",
+      "bytes": 10906,
+      "sha256": "6451397501cdcfd340e2c5f643d6ba854fcff1a07fde6b6816bcac1d64ec1549"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\util_synth.rpt",
+      "bytes": 8722,
+      "sha256": "ac03a687dcc212fcd104a485ff6e54f8845bc9853f15ecd3189c6d647e530cb9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\check_timing.rpt",
+      "bytes": 3433,
+      "sha256": "e70b313b3768cd03bfeb6a446af690281c1674b0079281c70f0169be2c32bf3e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\drc.rpt",
+      "bytes": 2849,
+      "sha256": "7b96f64a4bdb8799e080fa5e5e1ddde57d64c7b1498bb6429c002dc5335227f5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\ff_critical_path.rpt",
+      "bytes": 6017,
+      "sha256": "64626436da8e0e6afd0b180ebd809bf9e294b1c3e0676959d653886897aea177"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\physical_1.log",
+      "bytes": 72432,
+      "sha256": "dc9c71fd9693319ed209d870f789fa06f76b9bac77164773f22e5f0917c77b39"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\power.rpt",
+      "bytes": 9451,
+      "sha256": "e5fcf6dec2d9be1bfe83c6b5899322373a94fc7cb234de1efde5d56fd2c6dcd3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\power_1.log",
+      "bytes": 4943,
+      "sha256": "8855a196201df9336781ef17be29967d3bdb432f20720a71f46bb8e3d89abbd8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\route.complete",
+      "bytes": 64,
+      "sha256": "19767770412cba88270c19fb7729476b73c6b65dc2fc1117de0fdee2072fb1b1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\route.dcp",
+      "bytes": 324665,
+      "sha256": "ecf5265a69ed0cb461bd40828c35f172736ce850a34977d08964255c41d8dc20"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\routed.v",
+      "bytes": 116047,
+      "sha256": "dcd2c63605e765706f70d9262b02444839ee6c95db93b6da9184be7e57be2194"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\saif_annotation.rpt",
+      "bytes": 19351,
+      "sha256": "4df171e7f413f6a178a01f520664cc7c6d786c71fdbe36630055479e38f23795"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim\\activity.saif",
+      "bytes": 124553,
+      "sha256": "23dbf3f3a5e3c2d23032b8f8ca44ec1d4dd2c4160a1641aecb5ecd527f7bc7e9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim\\PASS.json",
+      "bytes": 403,
+      "sha256": "35453786d0277a14d1ab717c3d782a2be450a9a123c5c8e83b66af8aed40e801"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim\\simulate_1.log",
+      "bytes": 1385,
+      "sha256": "b64253a12b89ea5ab7fbca1ad747bd7d9605f62e8f805b4e3d70111e4e303393"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\timing_route.rpt",
+      "bytes": 18490,
+      "sha256": "b4a55a8d2d30a51f433c9cf87cc13f5b8b3f2dab6e80369b07b3438323715eb8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\util_route.rpt",
+      "bytes": 10882,
+      "sha256": "853deb79e5a8e85a7d1a14adcaa33c2553b04ea7a99d8cccd650d8b24ae06ff1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\util_synth.rpt",
+      "bytes": 8698,
+      "sha256": "2042f0e5d279352aa7c65e9742869020b66373f007ed3629a9b4a061ac3e4bdd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\check_timing.rpt",
+      "bytes": 3425,
+      "sha256": "e030bbe285ea62f906150bc7139d3b3d363c1efddfb7911f89d26a6b16b428dc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\drc.rpt",
+      "bytes": 2839,
+      "sha256": "ce1ea8e4dfa7fb66281e29535ccab0a844a781dd7d1d43fb51b8eb4ab6a9a3b2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\ff_critical_path.rpt",
+      "bytes": 5927,
+      "sha256": "bd652d7a1b5216ed4fdb36df233f54462d087c8347b741d844c8246f1779223e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\physical_1.log",
+      "bytes": 78163,
+      "sha256": "0385a351eaf92ca96835f3cfcdbc0041b1ae3f0f8ed86960dc02c3aeb3eadf1f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\power.rpt",
+      "bytes": 9440,
+      "sha256": "42f350d7b7757f801538b38eb15509114c80c8da51a1c60de3ff30ed5b2949ea"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\power_1.log",
+      "bytes": 4843,
+      "sha256": "ac43a67c6d218c61ce186b2f6eaa61c507615bf7b84e7a78f42e9cf6205f4a9d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\route.complete",
+      "bytes": 64,
+      "sha256": "c2c20245b8e92793d0df074381899eb5b5acf6e18f7f164008ec51ce4193258b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\route.dcp",
+      "bytes": 348725,
+      "sha256": "3caae0a861e03542067aa655457bd4744a2d52dfa7765db994ebfe4591e5cce8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\routed.v",
+      "bytes": 133021,
+      "sha256": "12111584c9befa41b3b3704f3180df1ab72c841f4185f1835a59ad03096d8127"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "541d14c9cceef8216c47a0600222995c0f9ee9f79ee58b08e3d84c1da2f081bc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim\\activity.saif",
+      "bytes": 138500,
+      "sha256": "9a1858dba3c9c5ecbc1d54a754ce2274cc4bb70ace54c055c1b143d10928c6c2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim\\PASS.json",
+      "bytes": 399,
+      "sha256": "ee8d6725f745555abc8fcf638e3000fd0252fedc1ecb85aefe528e80b5e9c5eb"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim\\simulate_1.log",
+      "bytes": 1377,
+      "sha256": "e12b2d4c8f2fe723f35854ffc2ff75bf2569d640575d05331362f66c3886b4ae"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\timing_route.rpt",
+      "bytes": 18404,
+      "sha256": "d3879343222855458af96903ede1e3caa1ae016514a98e475711adcbdfcfe691"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\util_route.rpt",
+      "bytes": 10874,
+      "sha256": "1a5663d56a15fd4f078fca273705c98f4fc61e587138dd8d1e4d8e712035e1b0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\util_synth.rpt",
+      "bytes": 8690,
+      "sha256": "3a42ab667d3085ea76ab7cec00100ef21e514d2601a66c75a3d9742b24d5e02e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\check_timing.rpt",
+      "bytes": 3441,
+      "sha256": "ffcb9e17d6d49f4c524eda3fd9235e046683717f0a980c69df171d98814a2d93"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\drc.rpt",
+      "bytes": 5307,
+      "sha256": "7fdaa42048b46add76212d29006b7311ba0bdb87bbd7cfd4cf3be2ee53a78208"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\ff_critical_path.rpt",
+      "bytes": 5724,
+      "sha256": "99a25c153979e38b67381b34a5702488494c6ba1f9f569da83902dbce378fa00"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\physical_1.log",
+      "bytes": 77455,
+      "sha256": "b67b3ee49ce8567ea593976fa28c5157502bc9fabe40df5a0d47ce33be7a395c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\power.rpt",
+      "bytes": 9540,
+      "sha256": "4820e3b5fd5f30b8f590798b8791761c1de5945d7ddaffb94f3cff472a10970b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\power_1.log",
+      "bytes": 4906,
+      "sha256": "df4891d606d141c8ab49105c0e1bc0a6503c0bd598aaa1709b1f4e7090e636b5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\retry_open_fs.log",
+      "bytes": 246,
+      "sha256": "a6951c0dc2bccbe80934e3bf88eb8cbba97255f36420fa4de1e1d3012901b3c4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\route.complete",
+      "bytes": 64,
+      "sha256": "586a4b474c8286cd0ca7cbce4a15bedf5cd52596110f3a3e1aa536581ed7dfab"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\route.dcp",
+      "bytes": 348940,
+      "sha256": "1c6add0bdd9352413278a545ac939adaf64c37695c2eb8d127df1f3a9c9e7cb6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\routed.v",
+      "bytes": 131221,
+      "sha256": "67f2b530c2fc2b95f78de45648a4bce5f5d0c8fa07e1ed37625e0b7b3252dea2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "9dd8b3c0f5e3e62bf490301534bafbadcb05a020512ebda1f992ba8bba2be6c3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim\\activity.saif",
+      "bytes": 138494,
+      "sha256": "b90dab64d3cd251bb517686e5104c49d63af16c161b54de1b78d7a5f4e6e87f1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim\\PASS.json",
+      "bytes": 407,
+      "sha256": "07005eb24a7d14544350cce2563ed5fae8726274c6f873b45093c3a5dedaceec"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim\\simulate_1.log",
+      "bytes": 1393,
+      "sha256": "7b7d404d4c14c876fd22be9f44897925ff7afd43ce1c709227b42db6595cd20e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\timing_route.rpt",
+      "bytes": 18378,
+      "sha256": "7ca1a746ed1a637067bab810794155e4b42d0cc265db0d00453df98a331047a6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\util_route.rpt",
+      "bytes": 10890,
+      "sha256": "b343e0d21611d448027f96aa2205034cbbe45ace96fe3d84e14a514523c0ecb7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\util_synth.rpt",
+      "bytes": 8706,
+      "sha256": "9984dc831b33d5ecb51e8ba6f1da119890b0687428c8e588d7bed47226c0f471"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\check_timing.rpt",
+      "bytes": 3457,
+      "sha256": "62e69ce964a8113811344627c389642c6003046f885aaed1af344b179e4067ed"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\drc.rpt",
+      "bytes": 2879,
+      "sha256": "b4b8c48040738c413f37300abdbd893196e1f72c83b917b20236e861376af625"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\ff_critical_path.rpt",
+      "bytes": 6192,
+      "sha256": "427226ed6065090e2c1f7300d17bc65d9e80d00bd24513d7c59581dca5d71349"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\physical_1.log",
+      "bytes": 78925,
+      "sha256": "0bf98e6b8d2ee0164acbea820a13aca754459724850803ed95c7903b74d659f8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\power.rpt",
+      "bytes": 9640,
+      "sha256": "adb953d5b693839235d71a965d069c2927827ff0de3344874692acd3ea9f9322"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\power_1.log",
+      "bytes": 4875,
+      "sha256": "24bfe7a2948479fabbc0dcc354e99c6607b1d80dc098b7088a59237d4e556dc7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\route.complete",
+      "bytes": 64,
+      "sha256": "0d9e14674416a7a420363278121ba95abbea158966c90797661f336237ba9f31"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\route.dcp",
+      "bytes": 348840,
+      "sha256": "482a0f0d5e6e48e6074e55aaa1e062848f3b04c63e705c3d9a3689149eb47e10"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\routed.v",
+      "bytes": 132428,
+      "sha256": "41081ee539a34f7cc8284722638a3c506281a8538621c72fe2530c4516d72c34"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "082047f1f03f56466bd9290e311013bd13f6a9163571648206ef2afa45c8fe37"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim\\activity.saif",
+      "bytes": 138509,
+      "sha256": "8b05ee2ddfab8ffb5270aeef467c1fa340b9a15077bafedfac821619c03847c7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim\\PASS.json",
+      "bytes": 415,
+      "sha256": "48cfde5f0ed08b28fa4b332d445b6456295eda1fb07dbba26ec9b1f4ad99cb86"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim\\simulate_1.log",
+      "bytes": 1409,
+      "sha256": "4e707df24724039f0ac58a2c8f3a3810f49dff580f26a8dbf6fef54e12fa54bf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\timing_route.rpt",
+      "bytes": 18680,
+      "sha256": "c79fd238c2ba4d0b0e1f57809f4fcaeef9e8d76209b78929056b7b1763825f6e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\util_route.rpt",
+      "bytes": 10906,
+      "sha256": "24b9e87580e9bd0f3c3487f8dfab05a0f034f4a5bbb7969b5947d309f68bb7c6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\util_synth.rpt",
+      "bytes": 8722,
+      "sha256": "858842aa34e2079855b5a2b49d221d32ad0dd1c7aabbe992139c261a47655b2e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\check_timing.rpt",
+      "bytes": 3433,
+      "sha256": "0ba88d8d0b0d64a90ab6bb244883abf4b40151216f5d6d5e418a3ddd3ca76add"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\drc.rpt",
+      "bytes": 5297,
+      "sha256": "de5d7b85bc3041cfde0a0903226cf1d994e0425ccffc90fee3df350a1913c075"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\ff_critical_path.rpt",
+      "bytes": 5716,
+      "sha256": "b0fbdd543263d88f65d0322e4452d3cb92cdd7651dc16b442699efabadc52bde"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\physical_1.log",
+      "bytes": 77334,
+      "sha256": "791909ff4301a249a469e3391304e4d707792142420015cf8c7fe53f44c0f711"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\power.rpt",
+      "bytes": 9490,
+      "sha256": "4eba9778693aef86e99fc772515f8951438152794aeffff3d316b15e834950fa"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\power_1.log",
+      "bytes": 4898,
+      "sha256": "e59c1131b9942c0f3993598ba360985949d78efe0ed953c65ef5b8db3e46e1fc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\route.complete",
+      "bytes": 64,
+      "sha256": "b68d41857af4545308a3c2f6d3ce9b8e7ff156fae56a19bafe045ceffeaf8f48"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\route.dcp",
+      "bytes": 348918,
+      "sha256": "fbe7b4e233d69917781bd2fdc2a4f098ada8c56de6433b8f1232b073ba90d161"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\routed.v",
+      "bytes": 131204,
+      "sha256": "561373021da68dfc4803f4e4c22bc982f604f0e37bfb5f94179104bd8ff55456"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "1551bfc4fc29ac1c53ad5ce19b04b7b9f09e9e06e8a33284f59502b2abfec05d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim\\activity.saif",
+      "bytes": 138494,
+      "sha256": "8e156068a809ecc8c3b614215d4f8a1717c6f3e79a705d69fdc139ba49493e6b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim\\PASS.json",
+      "bytes": 403,
+      "sha256": "394a36d412775dba23f472530232dc6c439003b845f6a0651c32d9e117879046"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim\\simulate_1.log",
+      "bytes": 1385,
+      "sha256": "9abf75757995d4bcd9f5592ed2dbd6d0886a449adee08eb3ce854752e9374485"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\timing_route.rpt",
+      "bytes": 18370,
+      "sha256": "861a19e73fbc2a281ddfbdbe9bb1c7bfd19c5e98f0bd692c5a80f1c9402bdc6b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\util_route.rpt",
+      "bytes": 10882,
+      "sha256": "a1482d901d0d0a2f600ad0ededaba2de668ebb2cf6296d8889a1a4701061aaba"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\util_synth.rpt",
+      "bytes": 8698,
+      "sha256": "d4195d66ac5bc130e923e971b7f2ee5e4b9b91be1f77633542b7c4868b70c7d3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\check_timing.rpt",
+      "bytes": 3429,
+      "sha256": "f4b459ff03f301b42ae97fd06932b3b64139b8e20bcb3ea9e9d623772f72c9ec"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\drc.rpt",
+      "bytes": 2844,
+      "sha256": "6e873169c726ff38f123f8b9b63ad64eeef0b59229cf9123e6daa3574a50a889"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\ff_critical_path.rpt",
+      "bytes": 6397,
+      "sha256": "fb0c909dbaffdb4c189e268e6b0ce312faefb19a495b709d322014c27f545b1f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\physical_1.log",
+      "bytes": 76591,
+      "sha256": "2538300162638b618088bfbe223aa1a0d4895fea1da56778342d46ec9c162739"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\power.rpt",
+      "bytes": 9465,
+      "sha256": "c4e7887ef9b4b26ddd472fa1b135e2b7c1c959ec43c83da69b7a458256bcca57"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\power_1.log",
+      "bytes": 4889,
+      "sha256": "d0b5af46462c7dbb397b23c44de6447dc70432dbba53bdaf74fd15c4230b8617"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\route.complete",
+      "bytes": 64,
+      "sha256": "5fb6bf47204463da3ceaea4739348352732729050a6cd1981b3836ae587c599e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\route.dcp",
+      "bytes": 340452,
+      "sha256": "79ec17e7544f1572e7c90d8d7f4781b6e7d27a4287855f881a03d35450b986a1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\routed.v",
+      "bytes": 127136,
+      "sha256": "50081831d4200f9d0ed885738e212cfdec9b68a72a438a41d7cfbb8c28a7ddc0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\saif_annotation.rpt",
+      "bytes": 18018,
+      "sha256": "fced2dcc572dec81dc6c355f99c801bb360e1b5b395fda3472e5ca6238bae1c4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim\\activity.saif",
+      "bytes": 132829,
+      "sha256": "d34af1bb58b06697222eaafd9ec2d1fcfa66d56b2181f790910ae0226a67059f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim\\PASS.json",
+      "bytes": 401,
+      "sha256": "279e9ee8a235b5eda72de2c5a86a6768c6aa1c48ca1772610e01b8580f0788b0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim\\simulate_1.log",
+      "bytes": 1381,
+      "sha256": "47bf44e55d764fe94879044d4ed48f5566fb231f6208ee12b28f2c00e2aeda11"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\timing_route.rpt",
+      "bytes": 18894,
+      "sha256": "fbac72f9715ce14d6725d7dc8017e8a636a2055f7aadcd9541e31c091f7f80b8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\util_route.rpt",
+      "bytes": 11118,
+      "sha256": "7553dba667bf98efe1f4b73de79247c49cc1882be388b09fe4d8250c1fdd6509"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\util_synth.rpt",
+      "bytes": 8934,
+      "sha256": "28743d60eefb64deb8f2a3adf834d7f826d9dab8f5137aed1295106f04401ad4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\check_timing.rpt",
+      "bytes": 3445,
+      "sha256": "7f01ba89fc299c1103b7fc9e72e95a6944f7d85283833e9a6162228777704243"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\drc.rpt",
+      "bytes": 5508,
+      "sha256": "846797dd7e4d775ac54a18049965c14e21d34dfaba358381b9d7dc9b8e3b75cc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\ff_critical_path.rpt",
+      "bytes": 6208,
+      "sha256": "d0c2b48365d34cf6e6810a1e5305642e902aad6aca48969957e95f3275f4033a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\physical_1.log",
+      "bytes": 76695,
+      "sha256": "a33a61e245c8f76bc39e28effdd883f6dc09cd5cbfd46413631733138b45929d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\power.rpt",
+      "bytes": 9565,
+      "sha256": "0e8df45ffa26967b6af96593c84e13ea0de050151105545dacb4c11ba32dd553"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\power_1.log",
+      "bytes": 4909,
+      "sha256": "bbb0520060276755095f90224394ce0da029595fd49c3844897e9f125efef401"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\route.complete",
+      "bytes": 64,
+      "sha256": "606490ff0cc294dd0cc7993f70203141b921d87c273dd2a12f5893daefbca84a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\route.dcp",
+      "bytes": 341034,
+      "sha256": "f69b6591d90f28873588b2a597b8661ff21e793f16a6a271e0dbe6a2de47ceb4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\routed.v",
+      "bytes": 125064,
+      "sha256": "988926b1a060e314b5b45efc14cca942ce04142ee6f846264dae47d918585ccf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\saif_annotation.rpt",
+      "bytes": 19138,
+      "sha256": "14c39945eee75fd096c0c347406df5d952f2f2b28aded0a726281936cd2d5ab1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim\\activity.saif",
+      "bytes": 135831,
+      "sha256": "1c265bc1cb188d7727be3ba85a69e9b3a621de3c24c9bdf7d54538a8744f1192"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim\\PASS.json",
+      "bytes": 409,
+      "sha256": "280b88fd2fcaf10a8bc68742a6a79f5a742c1352fcd600049e9f1fab3f0394fc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim\\simulate_1.log",
+      "bytes": 1397,
+      "sha256": "8f19a6da5d37554bd42df87305861916090f0a0503d68865e0895d255863cfb4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\timing_route.rpt",
+      "bytes": 18655,
+      "sha256": "26a91127b3791cbe66fa521a955a7c221d17c732399b667d1449050bf5bf7ff0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\util_route.rpt",
+      "bytes": 11134,
+      "sha256": "f7f79bf9746bc3bbce40255d6a510f078161adbf9875410b44a0f5f573f7b5a3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\util_synth.rpt",
+      "bytes": 8950,
+      "sha256": "6fca8bce92e0c1fa46f5edca47f182884e378a9dc5cc5547860e74c9ba2fb9a8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\check_timing.rpt",
+      "bytes": 3461,
+      "sha256": "fdb2ba02e54455a51f32375b34540fb7f00329b45a491d2f0c7f174203f2e295"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\drc.rpt",
+      "bytes": 2884,
+      "sha256": "cc5e2aefd30b0dd946951a6adfc8c8f2d2778f3eda174bf54e7000f141fe1582"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\ff_critical_path.rpt",
+      "bytes": 6436,
+      "sha256": "cff4bbea4a2894c23d3a6722eaa28d7822aada27a536a8dfd478cf4ae33a58ae"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\physical_1.log",
+      "bytes": 75711,
+      "sha256": "252b4dced448767660e749cf7a6f8c0d007f27acc3c73721ed1070bb118f6e0c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\power.rpt",
+      "bytes": 9665,
+      "sha256": "bcbd2a5cd75f9f46f38729130ac1b1772e651aed62995c2269e1a90ffaa9eec7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\power_1.log",
+      "bytes": 4921,
+      "sha256": "c3bf8efdf465a5a377b106e8881f9f702053e550fc51a269f884607a82b62114"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\route.complete",
+      "bytes": 64,
+      "sha256": "3efb3c9e75ec6b0124ef7f21ae647f3381d584264d25768d3c4025762abafd06"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\route.dcp",
+      "bytes": 339821,
+      "sha256": "7b1b1b30a5ce34c92e8eab2d7f9606e60e31a950ea1cb999bc0f62acc4127099"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\routed.v",
+      "bytes": 125353,
+      "sha256": "4dd9c74c547358f7bac0aa2488c3dfaa703077d50ab94df539dfb89baa968ecf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\saif_annotation.rpt",
+      "bytes": 19334,
+      "sha256": "4f9319fcaddeae1be672a8b7e2415437c761b3731853b0208cead62ca0365ab2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim\\activity.saif",
+      "bytes": 137115,
+      "sha256": "353932e07c15aa7ea5481be248306a70222b51e9839e572b05c755064f43381c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim\\PASS.json",
+      "bytes": 417,
+      "sha256": "20b1977079ee1052a02101ca9818a02d80f72c28d31c56a47c3093ce5417400f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim\\simulate_1.log",
+      "bytes": 1413,
+      "sha256": "41f73e3c308b9f61510440369491383192eaf6eb0045d2d1025258abd8dee623"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\timing_route.rpt",
+      "bytes": 19606,
+      "sha256": "a983f045ce30c7dff1de458f712880ec5cb8c7f92bd4d194c8c57e0eabe194af"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\util_route.rpt",
+      "bytes": 11150,
+      "sha256": "7ae346304db41dc6e73d33db6c3103a3cb13601dda79ec4e44dcebffdf12f0d1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\util_synth.rpt",
+      "bytes": 8966,
+      "sha256": "320e7efcba3ee9da23b469e16ab15470eba3a4e8dedaba2a138a3bd52a12acea"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\check_timing.rpt",
+      "bytes": 3437,
+      "sha256": "863a136151d0d48cfa0bad00a2f4dc2382486700afd1ee36466a77a89cd3f25e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\drc.rpt",
+      "bytes": 5498,
+      "sha256": "89ae8d048e092ffe541cba5701650816fe16b734c3a0d40e3cf853cfb0250a4a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\ff_critical_path.rpt",
+      "bytes": 6200,
+      "sha256": "9a35b8722e2bd12edb401970376101756c0b6d97c97d78a1e6c472904af3957a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\physical_1.log",
+      "bytes": 76340,
+      "sha256": "0f4bb950928afcd846baa742f119cc9908dc4be2238fb2ec57ff9388777e77af"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\power.rpt",
+      "bytes": 9515,
+      "sha256": "ef23044433715ea199cc5b007b47dd25876359769e51bdc5c1b2ed77209313cd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\power_1.log",
+      "bytes": 4901,
+      "sha256": "ae0848ee359a8b3206032b841398444278ee16fc7fdee8fd9bf24ed4a7301288"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\route.complete",
+      "bytes": 64,
+      "sha256": "4d4311b0063ed254c769169fe11aa7f6fc9ebaf03a88c47bead89d104dd297de"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\route.dcp",
+      "bytes": 340798,
+      "sha256": "cc993c9e1062b35f02cb54fc2717fc46c5e25cbc7e874615c174c57846e1083d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\routed.v",
+      "bytes": 125045,
+      "sha256": "7159fa88ad210808935d71102bae6cc0b2afde62afa470fa6a110f11a4ad7209"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\saif_annotation.rpt",
+      "bytes": 19138,
+      "sha256": "b26df95d343e620cf0014331cb94bea5e2ac7dccfbd8e487d57dfc5646909914"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim\\activity.saif",
+      "bytes": 135849,
+      "sha256": "44938138c36e410ec3e4e5ef79aae643e69f607d8104a1522871219415973c2c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim\\PASS.json",
+      "bytes": 405,
+      "sha256": "cc6ff946903ed221306fbff8386ebc358b735494a993054e2c5acae9c2586cb3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim\\simulate_1.log",
+      "bytes": 1389,
+      "sha256": "a502155b8a98e42b6aabdacf7e2c96fa2557226a3f7b5c2774cb767599bede88"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\timing_route.rpt",
+      "bytes": 18647,
+      "sha256": "53f3c1a9d4296392783899e2de2f853517f75cbfd7b64b1dfae7c549b5ecca7b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\util_route.rpt",
+      "bytes": 11126,
+      "sha256": "934b0f1bb759c0e53bbbd27cac61d866f1e51ec1734535f67be7cb55b0ca48ea"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\util_synth.rpt",
+      "bytes": 8942,
+      "sha256": "3a7f1d94f48be9b9477dda7e396b13aa322790b10e36a62fcad1107fb7657db5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\check_timing.rpt",
+      "bytes": 3425,
+      "sha256": "f10ab953bf829ebad2425e0e2ff1b93032c956f51da1304a9ca717c776e9f7bc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\drc.rpt",
+      "bytes": 2839,
+      "sha256": "6b5f167f09cda9f84f84fb1efea0277c201b45d0837a7b66bfb88a1a813d90a8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\ff_critical_path.rpt",
+      "bytes": 5564,
+      "sha256": "468eca65b0c832497bb69712b48f2ba3b02407f5a3fe640247b09e4f4327d845"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\physical_1.log",
+      "bytes": 37249,
+      "sha256": "90528ac78bc80f616f733bcfa489753b4a287c8048dfb9a73b1e68914cb82e91"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\physical_2.log",
+      "bytes": 73908,
+      "sha256": "28411ee0e488d9761a15397d3e4a085ab21cfdcf6b35977e2be284084018834d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\power.rpt",
+      "bytes": 9403,
+      "sha256": "21d9037e3bbaefba83d4419da615f04897fbf7a7c9b58f999f0eafd51efae87b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\power_1.log",
+      "bytes": 4939,
+      "sha256": "69b19997fa745d89d51be9d43524b8a36666798a3160b8f910f68f112821c6a8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\retry_open_fs.log",
+      "bytes": 352,
+      "sha256": "9509c67ae8f1faf031b6f992159ccd93faf470e7279e0752f8105bdd4aba9e8f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\route.complete",
+      "bytes": 64,
+      "sha256": "da0c6b12512f1e468df6edda70ca01ef3393f1dca7d747076eb261b8361a6d31"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\route.dcp",
+      "bytes": 325381,
+      "sha256": "2b4cd4b6bc80c6ac846420628f29ab32b7b8c0b68825b7b40728e595582fff3e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\routed.v",
+      "bytes": 116786,
+      "sha256": "159833bfa483eec84988e04f561809e5ff6c5d06369439b971819a4df37e65c8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\saif_annotation.rpt",
+      "bytes": 18163,
+      "sha256": "174142ea0dd5cebb632a8844308e707c89d0fa9736db277f8ddfcb220f479356"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim\\activity.saif",
+      "bytes": 121252,
+      "sha256": "35533eaf844a13940d0653fe011521cc00ce9589e4695c27785a9f514046269f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim\\PASS.json",
+      "bytes": 399,
+      "sha256": "9bf5082228fff24c41fa134764fced20c4823b869cfc41b4699899e7634f99ed"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim\\simulate_1.log",
+      "bytes": 1377,
+      "sha256": "c9e907f4d362fd453e664567f46d6bea7d48299319a344bc694847233ad15bdf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\timing_route.rpt",
+      "bytes": 18041,
+      "sha256": "0c424f28cfb5c2954b180a8335c7dc736fb61705e90c031de5983b54b5214546"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\util_route.rpt",
+      "bytes": 11114,
+      "sha256": "f3e0873763b1ad5f9106e365c9117c6caecdd4696272e8f7700918342ec20aed"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\util_synth.rpt",
+      "bytes": 8930,
+      "sha256": "4a41d6e98862039665868f18ef33d588b02bac5199dc75d1981c00d7eafb5621"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\check_timing.rpt",
+      "bytes": 3441,
+      "sha256": "f23f258a2c7c82b8e5272f6a28e1e42aa5c203acab08c4fc0a3220750691218b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\drc.rpt",
+      "bytes": 2859,
+      "sha256": "e1ae3adb7a6802bc76cfcfbd61bd49a5a445e1b1b72e3045c107d2928c8cb928"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\ff_critical_path.rpt",
+      "bytes": 6028,
+      "sha256": "0b6e4ebeba42e59dc018b4a6b372b63c0a01c88ffce37e4a0267767573f5c652"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\physical_1.log",
+      "bytes": 72917,
+      "sha256": "1661d3d324a5b5a0347b2232ad76e1f1c44ac5bfed929f9e5acd79bbb92084e9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\power.rpt",
+      "bytes": 9499,
+      "sha256": "1844f3df33cd876aa2c8e05a95731402fbcf63bfc135e37a71496ad87cfe19b7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\power_1.log",
+      "bytes": 4951,
+      "sha256": "393d38933beadfb681a5b5639d81f7196ee05fffb9c02052fc55b00b6fefb852"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\route.complete",
+      "bytes": 64,
+      "sha256": "af62c2ba2cbba0d08f40defa924dd8ef31de8318b1ccea24911ee425d0a33f31"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\route.dcp",
+      "bytes": 326848,
+      "sha256": "a7e15169a0ba38fae7be6f29b10be88d4037379001a57dd18966e66151382163"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\routed.v",
+      "bytes": 116487,
+      "sha256": "37eacf52e90b1f6919bc4cfd327adbcb731ba4c5e4acde7dcbc7b6b135c9021c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\saif_annotation.rpt",
+      "bytes": 19351,
+      "sha256": "1e75ead8642b4d75bbaadb50acd857a6801be8aebe979728fd9cb8c95bbb36d8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim\\activity.saif",
+      "bytes": 124552,
+      "sha256": "1f770a489441e2a4fd5807377d4e32dd8875da6999c940cb1c2bb8fceb15cece"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim\\PASS.json",
+      "bytes": 407,
+      "sha256": "0468f26248b14b5b5f21e4aaadf795b172d0bafebb50a68a6243b5e9d10413f7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim\\simulate_1.log",
+      "bytes": 1393,
+      "sha256": "6981233f32b19624e96265d2387ee81d380226f5974444b9b43a1835b4543deb"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\timing_route.rpt",
+      "bytes": 18475,
+      "sha256": "4954ac8b5af5b593cce6c55fce69ba92c6a5945ba0f384359b323171732c4321"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\util_route.rpt",
+      "bytes": 11130,
+      "sha256": "8ae3b72de172310b2def7be5fa44ff4b47459186a3d067132ef262d7ee7431fe"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\util_synth.rpt",
+      "bytes": 8946,
+      "sha256": "ede44f9dd8b478d7c57a38fa7d8347e1ca66ddead8c4a265438336c34e0b53e8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\check_timing.rpt",
+      "bytes": 3457,
+      "sha256": "6e9fc6cec38a6a4c3cafd28d410a12a25ff926fe76e73e62afbd14c79531e763"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\drc.rpt",
+      "bytes": 2879,
+      "sha256": "1674cc94cb905079beeb227af42314b8a2295363f98b58b5384d67459406a9e9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\ff_critical_path.rpt",
+      "bytes": 5834,
+      "sha256": "bde39f07468d2a1448d8e3634561e78c859ad799b1ea38076f364841f3e84d57"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\physical_1.log",
+      "bytes": 37704,
+      "sha256": "bba5d39f81a26c32d8cf6c9b1940c377f75a0a54274d15f3bb7be054a67a375f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\physical_retry_1.log",
+      "bytes": 74347,
+      "sha256": "f17afd28438fe8d382ad2c0128c525e7046767020a3c3fe5884a1a9ff33ab592"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\power.rpt",
+      "bytes": 9595,
+      "sha256": "f0c81df3122a3f561b5d76a771ba822fcff9c936a224010ec1416fdcd5599657"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\power_1.log",
+      "bytes": 4971,
+      "sha256": "f23e23b7e1209a6609a87c004e95fb1fb101d1a7b14ca4f52eb47855459827e0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\retry_open_fs.log",
+      "bytes": 353,
+      "sha256": "bc8633189752aa766bb1de4f9f40952f8acb1e6c6001178a2c1752200b12e820"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\route.complete",
+      "bytes": 64,
+      "sha256": "a1266db18e627c358dc31f8c920f973a8e423ddc6242b70d9bd73b18526284f7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\route.dcp",
+      "bytes": 325659,
+      "sha256": "4fc128192895c2b252dcf40e476f639c4d903f999498718c96a288241cc53615"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\routed.v",
+      "bytes": 118191,
+      "sha256": "d48da5c339b62333ee3284341590342db6b005f170f9f9834f714a33e10e4415"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\saif_annotation.rpt",
+      "bytes": 18857,
+      "sha256": "329046221957acc0e95f6ddb753a8da4bdb9112fd2da5b90592a34b94f0278ca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim\\activity.saif",
+      "bytes": 121323,
+      "sha256": "89acca85c07e245ab17a04728f7c77e100907e4b540d63be05352332a0a12351"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim\\PASS.json",
+      "bytes": 415,
+      "sha256": "620b47215efff7848e4edf7893730336ff5559d8edb1a0220fab4a0802ae0f57"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim\\simulate_1.log",
+      "bytes": 1409,
+      "sha256": "68b64e039062ae0e5ea8a72dbd93602fe7b75ed8f19fbf7098acbb889fd067bb"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\timing_route.rpt",
+      "bytes": 16312,
+      "sha256": "ec50adb617b86022efb11aba0ffb7615a48b0cb4a58e62f223ffc0dfa4642641"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\util_route.rpt",
+      "bytes": 11146,
+      "sha256": "25e7b8beaa1c1274df70a58d28be3a0cd9718ac5df2410596a1571fb83c2b1d8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\util_synth.rpt",
+      "bytes": 8962,
+      "sha256": "2e014f8b8a169c928c4ef407e7355a911fba4d44782262ca88c733c68898db6b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\check_timing.rpt",
+      "bytes": 3433,
+      "sha256": "c8c9247e35b766c75ee00ab35e9b6a8c739986482a85d56a6b0278922f1c8690"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\drc.rpt",
+      "bytes": 2849,
+      "sha256": "d74c8bdda5d770db4412bf2e951f3787cf0c1ce582153ebe25463a3bc0f38082"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\ff_critical_path.rpt",
+      "bytes": 6020,
+      "sha256": "f26dfe584f29a5c8d0b54f1b899ffcc880ad747aa621492de5e04e7982b0b9fc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\physical_1.log",
+      "bytes": 72779,
+      "sha256": "584f6a4e178d055ce26fe204059166d576d6dbfe46b5e65745a58ae602e74a04"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\power.rpt",
+      "bytes": 9451,
+      "sha256": "60b9b14eb1120e25dd22bf6d1571c258b4305c34c28e8e4d787b501a768b1445"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\power_1.log",
+      "bytes": 4951,
+      "sha256": "e7dadd6eea1487997ababbc9a4946db7df9d7aed0ec7e31df5a6e24aac9c9d59"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\route.complete",
+      "bytes": 64,
+      "sha256": "19767770412cba88270c19fb7729476b73c6b65dc2fc1117de0fdee2072fb1b1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\route.dcp",
+      "bytes": 326441,
+      "sha256": "73273a9ce956bd8e30954e64cbec819809a1adf23b0b609bf28a9975d0e4ee70"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\routed.v",
+      "bytes": 116467,
+      "sha256": "96de3651c63eb1e2a8558d14dafaaf549f489a493f197a20c2ff0d19ce1b7c4b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\saif_annotation.rpt",
+      "bytes": 19351,
+      "sha256": "970f5a1501b3edf566428f80561652c1eb6b2425806e2407af7fc30e41ed2fdb"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim\\activity.saif",
+      "bytes": 124553,
+      "sha256": "6f66e7427e6f18aeb7a20f8dbcbfa9014d416c97b545d575e930f414036af96e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim\\PASS.json",
+      "bytes": 403,
+      "sha256": "4d0b0c0b0f6ff31ea118a43a2dbb9e7b961cf1308aad1056420b72bb1a4ade15"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim\\simulate_1.log",
+      "bytes": 1385,
+      "sha256": "59feec0137e0f4813ab8e6d94d4cf6065ea9f2a9036740a205fd56396557df6b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\timing_route.rpt",
+      "bytes": 18467,
+      "sha256": "5b32cdc8810c84852ba0a6e3270c07dc9c53e83deb8351393506b4b8a82127a2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\util_route.rpt",
+      "bytes": 11122,
+      "sha256": "5e2efd9fd4451dca139ecf3db1e94705fdeab61102d771feb1543d89e6e3cf36"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\util_synth.rpt",
+      "bytes": 8938,
+      "sha256": "3f0abe2ef26dec778b54bdf980c4851b0db89a2dd401b3c100dcd28daeef6f25"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\check_timing.rpt",
+      "bytes": 3425,
+      "sha256": "175182044f2e6b70a18f7e7a31033ecdcf4b4ff10aa5a606204f3cd322019d9b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\drc.rpt",
+      "bytes": 2839,
+      "sha256": "1d96513cd5c7016e9d67e60307fec777bf0f67c8b6d0d76de4c634b377d253e3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\ff_critical_path.rpt",
+      "bytes": 6161,
+      "sha256": "1c989a76bd1de10efe2b2ddeadf2f47ea1b8406bd0dee30d69f35d301014527e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\physical_1.log",
+      "bytes": 40636,
+      "sha256": "bb2b76fc7baeb54ed61ad5143fba60fbe319c02adba1d97e6983565247113959"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\physical_retry_1.log",
+      "bytes": 77826,
+      "sha256": "9e465e32f8ad554deca173519810c9c4fcbf3a9b816628f7f525410fde450830"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\power.rpt",
+      "bytes": 9440,
+      "sha256": "d64502ffb67ea0e7ab007791df07e57eea8165202d52f5548062eea11aabb16c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\power_1.log",
+      "bytes": 4847,
+      "sha256": "d43296901f1b1a54d64eaea79c023e42d22331cfa8533b7aeafc26295f2cf756"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\retry_open_fs.log",
+      "bytes": 233,
+      "sha256": "797749fe7784ccc1a9c675259b39e09fd559f5e2e7ffe689b6acb20d07ca0fb2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\route.complete",
+      "bytes": 64,
+      "sha256": "c2c20245b8e92793d0df074381899eb5b5acf6e18f7f164008ec51ce4193258b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\route.dcp",
+      "bytes": 347960,
+      "sha256": "15edda64b39fae5478544d3440abedbeb4256e1e98b6e4be1bee0789693bb2ed"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\routed.v",
+      "bytes": 132433,
+      "sha256": "f4535903c649332da7d4a0404532f2484dec9941a79b61547c614fbbbea76927"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "b0f0d04cbd96183612a3572e9752fb371693a6fc1714587045c6bba7b8aad4e0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim\\activity.saif",
+      "bytes": 138500,
+      "sha256": "ccf9b669fdbfda318291aa88666b517c510004c940e40ce5300cf8ba3afa39fd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim\\PASS.json",
+      "bytes": 399,
+      "sha256": "758d86e7225f1526bbb33f5a4b9c28f5820c55e6a4586d49078bf838484efadb"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim\\simulate_1.log",
+      "bytes": 1377,
+      "sha256": "001418652b9c9547d87e73cfca6def7ac2701968d917002de6d0dd20388002c4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\timing_route.rpt",
+      "bytes": 18637,
+      "sha256": "541945ee5a821b987258a05d625125e1691a6a70f96f6859b5755df26f47db0f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\util_route.rpt",
+      "bytes": 11114,
+      "sha256": "11490a79b0b79b534dec1352cc761bfe703250a16998141ca9aeb7812db2a5c3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\util_synth.rpt",
+      "bytes": 8930,
+      "sha256": "69518e2b3384f12d57abc427b902117b0c57c6233b4b3aa0b26cd5a78dc2a786"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\check_timing.rpt",
+      "bytes": 3441,
+      "sha256": "dab17a998f348f8b22d251c92c24f50aeebea4753d8b9ead892b3e8fa852c7ef"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\drc.rpt",
+      "bytes": 5311,
+      "sha256": "151e12d58bc92d49a72c2329800beb8195b415961d5969723a98a7cffa67e840"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\ff_critical_path.rpt",
+      "bytes": 5726,
+      "sha256": "010260d8dc5f2c4b08a28e455b8e7e5dcbe1f8aa71410437aac15c8805469567"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\physical_1.log",
+      "bytes": 78116,
+      "sha256": "30191aca230e94eec53810aa848dcd0bc4c5879190f9ba07ebdf86469d7a9f5f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\power.rpt",
+      "bytes": 9540,
+      "sha256": "15f64a9bc5d99f830527e0a8df29027a8886d53f9b89f7f630de408f2673c63f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\power_1.log",
+      "bytes": 4902,
+      "sha256": "dcc5fb68e2a6b20f7f3000df3d6da1868624a69b83f3b2454d6ac32e5e9f6674"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\route.complete",
+      "bytes": 64,
+      "sha256": "586a4b474c8286cd0ca7cbce4a15bedf5cd52596110f3a3e1aa536581ed7dfab"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\route.dcp",
+      "bytes": 350494,
+      "sha256": "19ac04eab600932a01240dd5a8d6b076225c0bec228be228d20b12ebb663438c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\routed.v",
+      "bytes": 131977,
+      "sha256": "c94bc310d270f732079a1b06408935bbb8eecb388b9573709194673cff8bf201"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "bde2e70bbbd6f16ab495cd2850ebaa6ed8f00a23edc5bd9ab13a1b921edd34e1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim\\activity.saif",
+      "bytes": 138494,
+      "sha256": "d1a8641479d63c9e253652b6ba50d6977a112a9bae93548d1853a0c4aa53af41"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim\\PASS.json",
+      "bytes": 407,
+      "sha256": "20843c35de47c2712a7fc2d9d6bb92de65440a9a030d2d52da5d02e71d720554"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim\\simulate_1.log",
+      "bytes": 1393,
+      "sha256": "af3e1294516debadda692370de597b1ff93588e7571cb1e95dd5c3fc1e1d35d0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\timing_route.rpt",
+      "bytes": 18203,
+      "sha256": "1dde9866659eda3c931e314c92dd272213d1c9448e7d59348c671066e3d6b0be"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\util_route.rpt",
+      "bytes": 11130,
+      "sha256": "2635c05f647d8941f4185f0d7f412b050aee8ec3a53d242fdbef67465705d317"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\util_synth.rpt",
+      "bytes": 8946,
+      "sha256": "602b4cf76224e1a28a0b9b32a317705e4f7b1e6304a469e2126b0737368cd3bc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\check_timing.rpt",
+      "bytes": 3457,
+      "sha256": "30dff29068de5dfb2278a0acc7398258b3b260ef3bd675eb05a6f87011a8e85c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\checkpoint_recovery_1.log",
+      "bytes": 40917,
+      "sha256": "4d67d8b1cd105ec5c37fea52e2633bc5349f4bb4ef9bdcaefe91c89c529f2002"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\drc.rpt",
+      "bytes": 2867,
+      "sha256": "f3351aa10a051ac7f57fc8ab4f723771d1229d60e3c7c03205b24b19082b87cb"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\ff_critical_path.rpt",
+      "bytes": 6201,
+      "sha256": "5989831db52c087be9a8ecec30a5769c5c8f0b9bc93c4f82ae9af8edc4c284f8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\physical_1.log",
+      "bytes": 41413,
+      "sha256": "eb30953146bd92ee8b25dd1893e284bbcfa59e588699278e88fb23cc95b7cd53"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\physical_retry_1.log",
+      "bytes": 41413,
+      "sha256": "53959e1f640ad25873aa8ac073d3c174d922a178b351a9a45db4b70c41cb3242"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\power.rpt",
+      "bytes": 9640,
+      "sha256": "ffd06181227db08dab0a1f2235101567cab70c1e1b41a0bcd64fe032fe8fa884"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\power_1.log",
+      "bytes": 4871,
+      "sha256": "b92611a7bc43825a88d0080a704a96ea3303aa56be8540ceec1e2a9dabf77ff6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\retry_open_fs.log",
+      "bytes": 498,
+      "sha256": "98e3c5e418613e0fb159a472bf5ea009e9696aeb973de4a98e713e67c235a7e0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\route.complete",
+      "bytes": 64,
+      "sha256": "0d9e14674416a7a420363278121ba95abbea158966c90797661f336237ba9f31"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\route.dcp",
+      "bytes": 350650,
+      "sha256": "7e75145322c5ea38a6860a802c076212bd98ab6c9db86b68f3fb31defe3feea7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\routed.v",
+      "bytes": 141801,
+      "sha256": "c6c63c0eab9d07eadb6f640c3790c0f56fc482e205031f80f376f3da5582dbde"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "9ab5c2cb17ea6ce889b16d49360c19c2e17cd530b8fd27dca0e0f755b979a3c4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim\\activity.saif",
+      "bytes": 138509,
+      "sha256": "32039d52678c218005fcad52f9e36bb628542cf6e234b087fa07157847075651"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim\\PASS.json",
+      "bytes": 415,
+      "sha256": "229cb1bde79397943ff765d8a6de7f078cdd84dc613e6b5cb6a59cb18cd3bc23"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim\\simulate_1.log",
+      "bytes": 1409,
+      "sha256": "7cd29e6741918d9e7e82217c7021cba8cf58bb53a2d72794fa53be615c1f7d80"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\timing_route.rpt",
+      "bytes": 18689,
+      "sha256": "c7f686873b9ac0064e38aef433b9f5cf44652e2ca9dc3cca5323a65f4a03b557"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\util_route.rpt",
+      "bytes": 11146,
+      "sha256": "70299a8815b36d0979d32db6be36269f5214b1ab08bee63fad629bfae9cb64d9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\util_synth.rpt",
+      "bytes": 8962,
+      "sha256": "18dff7b7501d4215a592e14c566948212f8db7310997253007a1e3abe6301386"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\check_timing.rpt",
+      "bytes": 3433,
+      "sha256": "e274fb73891874ccab0b5caeba435e752e892b5f89b95dffe4e7a94cfc0634d9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\drc.rpt",
+      "bytes": 5301,
+      "sha256": "fdead74569f7f5553079bbae7fdcf26ed09c84444e1f75685f3dff48b23ddc23"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\ff_critical_path.rpt",
+      "bytes": 5718,
+      "sha256": "b85ea928350074d5deea7b5e1472d19723915f16fbb3ef3b8e89366c19503c3c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\physical_1.log",
+      "bytes": 77999,
+      "sha256": "0a902655dd36537418f474d336f2b4b086c3bfb19624e0a91bc13535db7690a5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\power.complete",
+      "bytes": 8,
+      "sha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\power.rpt",
+      "bytes": 9490,
+      "sha256": "2bfbf774d15a60b816101fbb72e5e13e2abd3845f70f9086d763f5d383444e46"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\power_1.log",
+      "bytes": 4902,
+      "sha256": "df1307d9039a622d14b7a66a488376f7c4ed0d38d6ef7b4a194e285bfbde2817"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\route.complete",
+      "bytes": 64,
+      "sha256": "b68d41857af4545308a3c2f6d3ce9b8e7ff156fae56a19bafe045ceffeaf8f48"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\route.dcp",
+      "bytes": 349887,
+      "sha256": "01fb616fe40e1f5d9b290658de30e03075f10ef82356eccde3ea12065cc19c1d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\routed.v",
+      "bytes": 131960,
+      "sha256": "958d498c94a0bfcc07ecb9e0856e1cf40fabaea7630f5da50367f190b9fbabf1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\saif_annotation.rpt",
+      "bytes": 20879,
+      "sha256": "7011f39f3dbea7ff069d89f055f0d27321b6c4b586f0bcd46c59414abd8fad69"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim\\activity.saif",
+      "bytes": 138494,
+      "sha256": "0de90e1287bd36a2d095d2d5f43d4fdf225de06b1d68590fa74914d7ff7715eb"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim\\PASS.json",
+      "bytes": 403,
+      "sha256": "6eeb1db0748c512cfebe8516b4780052fc47231e53fb197dd382ef7e39ce0d43"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim\\simulate_1.log",
+      "bytes": 1385,
+      "sha256": "4f1777c4010b4479b5353917a912a0c171bbc3aef73ed3144b76a2ae8388e97e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\timing_route.rpt",
+      "bytes": 18195,
+      "sha256": "9af1ce7163757623b5d452e612a0feb2ee9d37ea94b4c6ac2837ff1bf6f78088"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\util_route.rpt",
+      "bytes": 11122,
+      "sha256": "247d29b58cd9334f268f360ca6825f29a5335a3183850535b9fc291a3e6c7527"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\util_synth.rpt",
+      "bytes": 8938,
+      "sha256": "c1fe8b67f9282bea4f85c56a4fac5e559a40439b799eb4748a6c4950c7a78298"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\physical_results.csv",
+      "bytes": 13747,
+      "sha256": "b02de9667bade06392b7a92d598973d5b5c7afaab7453808f4a06fe01e3388c1"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\physical_results.json",
+      "bytes": 34470,
+      "sha256": "fd83189664b09768f422035117f465ffd0ac9d76b8809ea9776cc065a8c37f5c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\physical_results_annotated.json",
+      "bytes": 38694,
+      "sha256": "1c94c37380453ff5d41a3a1ad2c95e8dacd8e97ce0b6e744eb7ecc9d2154a8cd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\quality_aggregate.csv",
+      "bytes": 1833,
+      "sha256": "ea6b914d90ff52b91d5722ac2f072c29ab13cb40c19107e4bf129a56bf212825"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\quality_per_filter.csv",
+      "bytes": 3632,
+      "sha256": "b6c74dfc186fe32ad9045ba385ec2b3e08b4363a32d897c820318704b9c89e75"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir10_quadol_wce_unsigned.u32",
+      "bytes": 4194304,
+      "sha256": "45431d708c3d592ef89796b56ef5805ad6e0e092f14bf0d4ca79a45a6e6545ba"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir10_quality_window_unsigned.u32",
+      "bytes": 4194304,
+      "sha256": "43588e0a8f0ac66f4977963f696ccbe62940ebb2ea34ee10a07a5a63e3cd3669"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir10_serial_then_quadol_unsigned.u32",
+      "bytes": 4194304,
+      "sha256": "08de69a0a510566852e04adc2a2c3ab9a2a5ad10b9a5ebf7a071f7fcd559b5c4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir10_state_window_unsigned.u32",
+      "bytes": 4194304,
+      "sha256": "af4302ba52c4e862c6f71a7daf5d24c2e02b1df77fdd988a86168e2419a0978a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir8_quadol_wce_unsigned.u32",
+      "bytes": 262144,
+      "sha256": "7cc4dc474ff092bfdc12a1c2bec834a35e853bf0512105e88d3f4b05fd6c2c0b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir8_quality_window_unsigned.u32",
+      "bytes": 262144,
+      "sha256": "0d198cd75e686ae28c24dae0f5b20d84bd13db4a42bd0ae822aa366c9bdd9864"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir8_serial_then_quadol_unsigned.u32",
+      "bytes": 262144,
+      "sha256": "e118c7bb7eae6b33407bc8b61304a05489a93f836de1fd30401000e4c31448bd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir8_state_window_unsigned.u32",
+      "bytes": 262144,
+      "sha256": "8bd036ddc6ca1a73252c3ad8109b22fdf570b6045e2e89ab9bc49388d186506c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir9_quadol_wce_unsigned.u32",
+      "bytes": 1048576,
+      "sha256": "496fb5aeb14f111378529f1935c60203f7ff9d9d4315d87206f1f728d980c759"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir9_quality_window_unsigned.u32",
+      "bytes": 1048576,
+      "sha256": "51311ec16a252c1d95eab52933e22204c24fdd1fbfe00f9da30b4e479ef9070c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir9_serial_then_quadol_unsigned.u32",
+      "bytes": 1048576,
+      "sha256": "da9e707f2b1c308f1bfe8414a2242f0ef480d1d633bd8c84acda6188c7a95654"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\r23_fir9_state_window_unsigned.u32",
+      "bytes": 1048576,
+      "sha256": "d550647ae90307b13b7ea673f9271f2489618f996639a96f5c913895510ecd93"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\resource_quality_front.csv",
+      "bytes": 3353,
+      "sha256": "6a7aa9e5d858250ff3a6121521f871de48a99a8e7a342980a9109419afc22f6d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\system_quality.csv",
+      "bytes": 11575,
+      "sha256": "a116889e57b0cdea4faa309a3813cbae8ec975d693e76fa8c5f355f97bfaf73e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\system_quality.json",
+      "bytes": 27681,
+      "sha256": "ddfe0177050b1b510320929270750ed7c7f7a185390c72bd0db8496797d10039"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\workload_quality_comparison.csv",
+      "bytes": 9790,
+      "sha256": "9ae0f047e76e26e7691a1beb281c0480e6fedda0a81f1b969c3e6ef6ebaa24ff"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\zero_operand_error_component.csv",
+      "bytes": 9411,
+      "sha256": "4bc6c677d36a20958eb9ba236963c07a0d1a043485e51473655127e24e495c65"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quadol_wce.v",
+      "bytes": 17129,
+      "sha256": "ff0f06f7a0d0a01d2b34a8b0baf9c782f7f2c9b50f45c0765197e467068a8c93"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quadol_wce_tb.sv",
+      "bytes": 1576,
+      "sha256": "bed64c76af2dcd88bf7bd9003919ddb5ea0f7640d5b0077d28a287fae529bf8e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quality_window.v",
+      "bytes": 16589,
+      "sha256": "eecb8fbdcfad9bef3ccfe20adb3745cba7c8f7b11005d530da79783f1a259263"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quality_window_tb.sv",
+      "bytes": 1584,
+      "sha256": "eb8ae16e9a372ede9ee0efdc88975b58dce3bc35f34e4161cd01e9513a14f389"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_serial_then_quadol.v",
+      "bytes": 16455,
+      "sha256": "33fd7867c81dbcf39c4db1288eb53bf4e0b61d8f6dc9d07d7bda2a066474da83"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_serial_then_quadol_tb.sv",
+      "bytes": 1592,
+      "sha256": "8e90efecf84534a746710ef656e9254a81ceb7a0ffcb552e91cdff278a9d3105"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_state_window.v",
+      "bytes": 16579,
+      "sha256": "46fc016ba3c1b59b4a8eda0b7654acd4500834688707a4a6660e17ece6808778"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_state_window_tb.sv",
+      "bytes": 1580,
+      "sha256": "b9ba7ae9a9fc4379404617237a0ea2a39def4d75600294adfdb91c0439aeafba"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce.v",
+      "bytes": 14809,
+      "sha256": "160a9eb3a1e21adde246db684a0f111faf30f8d7023ceaaa8901bf302f08b36c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce_tb.sv",
+      "bytes": 1572,
+      "sha256": "352c8300771a810e4f81fe0bb536f4ea4546cd76497ff2b802fb0451708579df"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quality_window.v",
+      "bytes": 14439,
+      "sha256": "8ab25b72b437ba333f2eea57d7926d35d6baf19cea757438b35d0c8f77837bb5"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quality_window_tb.sv",
+      "bytes": 1580,
+      "sha256": "1ffe331751692292ef608b7e3145ccf7ea35d9ee2e2f7e52bcb65823a50e0c88"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_serial_then_quadol.v",
+      "bytes": 14745,
+      "sha256": "2180cf29b259a9927d67a91a8ca95833b20deb059c7475df516fc1a7d5e175b6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_serial_then_quadol_tb.sv",
+      "bytes": 1588,
+      "sha256": "ee54e8396ff2fe4c2a097968cd6c21120491ff9043545e4aed2ff732db6487e0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_state_window.v",
+      "bytes": 14429,
+      "sha256": "37686483de16f15fdab84a65b5089fd48a0fa7bd1920d008a440ba9f35db035e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_state_window_tb.sv",
+      "bytes": 1576,
+      "sha256": "a33ec84305ae4b4ed5b3c633bc993ddbd3ed6ee6eff1f49c994290768206e35a"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quadol_wce.v",
+      "bytes": 16754,
+      "sha256": "71ff10f5a0609acc7fa9cdc1453f348e887377850fbe0b13253146745be0f5f4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quadol_wce_tb.sv",
+      "bytes": 1572,
+      "sha256": "8b60903562fb2b77c01fbf7fe7b14ac1c313568cebf4859219f090ba1ee78071"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quality_window.v",
+      "bytes": 16343,
+      "sha256": "fc759391704ec6bb77669965c12928818c6778a156e9633f08d3ec5b8dbc7b20"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quality_window_tb.sv",
+      "bytes": 1580,
+      "sha256": "2df7ec21c8a9c1aae6da83ad4c076707b9825a192b3ebb68cf331b484fd629e3"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_serial_then_quadol.v",
+      "bytes": 16694,
+      "sha256": "1235c52fd1df5215218a7072dabf0cdd08c3b2ad01f80bbfae4d2bb55bd56ae0"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_serial_then_quadol_tb.sv",
+      "bytes": 1588,
+      "sha256": "70d43599cbb163ceb148805c70369810bf2bd41c25ebb66e37b61294d71aad81"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_state_window.v",
+      "bytes": 16333,
+      "sha256": "9db48ae6b43f9b8e98f80b217c0a34c3989b423aaf73088311cf78925983f814"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_state_window_tb.sv",
+      "bytes": 1576,
+      "sha256": "4fa0f9c7eda7827fa7c27d623bee202c18a9638ff9bea2c0125dab29cddd1f56"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quadol_wce_table",
+      "bytes": 20664,
+      "sha256": "d3f0cec395e3a2ae95b47eb79a85ae3327734bde6923a191c8eba238ac7d21b4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quadol_wce_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quadol_wce_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quadol_wce_table.cpp",
+      "bytes": 16554,
+      "sha256": "a5fcde37db261175f50fbea5fc928e7dc7c84918ae611c8189c7ea2ac5fde441"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quality_window_table",
+      "bytes": 20672,
+      "sha256": "893a09c55d722fbbf55af2f973cb716dcf6cda0e81919602ac5b67b32b3219fd"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quality_window_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quality_window_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quality_window_table.cpp",
+      "bytes": 16351,
+      "sha256": "fa635d90c95944aef730194fa18055d8c68cd7c900e523da472b31d3b55ed147"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_serial_then_quadol_table",
+      "bytes": 20672,
+      "sha256": "77fc8079c9c6b5570426f79bc78bf226c309ed3e910ac3c439a53a670e8affa2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_serial_then_quadol_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_serial_then_quadol_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_serial_then_quadol_table.cpp",
+      "bytes": 15960,
+      "sha256": "927aeb07ff962f298c945dd9f7f979f3d953890900a9ec7229c77821d68ae0a8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_state_window_table",
+      "bytes": 20672,
+      "sha256": "3a26a63383656affa1b4b16f5ba3fab85c91763983e8ef0fd06786911b676ba9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_state_window_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_state_window_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_state_window_table.cpp",
+      "bytes": 16351,
+      "sha256": "ae52826f3f158b153b9d2924d92663219f4946132a63b59357f5a43512351d90"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quadol_wce_table",
+      "bytes": 20664,
+      "sha256": "48f355562e283deee18bfa34aab957a7feca399f57bc9ca3df7fee29d527121e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quadol_wce_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quadol_wce_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quadol_wce_table.cpp",
+      "bytes": 14009,
+      "sha256": "c523d3f83b90ed5c7194a304e97173cad6d89221bb1a6add9c268397e460d345"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quality_window_table",
+      "bytes": 20672,
+      "sha256": "cd8623441b2c2a932b74cb87e49b8694c31c90b17cca767da4c29e4ab2e43f46"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quality_window_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quality_window_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quality_window_table.cpp",
+      "bytes": 13763,
+      "sha256": "c62b5a94d72b4faf86a69e77dfa93c6b11c9c03190b39367c60bd34e4e2e6676"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_serial_then_quadol_table",
+      "bytes": 20672,
+      "sha256": "b50b52d7b3daeb7d9ee106142d479b5b3a994530bf2d1acf873cc51408e07902"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_serial_then_quadol_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_serial_then_quadol_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_serial_then_quadol_table.cpp",
+      "bytes": 13849,
+      "sha256": "e447a83465bb29b4ade04551cf1652eb4abdab78b904fc343cd7bdd48890aa23"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_state_window_table",
+      "bytes": 20664,
+      "sha256": "d7115544655303801dddb6bb670fbbc74e836486561d2664294a46ec2d03cdbe"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_state_window_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_state_window_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_state_window_table.cpp",
+      "bytes": 13763,
+      "sha256": "b743d2775c09a0a45a9513fffdf3dd6851b643a0eb11c7f5f1e250a0424b21ba"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quadol_wce_table",
+      "bytes": 20664,
+      "sha256": "eb9dbd97a4b4cbc40e36fd229447b8026c121760c1e0533f982a26a23c610082"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quadol_wce_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quadol_wce_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quadol_wce_table.cpp",
+      "bytes": 15575,
+      "sha256": "6a463b892201c581bb880e10bba84610938b57012e4198bfe729f4603ed84873"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quality_window_table",
+      "bytes": 20672,
+      "sha256": "c9fa267f18a5b2ff9d3f5df05fd4fd2b7e1428eb3c48582895b61ad4f82672cf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quality_window_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quality_window_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quality_window_table.cpp",
+      "bytes": 15659,
+      "sha256": "2e762dfbd95afed1598e214ae4133ff456e959b1ff1862964930f10f51cf31e7"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_serial_then_quadol_table",
+      "bytes": 20672,
+      "sha256": "a6be5299380cfa765bd508814aaa428cd42c15db91de6648da0afdca3a1614f2"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_serial_then_quadol_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_serial_then_quadol_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_serial_then_quadol_table.cpp",
+      "bytes": 15513,
+      "sha256": "e0ba11bd42dd5433892f2ea9e0ecf6edb1d13684872682031a1f8334da37223f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_state_window_table",
+      "bytes": 20664,
+      "sha256": "5cea698f3576ec60b81a109b180d7f23fdcad695301a10ce6ab5cceb28b0ddcc"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_state_window_table.compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_state_window_table.compile.log.stderr",
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_state_window_table.cpp",
+      "bytes": 15659,
+      "sha256": "c31e3e21ab0c57a75ec8a5b9adc65589b0b0485979ebc3edcc35a80aad7b2788"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\commands.json",
+      "bytes": 13697,
+      "sha256": "ba33aad76cbba6eb18bdaea3f44b86b62d6a98a5023edfaf8b1ec247dd67401d"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\device_availability_amendment.json",
+      "bytes": 1219,
+      "sha256": "d8520453ae05445f2321707794cd5ffaeb1b135aec632be7c0bdc678ff28e8a4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\execution_commands.json",
+      "bytes": 128027,
+      "sha256": "c228b99e07386b4237f96f3824597f248d9592adb2200bc787e342a194eee229"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\execution_complete.json",
+      "bytes": 156,
+      "sha256": "7b21aa48ded0a6e58a674ed0de354143704463b272efec7507b9a5e08867005b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\execution_error.json",
+      "bytes": 2913,
+      "sha256": "f205eebc7fe4beb1a9f103537e4fd87a0c73abd4629dc7acba331467d404401b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\execution_error_artix200_opt_attempt1.json",
+      "bytes": 1499,
+      "sha256": "1bb941133746ef5b42a4c5a0b12d6d87ed16d2c4c161449a960517586991a42c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\execution_error_before_checkpoint_recovery.json",
+      "bytes": 2913,
+      "sha256": "f205eebc7fe4beb1a9f103537e4fd87a0c73abd4629dc7acba331467d404401b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\execution_error_missing_kintex.json",
+      "bytes": 1499,
+      "sha256": "a461daf4105953541c5388af2bfa12803f1e275ec473706ec80435a039280226"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\execution_error_opt_design_attempt1.json",
+      "bytes": 1514,
+      "sha256": "af47e28179ed738892b8ed1a42909b8695e87fe76fa5aa2d62accff1959063ae"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\final_assessment.json",
+      "bytes": 1628,
+      "sha256": "4ecc0ba1c05e3152d5158f0633a17f2cb833d8f86bc7712d7f6ed9ca56ec862c"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\installed_parts.log",
+      "bytes": 4874,
+      "sha256": "de2e5c74fd34d66e88eae8682c52115b1ba7feb8a8c237eaf2cd5973dfbde9d6"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\prepared.json",
+      "bytes": 207,
+      "sha256": "cfe6414fcaa57a2c565b0058cac3eeef5c3abf0f6bb75f8a9ccf986b0248faf8"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\progress.json",
+      "bytes": 87,
+      "sha256": "a41d80b10b4585ef5a03c0cd64082b89617c587d392df2de0050ad31310ad0cf"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\rtl_validation.json",
+      "bytes": 3587,
+      "sha256": "3a1e0d2cdcb3c272887c362742d2837f7af982461b7362bad6a0ce4be46c5f3e"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\state\\table_verification.json",
+      "bytes": 2577,
+      "sha256": "e766d782270de1d6afa953b2166df73493435679bb4b1b25032078d7a878e32b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\amend_device_availability.py",
+      "bytes": 2569,
+      "sha256": "be915f92bf2916551a6d8ab5e3a4c237399500e330c050e9a4591ef09c04c7d4"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\analyze23.py",
+      "bytes": 7989,
+      "sha256": "22a2418ebb267736c02e40c5f59e6545b6b87b59e195b668685feccde5e09f6f"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\close22.py",
+      "bytes": 4479,
+      "sha256": "c303c3f2d1a084824c723b1335c4ef277cb4db04b8b6ad6b9dffd9224bc90185"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\close23.py",
+      "bytes": 3981,
+      "sha256": "c1121cc4becbc01348141a66b266442374ba2f174aedfe26fb2d76972509da05"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\implement_from_synth.tcl",
+      "bytes": 718,
+      "sha256": "56828f3097e539d143b9dfef5733a37e5372f7df0fba848785768ec8f5cd05a9"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\inspect23.py",
+      "bytes": 1459,
+      "sha256": "d8e41996ed9b19ca47182742be6c09d9c702b89425a6b4c62b91c5b93a3ef963"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\list_parts.tcl",
+      "bytes": 207,
+      "sha256": "b72b5584ba6e9c24fc01654381eb7f667b8efd8f50158872d81fc1815392b830"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "bytes": 876,
+      "sha256": "da44745ae805a7728127a16e5f1b3644e8042348ee80c3470f013a44fffb9b4b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "bytes": 217,
+      "sha256": "ffca1c51b59b76863e363c915f8730b85782ead75a87da12b48a56673cc83002"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\prepare23.py",
+      "bytes": 9137,
+      "sha256": "b4686dbea8035a642a5aaf0a3e6b759c68510228a21bb110fae0060cac27d791"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\recover_current_checkpoint.py",
+      "bytes": 1326,
+      "sha256": "33b43b3c535c8b1320b3b71eaffe0a88ebb62698b53c3148fd98a4447924844b"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\run23.py",
+      "bytes": 6063,
+      "sha256": "647b17ce390aec411a488fe227a09aae73e4a92543f4d4171272a0ad54187221"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\update_campaign_progress.py",
+      "bytes": 1250,
+      "sha256": "84b1480d553c16ffe25131764046532eacbe34047dcb5bd43e378d70f612c2aa"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\verify_final_evidence.py",
+      "bytes": 3384,
+      "sha256": "2c2d56f7a9dd5613110c65454fae177cc9313699f341ead10a2d13b9fefc2afa"
+    },
+    {
+      "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\write_final_report.py",
+      "bytes": 16536,
+      "sha256": "050c7c97ec8eadd0826824c4ab37b7713edf1c0c21def1404b6ff07c9ef89cb9"
+    }
+  ],
+  "endpoints": [
+    {
+      "top": "r23_fir8_quadol_wce",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir8_quadol_wce",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir8_serial_then_quadol",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir8_serial_then_quadol",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir8_state_window",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir8_state_window",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir8_quality_window",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir8_quality_window",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_quadol_wce",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_quadol_wce",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_serial_then_quadol",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_serial_then_quadol",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_state_window",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_state_window",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_quality_window",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir9_quality_window",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_quadol_wce",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_quadol_wce",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_serial_then_quadol",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_serial_then_quadol",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_state_window",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_state_window",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_quality_window",
+      "part": "xc7a100tcsg324-1",
+      "status": "EVIDENCE_CONSISTENT"
+    },
+    {
+      "top": "r23_fir10_quality_window",
+      "part": "xc7a200tfbg676-1",
+      "status": "EVIDENCE_CONSISTENT"
+    }
+  ],
+  "note": "Evidence integrity only; journal verdict is an independent research judgment. Core is OOC, power is functional-SAIF estimate."
+}

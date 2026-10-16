@@ -1,0 +1,58 @@
+{
+  "case": "mac6_add4_b64",
+  "status": "COMPLETE",
+  "candidate_pairs": 15,
+  "author_error": 48,
+  "author_abstract_cost": 46,
+  "author_selection": [
+    2,
+    7,
+    10,
+    13
+  ],
+  "selected": [
+    6,
+    8,
+    9,
+    10,
+    13
+  ],
+  "implementation": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "selected_query": {
+    "query": 24,
+    "selected": [
+      6,
+      8,
+      9,
+      10,
+      13
+    ],
+    "impl": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "FULL_DOMAIN",
+    "WCE": 44,
+    "inputs": 65536,
+    "witness_A": 12,
+    "witness_B": 9,
+    "witness_Y": 64,
+    "wall_s": 0.000784953,
+    "MAE": 11.48046875,
+    "graph_sha256": "73e871e72749c0e3853dab6ed8ee167e318b5dcb89b7fd800a022ac724862f86"
+  },
+  "endpoint_protection_changed_selection": true,
+  "queries": 45,
+  "full_inputs": 2949120,
+  "full_eval_wall_s": 0.035928105,
+  "invalid_graphs": 0
+}

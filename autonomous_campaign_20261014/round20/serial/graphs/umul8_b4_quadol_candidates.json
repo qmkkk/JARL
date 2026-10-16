@@ -1,0 +1,222 @@
+[
+  {
+    "id": 0,
+    "a": "n74",
+    "b": "n82",
+    "HD": 22,
+    "mux_type": "MUX_B",
+    "mux_inverse": true,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 1,
+    "a": "n74",
+    "b": "n90",
+    "HD": 14,
+    "mux_type": "MUX_A",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 2,
+    "a": "n74",
+    "b": "n92",
+    "HD": 14,
+    "mux_type": "MUX_A",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 3,
+    "a": "n82",
+    "b": "n92",
+    "HD": 14,
+    "mux_type": "MUX_A",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 4,
+    "a": "n82",
+    "b": "n80",
+    "HD": 21,
+    "mux_type": "MUX_B",
+    "mux_inverse": true,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 5,
+    "a": "n85",
+    "b": "n89",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 6,
+    "a": "n85",
+    "b": "n141",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 7,
+    "a": "n85",
+    "b": "n143",
+    "HD": 11,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 8,
+    "a": "n89",
+    "b": "n90",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 9,
+    "a": "n90",
+    "b": "n92",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 10,
+    "a": "n128",
+    "b": "n131",
+    "HD": 10,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 11,
+    "a": "n128",
+    "b": "n155",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 12,
+    "a": "n131",
+    "b": "n155",
+    "HD": 11,
+    "mux_type": "MUX_A",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 13,
+    "a": "n141",
+    "b": "n143",
+    "HD": 10,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 14,
+    "a": "n144",
+    "b": "n152",
+    "HD": 14,
+    "mux_type": "MUX_A",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 15,
+    "a": "n144",
+    "b": "n153",
+    "HD": 14,
+    "mux_type": "MUX_A",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 16,
+    "a": "n152",
+    "b": "n153",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 17,
+    "a": "n152",
+    "b": "n158",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 18,
+    "a": "n155",
+    "b": "n158",
+    "HD": 7,
+    "mux_type": "MUX_B",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 1
+  },
+  {
+    "id": 19,
+    "a": "n91",
+    "b": "n102",
+    "HD": 6,
+    "mux_type": "NO_MUX",
+    "mux_inverse": false,
+    "invert_A": false,
+    "invert_B": false,
+    "implementations": 4
+  }
+]

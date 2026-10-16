@@ -1,0 +1,54 @@
+{
+  "case": "umul8_b256",
+  "status": "COMPLETE",
+  "candidate_pairs": 23,
+  "author_error": 228,
+  "author_abstract_cost": 85,
+  "author_selection": [
+    2,
+    4,
+    15,
+    17
+  ],
+  "selected": [
+    4,
+    16,
+    18,
+    20
+  ],
+  "implementation": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "selected_query": {
+    "query": 34,
+    "selected": [
+      4,
+      16,
+      18,
+      20
+    ],
+    "impl": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "FULL_DOMAIN",
+    "WCE": 168,
+    "inputs": 65536,
+    "witness_A": 20,
+    "witness_B": 19,
+    "witness_Y": 548,
+    "wall_s": 0.001022296,
+    "MAE": 67.447265625,
+    "graph_sha256": "58b7da955de766badcbbb6250b19df745fac5bfc63b5173d5889d494f55a53be"
+  },
+  "endpoint_protection_changed_selection": true,
+  "queries": 45,
+  "full_inputs": 2949120,
+  "full_eval_wall_s": 0.047361732,
+  "invalid_graphs": 0
+}

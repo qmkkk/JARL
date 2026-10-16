@@ -1,0 +1,47 @@
+[
+  {
+    "case": "mac8_add8_b256_column",
+    "method": "quadol_wce",
+    "width": 8,
+    "inputs": 65536,
+    "WCE": 256,
+    "MAE": 94.856689453125,
+    "RMSE": 113.73763669076301,
+    "bias": 59.75,
+    "zero_a_max": 224,
+    "zero_b_max": 224,
+    "scalar_checks": 67,
+    "sha256": "e925caf4c4ff98431d6dbbce622f15e2a44426908e191144f675381f5c1c6ca2",
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\product_tables\\mac8_add8_b256_column_quadol_wce.bin"
+  },
+  {
+    "case": "mac9_add6_b1024_column",
+    "method": "quadol_wce",
+    "width": 9,
+    "inputs": 262144,
+    "WCE": 977,
+    "MAE": 346.40802001953125,
+    "RMSE": 418.504778945235,
+    "bias": 255.75,
+    "zero_a_max": 896,
+    "zero_b_max": 896,
+    "scalar_checks": 67,
+    "sha256": "8241fb6627b891664012174bb84d794e03006b395c9b7cb51be404dee48cec9e",
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\product_tables\\mac9_add6_b1024_column_quadol_wce.bin"
+  },
+  {
+    "case": "mac10_add4_b4096_column",
+    "method": "quadol_wce",
+    "width": 10,
+    "inputs": 1048576,
+    "WCE": 4096,
+    "MAE": 1165.0967464447021,
+    "RMSE": 1428.1926515705086,
+    "bias": 611.75,
+    "zero_a_max": 2048,
+    "zero_b_max": 3072,
+    "scalar_checks": 67,
+    "sha256": "6a046ed2f29d038abafd5fd6dec3b91580495c4b0e30ecdbb4255048ea4fa0b4",
+    "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\results\\serial_claim_check\\results\\product_tables\\mac10_add4_b4096_column_quadol_wce.bin"
+  }
+]

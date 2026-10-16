@@ -1,0 +1,18 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Thu Oct 15 14:50:47 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/round_sim/xsim_script.tcl
+# xsim {round_sim} -autoloadwcfg -tclbatch {D:/paper_project_5/project_3/autonomous_campaign_20261014/round21/results/hardware/simulation_mac8_add8_b256_column_mse/run.tcl}
+Time resolution is 1 ps
+source D:/paper_project_5/project_3/autonomous_campaign_20261014/round21/results/hardware/simulation_mac8_add8_b256_column_mse/run.tcl
+## run all
+R21_PASS family=mac8_add8_b256_column_mse vectors=4285 designs=4
+$finish called at time : 85896 ns : File "D:/paper_project_5/project_3/autonomous_campaign_20261014/round21/rtl/tb_r21_mac8_add8_b256_column_mse.sv" Line 20
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Oct 15 14:50:50 2026...

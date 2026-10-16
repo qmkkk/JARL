@@ -1,0 +1,23 @@
+umul8_b256 0 support 6 to 0
+umul8_b256 1 support 6 to 0
+umul8_b256 2 support 6 to 4
+umul8_b256 3 support 6 to 0
+umul8_b256 4 support 6 to 0
+umul8_b256 5 support 6 to 4
+umul8_b256 6 support 6 to 5
+umul8_b256 7 support 6 to 3
+umul8_b256 8 support 4 to 4
+umul8_b256 9 support 5 to 5
+umul8_b256 10 support 4 to 3
+umul8_b256 11 support 4 to 2
+umul8_b256 12 support 4 to 1
+umul8_b256 13 support 4 to 2
+umul8_b256 14 support 2 to 2
+umul8_b256 15 support 6 to 6
+umul8_b256 16 support 6 to 6
+umul8_b256 17 support 6 to 6
+umul8_b256 18 support 2 to 2
+umul8_b256 19 support 6 to 6
+umul8_b256 20 support 6 to 6
+umul8_b256 21 support 6 to 5
+SERIAL_SUPPORT_COMPLETE umul8_b256

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_state_window/routed.v" into library work
+INFO: [VRFC 10-311] analyzing module r21_mac9_add6_b1024_column_mse_state_window
+INFO: [VRFC 10-311] analyzing module r23_fir9_state_window
+INFO: [VRFC 10-311] analyzing module r23_fir9_state_window_signed
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_state_window_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/AMDDesignTools/2026.1/data/verilog/src/glbl.v" into library work

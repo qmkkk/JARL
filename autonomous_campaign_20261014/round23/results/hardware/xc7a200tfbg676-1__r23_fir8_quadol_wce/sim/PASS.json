@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "top": "r23_fir8_quadol_wce",
+  "checks": 6144,
+  "latency": 19,
+  "II": 20,
+  "routed": true,
+  "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim\\simulate_1.log",
+  "saif_sha256": "35533eaf844a13940d0653fe011521cc00ce9589e4695c27785a9f514046269f",
+  "saif_bytes": 121252
+}

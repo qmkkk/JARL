@@ -1,0 +1,410 @@
+[
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_quadol_wce_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_quadol_wce_table"
+    ],
+    "returncode": 0,
+    "seconds": 5.394059100002778,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quadol_wce_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_quadol_wce_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir8_quadol_wce_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.10980940000081318,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir8_quadol_wce_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_serial_then_quadol_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_serial_then_quadol_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.618440099999134,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_serial_then_quadol_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_serial_then_quadol_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir8_serial_then_quadol_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.09850200000073528,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir8_serial_then_quadol_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_state_window_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_state_window_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.6137792000008631,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_state_window_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_state_window_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir8_state_window_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.09795760000270093,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir8_state_window_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_quality_window_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_quality_window_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.595499999999447,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir8_quality_window_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir8_quality_window_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir8_quality_window_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.093221099999937,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir8_quality_window_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_quadol_wce_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_quadol_wce_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.6104238000007172,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quadol_wce_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_quadol_wce_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir9_quadol_wce_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.15044510000006994,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir9_quadol_wce_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_serial_then_quadol_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_serial_then_quadol_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.78390859999854,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_serial_then_quadol_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_serial_then_quadol_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir9_serial_then_quadol_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.17975469999873894,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir9_serial_then_quadol_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_state_window_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_state_window_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.6303222999995342,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_state_window_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_state_window_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir9_state_window_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.12193069999921136,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir9_state_window_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_quality_window_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_quality_window_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.7082923999987543,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir9_quality_window_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir9_quality_window_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir9_quality_window_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.12953539999944041,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir9_quality_window_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_quadol_wce_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_quadol_wce_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.6252878999985114,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quadol_wce_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_quadol_wce_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir10_quadol_wce_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.26000570000178413,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir10_quadol_wce_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_serial_then_quadol_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_serial_then_quadol_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.6488273000031768,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_serial_then_quadol_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_serial_then_quadol_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir10_serial_then_quadol_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.2788251999991189,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir10_serial_then_quadol_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_state_window_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_state_window_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.6170607000021846,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_state_window_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_state_window_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir10_state_window_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.2509453000020585,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir10_state_window_table.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "g++",
+      "-O2",
+      "-std=c++17",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_quality_window_table.cpp",
+      "-o",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_quality_window_table"
+    ],
+    "returncode": 0,
+    "seconds": 0.5990989000019908,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\src\\r23_fir10_quality_window_table.compile.log"
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu",
+      "-u",
+      "k",
+      "--",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/src/r23_fir10_quality_window_table",
+      "/mnt/d/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/r23_fir10_quality_window_unsigned.u32"
+    ],
+    "returncode": 0,
+    "seconds": 0.2641235000010056,
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\logs\\r23_fir10_quality_window_table.log"
+  }
+]

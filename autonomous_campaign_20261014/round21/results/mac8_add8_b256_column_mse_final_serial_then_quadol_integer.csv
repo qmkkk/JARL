@@ -1,0 +1,2 @@
+inputs,WCE,SAE,SSE,signed_sum,minimum_output,maximum_output,witness_A,witness_B,witness_Y
+16777216,241,1459728384,183043620864,935329792,208,65167,63,63,3728

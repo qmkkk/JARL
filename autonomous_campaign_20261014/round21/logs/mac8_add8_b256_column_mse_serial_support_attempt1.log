@@ -1,0 +1,11 @@
+mac8_add8_b256_column_mse 0 support 6 to 6
+mac8_add8_b256_column_mse 1 support 6 to 0
+mac8_add8_b256_column_mse 2 support 5 to 5
+mac8_add8_b256_column_mse 3 support 5 to 5
+mac8_add8_b256_column_mse 4 support 4 to 4
+mac8_add8_b256_column_mse 5 support 5 to 5
+mac8_add8_b256_column_mse 6 support 4 to 4
+mac8_add8_b256_column_mse 7 support 5 to 5
+mac8_add8_b256_column_mse 8 support 5 to 5
+mac8_add8_b256_column_mse 9 support 5 to 5
+SERIAL_SUPPORT_COMPLETE mac8_add8_b256_column_mse

@@ -1,0 +1,10 @@
+{
+  "recorded": "2026-10-15T13:52:31.858510+08:00",
+  "phase": "hardware_synthesis",
+  "error": "Vivado Designutils20-411 realtime directory locked during second in-memory project",
+  "source_log": "results/hardware/synth_batch1.log",
+  "repair": "One isolated Vivado process/cwd per source using unchanged R19 route_clocked.tcl, rather than multiple projects in one process. No deletion or process termination.",
+  "preserved": "All30completed searches,90exports,6HDL passes,first complete synthesis checkpoint,failed batch log",
+  "hypotheses_inputs_method_matrix_unchanged": true,
+  "new_script_sha256": "36df5c1c8081b0f81501e9e25532dc854b51d3f4c3758464e67f3d1105dee3b8"
+}

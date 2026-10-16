@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/rtl/r19_mac10_add4_b4096_column_seed.v" into library work
+INFO: [VRFC 10-311] analyzing module r19_mac10_add4_b4096_column_seed
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/rtl/integration/r19_dot16_mac10_add4_b4096_column_seed.v" into library work
+INFO: [VRFC 10-311] analyzing module r19_dot16_mac10_add4_b4096_column_seed
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/rtl/r19_mac10_add4_b4096_column_quadol_wce.v" into library work
+INFO: [VRFC 10-311] analyzing module r19_mac10_add4_b4096_column_quadol_wce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/rtl/integration/r19_dot16_mac10_add4_b4096_column_quadol_wce.v" into library work
+INFO: [VRFC 10-311] analyzing module r19_dot16_mac10_add4_b4096_column_quadol_wce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/rtl/r19_mac10_add4_b4096_column_state_window.v" into library work
+INFO: [VRFC 10-311] analyzing module r19_mac10_add4_b4096_column_state_window
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/rtl/integration/r19_dot16_mac10_add4_b4096_column_state_window.v" into library work
+INFO: [VRFC 10-311] analyzing module r19_dot16_mac10_add4_b4096_column_state_window
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/rtl/integration/tb_dot16_mac10_add4_b4096_column.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_dot16_mac10_add4_b4096_column
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/AMDDesignTools/2026.1/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

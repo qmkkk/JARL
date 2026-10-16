@@ -1,0 +1,2 @@
+method,inputs,WCE,seed_max_delta,witness_A,witness_B,witness_Y,MAE_at_lowbits_zero
+quadol_wce,16777216,4096,3584,512,4,6144,1165.1

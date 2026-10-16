@@ -1,0 +1,253 @@
+// GENERATED; vendor HDL simulation and physical implementation: NOT_RUN.
+// Same registered boundary as source EDIF; no DONT_TOUCH or placement constraints.
+module r21_mac9_add6_b1024_column_mse_state_window(input wire clk,input wire [15:0] A,B,output wire [31:0] Y);
+wire [238:0] v;
+assign v[0]=clk;
+assign v[1]=A[15];
+assign v[2]=A[14];
+assign v[3]=A[13];
+assign v[4]=A[12];
+assign v[5]=A[11];
+assign v[6]=A[10];
+assign v[7]=A[9];
+assign v[8]=A[8];
+assign v[9]=A[7];
+assign v[10]=A[6];
+assign v[11]=A[5];
+assign v[12]=A[4];
+assign v[13]=A[3];
+assign v[14]=A[2];
+assign v[15]=A[1];
+assign v[16]=A[0];
+assign v[17]=B[15];
+assign v[18]=B[14];
+assign v[19]=B[13];
+assign v[20]=B[12];
+assign v[21]=B[11];
+assign v[22]=B[10];
+assign v[23]=B[9];
+assign v[24]=B[8];
+assign v[25]=B[7];
+assign v[26]=B[6];
+assign v[27]=B[5];
+assign v[28]=B[4];
+assign v[29]=B[3];
+assign v[30]=B[2];
+assign v[31]=B[1];
+assign v[32]=B[0];
+assign Y[31]=v[33];
+assign Y[30]=v[33];
+assign Y[29]=v[33];
+assign Y[28]=v[33];
+assign Y[27]=v[33];
+assign Y[26]=v[33];
+assign Y[25]=v[33];
+assign Y[24]=v[33];
+assign Y[23]=v[33];
+assign Y[22]=v[33];
+assign Y[21]=v[33];
+assign Y[20]=v[33];
+assign Y[19]=v[33];
+assign Y[18]=v[33];
+assign Y[17]=v[34];
+assign Y[16]=v[35];
+assign Y[15]=v[36];
+assign Y[14]=v[37];
+assign Y[13]=v[38];
+assign Y[12]=v[39];
+assign Y[11]=v[40];
+assign Y[10]=v[41];
+assign Y[9]=v[42];
+assign Y[8]=v[43];
+assign Y[7]=v[33];
+assign Y[6]=v[44];
+assign Y[5]=v[45];
+assign Y[4]=v[46];
+assign Y[3]=v[47];
+assign Y[2]=v[48];
+assign Y[1]=v[49];
+assign Y[0]=v[50];
+GND  c0 (.G(v[33]));
+VCC  c1 (.P(v[51]));
+LUT6 #(.INIT(64'h8778788778878778)) c3 (.O(v[55]),.I0(v[56]),.I1(v[57]),.I2(v[58]),.I3(v[59]),.I4(v[60]),.I5(v[61]));
+LUT2 #(.INIT(4'h9)) c4 (.O(v[62]),.I0(v[54]),.I1(v[53]));
+LUT2 #(.INIT(4'h7)) c5 (.O(v[63]),.I0(v[64]),.I1(v[65]));
+LUT3 #(.INIT(8'h7F)) c6 (.O(v[66]),.I0(v[67]),.I1(v[68]),.I2(v[69]));
+LUT2 #(.INIT(4'h8)) c9 (.O(v[75]),.I0(v[76]),.I1(v[77]));
+LUT2 #(.INIT(4'h8)) c11 (.O(v[81]),.I0(v[82]),.I1(v[83]));
+LUT2 #(.INIT(4'h8)) c12 (.O(v[84]),.I0(v[68]),.I1(v[83]));
+LUT4 #(.INIT(16'h7888)) c13 (.O(v[85]),.I0(v[77]),.I1(v[76]),.I2(v[83]),.I3(v[86]));
+LUT6 #(.INIT(64'hF888800080008000)) c14 (.O(v[87]),.I0(v[71]),.I1(v[88]),.I2(v[89]),.I3(v[90]),.I4(v[74]),.I5(v[91]));
+LUT6 #(.INIT(64'hF880808088000000)) c15 (.O(v[92]),.I0(v[88]),.I1(v[93]),.I2(v[65]),.I3(v[90]),.I4(v[71]),.I5(v[91]));
+LUT6 #(.INIT(64'hF880880080800000)) c16 (.O(v[94]),.I0(v[82]),.I1(v[88]),.I2(v[89]),.I3(v[90]),.I4(v[91]),.I5(v[93]));
+LUT6 #(.INIT(64'h956A6A956A956A95)) c17 (.O(v[95]),.I0(v[87]),.I1(v[90]),.I2(v[65]),.I3(v[96]),.I4(v[91]),.I5(v[76]));
+LUT6 #(.INIT(64'h956A6A956A956A95)) c18 (.O(v[97]),.I0(v[92]),.I1(v[88]),.I2(v[71]),.I3(v[98]),.I4(v[74]),.I5(v[91]));
+LUT6 #(.INIT(64'h956A6A956A956A95)) c19 (.O(v[99]),.I0(v[94]),.I1(v[90]),.I2(v[71]),.I3(v[100]),.I4(v[65]),.I5(v[91]));
+LUT6 #(.INIT(64'h8777788878887888)) c20 (.O(v[101]),.I0(v[91]),.I1(v[89]),.I2(v[82]),.I3(v[88]),.I4(v[93]),.I5(v[90]));
+LUT2 #(.INIT(4'h7)) c22 (.O(v[96]),.I0(v[89]),.I1(v[88]));
+LUT2 #(.INIT(4'h7)) c23 (.O(v[98]),.I0(v[89]),.I1(v[90]));
+LUT2 #(.INIT(4'h7)) c24 (.O(v[100]),.I0(v[93]),.I1(v[88]));
+LUT6 #(.INIT(64'h659A956A956A956A)) c25 (.O(v[103]),.I0(v[62]),.I1(v[82]),.I2(v[67]),.I3(v[104]),.I4(v[68]),.I5(v[69]));
+LUT6 #(.INIT(64'h9996969696666666)) c27 (.O(v[107]),.I0(v[80]),.I1(v[79]),.I2(v[55]),.I3(v[93]),.I4(v[67]),.I5(v[52]));
+LUT6 #(.INIT(64'h56666AAA95555696)) c28 (.O(v[108]),.I0(v[102]),.I1(v[62]),.I2(v[82]),.I3(v[67]),.I4(v[104]),.I5(v[66]));
+LUT3 #(.INIT(8'h56)) c29 (.O(v[109]),.I0(v[103]),.I1(v[106]),.I2(v[70]));
+LUT5 #(.INIT(32'h96696969)) c30 (.O(v[110]),.I0(v[106]),.I1(v[70]),.I2(v[69]),.I3(v[68]),.I4(v[67]));
+LUT6 #(.INIT(64'hFFE8E8E8E8000000)) c31 (.O(v[111]),.I0(v[112]),.I1(v[113]),.I2(v[114]),.I3(v[67]),.I4(v[65]),.I5(v[115]));
+LUT3 #(.INIT(8'hE8)) c32 (.O(v[116]),.I0(v[117]),.I1(v[118]),.I2(v[119]));
+LUT2 #(.INIT(4'h7)) c34 (.O(v[122]),.I0(v[67]),.I1(v[89]));
+LUT3 #(.INIT(8'hE8)) c35 (.O(v[123]),.I0(v[124]),.I1(v[125]),.I2(v[126]));
+LUT2 #(.INIT(4'h7)) c36 (.O(v[127]),.I0(v[67]),.I1(v[65]));
+LUT5 #(.INIT(32'h95556AAA)) c37 (.O(v[115]),.I0(v[118]),.I1(v[121]),.I2(v[76]),.I3(v[72]),.I4(v[117]));
+LUT6 #(.INIT(64'hEABFBFEA802A2A80)) c40 (.O(v[132]),.I0(v[111]),.I1(v[74]),.I2(v[67]),.I3(v[133]),.I4(v[134]),.I5(v[116]));
+LUT6 #(.INIT(64'h6996966996699669)) c41 (.O(v[135]),.I0(v[123]),.I1(v[113]),.I2(v[112]),.I3(v[114]),.I4(v[67]),.I5(v[89]));
+LUT6 #(.INIT(64'h8000000000000000)) c42 (.O(v[79]),.I0(v[62]),.I1(v[104]),.I2(v[69]),.I3(v[68]),.I4(v[67]),.I5(v[82]));
+LUT6 #(.INIT(64'hEA8080EA80EAEA80)) c45 (.O(v[139]),.I0(v[123]),.I1(v[67]),.I2(v[89]),.I3(v[113]),.I4(v[112]),.I5(v[114]));
+LUT4 #(.INIT(16'h8778)) c46 (.O(v[140]),.I0(v[74]),.I1(v[67]),.I2(v[133]),.I3(v[134]));
+LUT6 #(.INIT(64'h17E8E817E817E817)) c47 (.O(v[141]),.I0(v[112]),.I1(v[113]),.I2(v[114]),.I3(v[115]),.I4(v[67]),.I5(v[65]));
+LUT6 #(.INIT(64'hFFFF877887780000)) c48 (.O(v[130]),.I0(v[56]),.I1(v[57]),.I2(v[58]),.I3(v[59]),.I4(v[61]),.I5(v[60]));
+LUT3 #(.INIT(8'h96)) c49 (.O(v[131]),.I0(v[125]),.I1(v[126]),.I2(v[124]));
+LUT6 #(.INIT(64'h0F70000070F00000)) c50 (.O(v[112]),.I0(v[64]),.I1(v[65]),.I2(v[76]),.I3(v[74]),.I4(v[72]),.I5(v[142]));
+LUT6 #(.INIT(64'h00B2B200B20000B2)) c51 (.O(v[143]),.I0(v[120]),.I1(v[122]),.I2(v[123]),.I3(v[127]),.I4(v[115]),.I5(v[128]));
+LUT2 #(.INIT(4'h8)) c52 (.O(v[144]),.I0(v[65]),.I1(v[83]));
+LUT2 #(.INIT(4'h8)) c53 (.O(v[145]),.I0(v[89]),.I1(v[83]));
+LUT2 #(.INIT(4'h8)) c54 (.O(v[146]),.I0(v[71]),.I1(v[83]));
+LUT2 #(.INIT(4'h8)) c55 (.O(v[147]),.I0(v[93]),.I1(v[83]));
+LUT6 #(.INIT(64'hF880000000000000)) c56 (.O(v[119]),.I0(v[64]),.I1(v[65]),.I2(v[74]),.I3(v[142]),.I4(v[76]),.I5(v[72]));
+LUT6 #(.INIT(64'hEA80FFFF0000EA80)) c57 (.O(v[121]),.I0(v[59]),.I1(v[56]),.I2(v[57]),.I3(v[58]),.I4(v[148]),.I5(v[149]));
+LUT6 #(.INIT(64'h56666AAAA9999555)) c58 (.O(v[126]),.I0(v[149]),.I1(v[58]),.I2(v[57]),.I3(v[56]),.I4(v[59]),.I5(v[148]));
+LUT6 #(.INIT(64'h8777788878887888)) c59 (.O(v[56]),.I0(v[89]),.I1(v[72]),.I2(v[73]),.I3(v[76]),.I4(v[64]),.I5(v[74]));
+LUT4 #(.INIT(16'h7888)) c61 (.O(v[58]),.I0(v[65]),.I1(v[72]),.I2(v[76]),.I3(v[64]));
+LUT6 #(.INIT(64'hF888800080008000)) c63 (.O(v[59]),.I0(v[64]),.I1(v[74]),.I2(v[73]),.I3(v[76]),.I4(v[72]),.I5(v[89]));
+LUT4 #(.INIT(16'hEA80)) c64 (.O(v[142]),.I0(v[58]),.I1(v[57]),.I2(v[56]),.I3(v[59]));
+LUT2 #(.INIT(4'h7)) c65 (.O(v[148]),.I0(v[72]),.I1(v[74]));
+LUT4 #(.INIT(16'h8000)) c66 (.O(v[149]),.I0(v[76]),.I1(v[72]),.I2(v[65]),.I3(v[64]));
+LUT2 #(.INIT(4'h8)) c67 (.O(v[151]),.I0(v[79]),.I1(v[80]));
+LUT6 #(.INIT(64'h9996969696666666)) c68 (.O(v[152]),.I0(v[132]),.I1(v[136]),.I2(v[133]),.I3(v[67]),.I4(v[74]),.I5(v[134]));
+LUT6 #(.INIT(64'hE78E18711871E78E)) c69 (.O(v[153]),.I0(v[139]),.I1(v[128]),.I2(v[127]),.I3(v[115]),.I4(v[116]),.I5(v[140]));
+LUT6 #(.INIT(64'h7EEEE88881111777)) c70 (.O(v[154]),.I0(v[129]),.I1(v[123]),.I2(v[67]),.I3(v[89]),.I4(v[120]),.I5(v[141]));
+LUT6 #(.INIT(64'h7EEEE88881111777)) c71 (.O(v[155]),.I0(v[79]),.I1(v[130]),.I2(v[67]),.I3(v[71]),.I4(v[131]),.I5(v[135]));
+LUT6 #(.INIT(64'hF888800080008000)) c74 (.O(v[158]),.I0(v[88]),.I1(v[89]),.I2(v[65]),.I3(v[90]),.I4(v[91]),.I5(v[76]));
+LUT6 #(.INIT(64'hDBAF2450B400B400)) c77 (.O(v[161]),.I0(v[162]),.I1(v[89]),.I2(v[65]),.I3(v[88]),.I4(v[74]),.I5(v[90]));
+LUT2 #(.INIT(4'h7)) c78 (.O(v[162]),.I0(v[91]),.I1(v[76]));
+LUT6 #(.INIT(64'h57777FFFA8888000)) c80 (.O(v[165]),.I0(v[166]),.I1(v[137]),.I2(v[67]),.I3(v[76]),.I4(v[138]),.I5(v[167]));
+LUT6 #(.INIT(64'h93363636366C6C6C)) c81 (.O(v[168]),.I0(v[164]),.I1(v[166]),.I2(v[137]),.I3(v[67]),.I4(v[76]),.I5(v[138]));
+LUT4 #(.INIT(16'hEA80)) c82 (.O(v[164]),.I0(v[133]),.I1(v[67]),.I2(v[74]),.I3(v[134]));
+LUT2 #(.INIT(4'h8)) c83 (.O(v[169]),.I0(v[76]),.I1(v[83]));
+LUT2 #(.INIT(4'h8)) c84 (.O(v[170]),.I0(v[74]),.I1(v[83]));
+FDRE #(.INIT(1'b0)) c85 (.Q(v[50]),.C(v[0]),.CE(v[51]),.D(v[171]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c86 (.Q(v[41]),.C(v[0]),.CE(v[51]),.D(v[172]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c87 (.Q(v[40]),.C(v[0]),.CE(v[51]),.D(v[173]),.R(v[33]));
+CARRY4  c88 (.CO({v[174],v[175],v[176],v[177]}),.O({v[173],v[172],v[178],v[179]}),.DI({v[78],v[102],v[103],v[105]}),.S({v[107],v[108],v[109],v[110]}),.CI(v[33]),.CYINIT(v[33]));
+CARRY4  c89 (.CO({v[180],v[181],v[182],v[183]}),.O({v[61],v[104],v[69],v[184]}),.DI({v[33],v[33],v[75],v[33]}),.S({v[81],v[84],v[85],v[33]}),.CI(v[33]),.CYINIT(v[33]));
+CARRY4  c90 (.CO({v[185],v[186],v[187],v[188]}),.O({v[125],v[60],v[54],v[106]}),.DI({v[87],v[92],v[94],v[33]}),.S({v[95],v[97],v[99],v[101]}),.CI(v[33]),.CYINIT(v[33]));
+FDRE #(.INIT(1'b0)) c91 (.Q(v[39]),.C(v[0]),.CE(v[51]),.D(v[189]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c92 (.Q(v[38]),.C(v[0]),.CE(v[51]),.D(v[190]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c93 (.Q(v[37]),.C(v[0]),.CE(v[51]),.D(v[191]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c94 (.Q(v[36]),.C(v[0]),.CE(v[51]),.D(v[192]),.R(v[33]));
+CARRY4  c95 (.CO({v[193],v[194],v[195],v[196]}),.O({v[192],v[191],v[190],v[189]}),.DI({v[132],v[143],v[150],v[151]}),.S({v[152],v[153],v[154],v[155]}),.CI(v[174]),.CYINIT(v[33]));
+CARRY4  c96 (.CO({v[197],v[198],v[199],v[200]}),.O({v[134],v[117],v[114],v[124]}),.DI({v[33],v[33],v[33],v[33]}),.S({v[144],v[145],v[146],v[147]}),.CI(v[180]),.CYINIT(v[33]));
+FDRE #(.INIT(1'b0)) c97 (.Q(v[35]),.C(v[0]),.CE(v[51]),.D(v[201]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c98 (.Q(v[34]),.C(v[0]),.CE(v[51]),.D(v[202]),.R(v[33]));
+CARRY4  c99 (.CO({v[203],v[204],v[205],v[206]}),.O({v[207],v[208],v[202],v[201]}),.DI({v[33],v[33],v[33],v[163]}),.S({v[33],v[33],v[165],v[168]}),.CI(v[193]),.CYINIT(v[33]));
+CARRY4  c100 (.CO({v[209],v[167],v[210],v[211]}),.O({v[212],v[213],v[166],v[138]}),.DI({v[33],v[33],v[33],v[33]}),.S({v[33],v[51],v[169],v[170]}),.CI(v[197]),.CYINIT(v[33]));
+CARRY4  c101 (.CO({v[137],v[214],v[215],v[216]}),.O({v[217],v[133],v[118],v[113]}),.DI({v[33],v[156],v[157],v[158]}),.S({v[51],v[159],v[160],v[161]}),.CI(v[185]),.CYINIT(v[33]));
+FDRE #(.INIT(1'b0)) c102 (.Q(v[49]),.C(v[0]),.CE(v[51]),.D(v[218]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c103 (.Q(v[48]),.C(v[0]),.CE(v[51]),.D(v[219]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c104 (.Q(v[47]),.C(v[0]),.CE(v[51]),.D(v[220]),.R(v[33]));
+CARRY4  c105 (.CO({v[221],v[222],v[223],v[224]}),.O({v[220],v[219],v[218],v[171]}),.DI({v[225],v[226],v[227],v[228]}),.S({v[225],v[226],v[227],v[228]}),.CI(v[33]),.CYINIT(v[51]));
+FDRE #(.INIT(1'b0)) c106 (.Q(v[46]),.C(v[0]),.CE(v[51]),.D(v[229]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c107 (.Q(v[45]),.C(v[0]),.CE(v[51]),.D(v[230]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c108 (.Q(v[44]),.C(v[0]),.CE(v[51]),.D(v[231]),.R(v[33]));
+CARRY4  c109 (.CO({v[232],v[231],v[233],v[234]}),.O({v[235],v[236],v[230],v[229]}),.DI({v[33],v[33],v[237],v[238]}),.S({v[33],v[51],v[237],v[238]}),.CI(v[221]),.CYINIT(v[33]));
+FDRE #(.INIT(1'b0)) c110 (.Q(v[43]),.C(v[0]),.CE(v[51]),.D(v[179]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c111 (.Q(v[42]),.C(v[0]),.CE(v[51]),.D(v[178]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c112 (.Q(v[86]),.C(v[0]),.CE(v[51]),.D(v[16]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c113 (.Q(v[68]),.C(v[0]),.CE(v[51]),.D(v[15]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c114 (.Q(v[82]),.C(v[0]),.CE(v[51]),.D(v[14]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c115 (.Q(v[93]),.C(v[0]),.CE(v[51]),.D(v[13]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c116 (.Q(v[71]),.C(v[0]),.CE(v[51]),.D(v[12]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c117 (.Q(v[89]),.C(v[0]),.CE(v[51]),.D(v[11]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c118 (.Q(v[65]),.C(v[0]),.CE(v[51]),.D(v[10]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c119 (.Q(v[74]),.C(v[0]),.CE(v[51]),.D(v[9]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c120 (.Q(v[76]),.C(v[0]),.CE(v[51]),.D(v[8]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c121 (.Q(v[77]),.C(v[0]),.CE(v[51]),.D(v[32]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c122 (.Q(v[227]),.C(v[0]),.CE(v[51]),.D(v[22]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c123 (.Q(v[226]),.C(v[0]),.CE(v[51]),.D(v[21]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c124 (.Q(v[225]),.C(v[0]),.CE(v[51]),.D(v[20]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c125 (.Q(v[238]),.C(v[0]),.CE(v[51]),.D(v[19]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c126 (.Q(v[237]),.C(v[0]),.CE(v[51]),.D(v[18]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c127 (.Q(v[73]),.C(v[0]),.CE(v[51]),.D(v[31]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c128 (.Q(v[64]),.C(v[0]),.CE(v[51]),.D(v[30]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c129 (.Q(v[91]),.C(v[0]),.CE(v[51]),.D(v[29]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c130 (.Q(v[72]),.C(v[0]),.CE(v[51]),.D(v[28]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c131 (.Q(v[90]),.C(v[0]),.CE(v[51]),.D(v[27]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c132 (.Q(v[88]),.C(v[0]),.CE(v[51]),.D(v[26]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c133 (.Q(v[67]),.C(v[0]),.CE(v[51]),.D(v[25]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c134 (.Q(v[83]),.C(v[0]),.CE(v[51]),.D(v[24]),.R(v[33]));
+FDRE #(.INIT(1'b0)) c135 (.Q(v[228]),.C(v[0]),.CE(v[51]),.D(v[23]),.R(v[33]));
+LUT6_2 #(.INIT(64'h8888777788888888)) merge_22 (.I0(v[71]),.I1(v[72]),.I2(v[73]),.I3(v[74]),.I4(v[106]),.I5(1'b1),.O5(v[70]),.O6(v[105]));
+LUT6_2 #(.INIT(64'h000000003800f000)) merge_6 (.I0(v[65]),.I1(v[74]),.I2(v[76]),.I3(v[88]),.I4(v[90]),.I5(1'b1),.O6(v[157]),.O5(v[159]));
+LUT6_2 #(.INIT(64'hb4f0cc00f000f000)) merge_1 (.I0(v[65]),.I1(v[74]),.I2(v[76]),.I3(v[88]),.I4(v[90]),.I5(1'b1),.O5(v[156]),.O6(v[160]));
+LUT6_2 #(.INIT(64'hf300300059ba9aaa)) merge_21 (.I0(v[56]),.I1(v[63]),.I2(v[71]),.I3(v[73]),.I4(v[74]),.I5(1'b1),.O6(v[57]),.O5(v[53]));
+LUT6_2 #(.INIT(64'h8778000087788778)) merge_4 (.I0(v[67]),.I1(v[76]),.I2(v[137]),.I3(v[138]),.I4(v[164]),.I5(1'b1),.O5(v[136]),.O6(v[163]));
+LUT6_2 #(.INIT(64'h78878778f770f880)) merge_0 (.I0(v[72]),.I1(v[76]),.I2(v[113]),.I3(v[114]),.I4(v[121]),.I5(1'b1),.O6(v[120]),.O5(v[128]));
+LUT6_2 #(.INIT(64'he11e1e1eeeeeeeee)) merge_26 (.I0(v[53]),.I1(v[54]),.I2(v[55]),.I3(v[67]),.I4(v[93]),.I5(1'b1),.O5(v[52]),.O6(v[102]));
+LUT6_2 #(.INIT(64'h0000f880f880f880)) merge_23 (.I0(v[67]),.I1(v[71]),.I2(v[130]),.I3(v[131]),.I4(v[135]),.I5(1'b1),.O5(v[129]),.O6(v[150]));
+LUT6_2 #(.INIT(64'h7887877888777788)) merge_24 (.I0(v[67]),.I1(v[71]),.I2(v[79]),.I3(v[130]),.I4(v[131]),.I5(1'b1),.O5(v[80]),.O6(v[78]));
+endmodule
+
+module r23_fir9_state_window_signed(input wire clk,input wire [15:0] A,B,output reg [31:0] Y);
+wire [15:0] ma=A[15]?-A:A,mb=B[15]?-B:B;
+wire [31:0] p;
+r21_mac9_add6_b1024_column_mse_state_window u(.clk(clk),.A({7'b0,ma[8:0]}),.B({7'b0,mb[8:0]}),.Y(p));
+reg s1,s2;
+always @(posedge clk)begin s1<=A[15]^B[15];s2<=s1;Y<=s2?-$signed(p):$signed(p);end
+endmodule
+module r23_fir9_state_window(
+ input wire clk, reset,
+ input wire coeff_we, input wire [3:0] coeff_addr,
+ input wire signed [8:0] coeff_data,
+ input wire sample_valid, input wire signed [8:0] sample_data,
+ output wire sample_ready,
+ output reg result_valid, output reg signed [39:0] result
+);
+localparam integer TAPS=16;
+localparam integer LAT=3;
+reg signed [8:0] history[0:TAPS-1];
+reg signed [8:0] coeff[0:TAPS-1];
+reg busy;
+reg [4:0] index;
+wire issue=busy && index<TAPS;
+wire [15:0] a=issue?{{7{history[index[3:0]][8]}},history[index[3:0]]}:16'b0;
+wire [15:0] b=issue?{{7{coeff[index[3:0]][8]}},coeff[index[3:0]]}:16'b0;
+wire [31:0] p_bits;
+wire signed [39:0] product={{8{p_bits[31]}},p_bits};
+r23_fir9_state_window_signed core(.clk(clk),.A(a),.B(b),.Y(p_bits));
+reg [LAT-1:0] vpipe,firstpipe,lastpipe;
+reg signed [39:0] acc;
+wire signed [39:0] next_acc=firstpipe[LAT-1]?product:acc+product;
+assign sample_ready=!busy && !coeff_we;
+integer j;
+always @(posedge clk) begin
+ if(reset)begin
+  busy<=0;index<=0;vpipe<=0;firstpipe<=0;lastpipe<=0;
+  acc<=0;result<=0;result_valid<=0;
+  for(j=0;j<TAPS;j=j+1)history[j]<=0;
+ end else begin
+  result_valid<=0;
+  if(coeff_we && !busy)coeff[coeff_addr]<=coeff_data;
+  vpipe<={vpipe[LAT-2:0],issue};
+  firstpipe<={firstpipe[LAT-2:0],issue && index==0};
+  lastpipe<={lastpipe[LAT-2:0],issue && index==TAPS-1};
+  if(sample_valid && sample_ready)begin
+   for(j=TAPS-1;j>0;j=j-1)history[j]<=history[j-1];
+   history[0]<=sample_data;busy<=1;index<=0;acc<=0;
+  end
+  if(issue)index<=index+1'b1;
+  if(vpipe[LAT-1])begin
+   acc<=next_acc;
+   if(lastpipe[LAT-1])begin result<=next_acc;result_valid<=1;busy<=0;end
+  end
+ end
+end
+endmodule

@@ -1,0 +1,1020 @@
+{
+  "case": "isqrt16_b4",
+  "status": "COMPLETE",
+  "accepted": [
+    [
+      29,
+      "state_window"
+    ],
+    [
+      28,
+      "state_window"
+    ],
+    [
+      10,
+      "state_window"
+    ],
+    [
+      12,
+      "state_window"
+    ],
+    [
+      15,
+      "state_window"
+    ],
+    [
+      22,
+      "state_window"
+    ],
+    [
+      24,
+      "state_window"
+    ],
+    [
+      25,
+      "state_window"
+    ],
+    [
+      2,
+      "state_window"
+    ],
+    [
+      4,
+      "state_window"
+    ],
+    [
+      27,
+      "state_window"
+    ],
+    [
+      33,
+      "state_window"
+    ],
+    [
+      18,
+      "state_window"
+    ]
+  ],
+  "history": [
+    {
+      "pair": 29,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 38,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 5.159643399998458,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair29.csv"
+      },
+      "solve_seconds": 0.4808569999986503,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          48,
+          53,
+          55,
+          136,
+          144
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "ffffffff",
+        "wce": 1,
+        "local_hd": 96,
+        "proxy": [
+          366,
+          1157,
+          0,
+          0
+        ],
+        "distinct_completions": 4,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 1,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 1,
+        "witness_A": 1,
+        "witness_B": 0,
+        "witness_Y": 0,
+        "MAE": 0.149323,
+        "query": 0,
+        "wall_with_compile_s": 1.8165587999974377,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q000.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q000.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 28,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 64,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.925190099998872,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair28.csv"
+      },
+      "solve_seconds": 0.5071571999978914,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          53,
+          55,
+          156
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "00000000",
+        "wce": 1,
+        "local_hd": 112,
+        "proxy": [
+          362,
+          1139,
+          0,
+          0
+        ],
+        "distinct_completions": 3,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 1,
+        "first_B_only_sample_bound": 1,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 1,
+        "witness_A": 1,
+        "witness_B": 0,
+        "witness_Y": 0,
+        "MAE": 0.195587,
+        "query": 1,
+        "wall_with_compile_s": 1.7747328999976162,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q001.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q001.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 10,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 34,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 3.07007010000234,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair10.csv"
+      },
+      "solve_seconds": 0.7633488999999827,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          135,
+          612
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "00000000",
+        "wce": 4,
+        "local_hd": 240,
+        "proxy": [
+          360,
+          1127,
+          0,
+          0
+        ],
+        "distinct_completions": 33,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 0.917725,
+        "query": 2,
+        "wall_with_compile_s": 1.7659677999981795,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q002.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q002.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 12,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 34,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.9057883999994374,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair12.csv"
+      },
+      "solve_seconds": 5.664572099998622,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          51,
+          134
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "00000000",
+        "wce": 4,
+        "local_hd": 256,
+        "proxy": [
+          358,
+          1115,
+          0,
+          0
+        ],
+        "distinct_completions": 472,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.25188,
+        "query": 3,
+        "wall_with_compile_s": 1.8244316000018443,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q003.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q003.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 15,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 46,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.931486899997253,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair15.csv"
+      },
+      "solve_seconds": 0.8286349000009068,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          53,
+          135
+        ],
+        "select": 50,
+        "mode": "f6",
+        "initA": "ff00ff00",
+        "initB": "ff00ff00",
+        "wce": 4,
+        "local_hd": 220,
+        "proxy": [
+          356,
+          1103,
+          2,
+          1
+        ],
+        "distinct_completions": 26,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.42543,
+        "query": 4,
+        "wall_with_compile_s": 1.7570382000012614,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q004.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q004.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 22,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 34,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.9851032000005944,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair22.csv"
+      },
+      "solve_seconds": 2.1636499000014737,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          50,
+          619
+        ],
+        "select": 51,
+        "mode": "g6",
+        "initA": "0000ffff",
+        "initB": "ffff0000",
+        "wce": 4,
+        "local_hd": 112,
+        "proxy": [
+          355,
+          1094,
+          3,
+          2
+        ],
+        "distinct_completions": 26,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.49199,
+        "query": 5,
+        "wall_with_compile_s": 1.759303800001362,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q005.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q005.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 24,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 47,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.8615223999986483,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair24.csv"
+      },
+      "solve_seconds": 0.4814138000001549,
+      "diagnostic": {
+        "topologies": 24,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          49,
+          53,
+          55,
+          135
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "ffffffff",
+        "wce": 4,
+        "local_hd": 60,
+        "proxy": [
+          353,
+          1083,
+          0,
+          0
+        ],
+        "distinct_completions": 4,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.49451,
+        "query": 6,
+        "wall_with_compile_s": 1.7420472000012523,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q006.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q006.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 25,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 44,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.932776100002229,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair25.csv"
+      },
+      "solve_seconds": 0.45154289999845787,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          53,
+          375
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "00000000",
+        "initB": "00000000",
+        "wce": 4,
+        "local_hd": 84,
+        "proxy": [
+          351,
+          1072,
+          0,
+          0
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.48956,
+        "query": 7,
+        "wall_with_compile_s": 1.7284343000028457,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q007.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q007.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 2,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 18,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.843969300000026,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair2.csv"
+      },
+      "solve_seconds": 5.087578900001972,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          50,
+          51,
+          135
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "00000000",
+        "initB": "f0f0f0f0",
+        "wce": 4,
+        "local_hd": 17,
+        "proxy": [
+          349,
+          1062,
+          1,
+          1
+        ],
+        "distinct_completions": 318,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.55235,
+        "query": 8,
+        "wall_with_compile_s": 1.7321655000014289,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q008.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q008.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 4,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 18,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.85193849999996,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair4.csv"
+      },
+      "solve_seconds": 1.0213298000016948,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          50,
+          51,
+          135
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "f00ff00f",
+        "initB": "fff000f0",
+        "wce": 4,
+        "local_hd": 25,
+        "proxy": [
+          348,
+          1057,
+          5,
+          3
+        ],
+        "distinct_completions": 66,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 5,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.58769,
+        "query": 9,
+        "wall_with_compile_s": 1.7144102000020212,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q009.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q009.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 27,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 37,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.926248100000521,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair27.csv"
+      },
+      "solve_seconds": 0.4600243999993836,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          48,
+          55,
+          134,
+          135,
+          138
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "00000000",
+        "wce": 4,
+        "local_hd": 112,
+        "proxy": [
+          347,
+          1047,
+          0,
+          0
+        ],
+        "distinct_completions": 3,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.60918,
+        "query": 10,
+        "wall_with_compile_s": 1.7170086999976775,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q010.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q010.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 30,
+      "context": {
+        "status": "DEPENDENT_SUPPORT_REJECTED"
+      },
+      "status": "DEPENDENT_SUPPORT_REJECTED"
+    },
+    {
+      "pair": 33,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 34,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.864399800000683,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair33.csv"
+      },
+      "solve_seconds": 1.207892599999468,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          50,
+          51,
+          608
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00ff0000",
+        "initB": "fff0fff0",
+        "wce": 4,
+        "local_hd": 42,
+        "proxy": [
+          346,
+          1043,
+          4,
+          2
+        ],
+        "distinct_completions": 76,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.53821,
+        "query": 11,
+        "wall_with_compile_s": 1.7374822000019776,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q011.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q011.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 18,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 18,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.821724000001268,
+        "path": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_current_pair18.csv"
+      },
+      "solve_seconds": 0.5083582000006572,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 6
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          50,
+          135,
+          711
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "bb88bb88",
+        "initB": "ee005588",
+        "wce": 4,
+        "local_hd": 128,
+        "proxy": [
+          346,
+          1039,
+          7,
+          4
+        ],
+        "distinct_completions": 16,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 4,
+        "first_B_only_sample_bound": 4,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 4,
+        "witness_A": 3025,
+        "witness_B": 0,
+        "witness_Y": 51,
+        "MAE": 1.53821,
+        "query": 12,
+        "wall_with_compile_s": 1.7094670000005863,
+        "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q012.cpp",
+        "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q012.csv"
+      },
+      "status": "ACCEPTED"
+    }
+  ],
+  "checks": [
+    {
+      "inputs": 65536,
+      "WCE": 1,
+      "witness_A": 1,
+      "witness_B": 0,
+      "witness_Y": 0,
+      "MAE": 0.149323,
+      "query": 0,
+      "wall_with_compile_s": 1.8165587999974377,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q000.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q000.csv",
+      "pair": 29
+    },
+    {
+      "inputs": 65536,
+      "WCE": 1,
+      "witness_A": 1,
+      "witness_B": 0,
+      "witness_Y": 0,
+      "MAE": 0.195587,
+      "query": 1,
+      "wall_with_compile_s": 1.7747328999976162,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q001.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q001.csv",
+      "pair": 28
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 0.917725,
+      "query": 2,
+      "wall_with_compile_s": 1.7659677999981795,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q002.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q002.csv",
+      "pair": 10
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.25188,
+      "query": 3,
+      "wall_with_compile_s": 1.8244316000018443,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q003.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q003.csv",
+      "pair": 12
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.42543,
+      "query": 4,
+      "wall_with_compile_s": 1.7570382000012614,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q004.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q004.csv",
+      "pair": 15
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.49199,
+      "query": 5,
+      "wall_with_compile_s": 1.759303800001362,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q005.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q005.csv",
+      "pair": 22
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.49451,
+      "query": 6,
+      "wall_with_compile_s": 1.7420472000012523,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q006.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q006.csv",
+      "pair": 24
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.48956,
+      "query": 7,
+      "wall_with_compile_s": 1.7284343000028457,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q007.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q007.csv",
+      "pair": 25
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.55235,
+      "query": 8,
+      "wall_with_compile_s": 1.7321655000014289,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q008.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q008.csv",
+      "pair": 2
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.58769,
+      "query": 9,
+      "wall_with_compile_s": 1.7144102000020212,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q009.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q009.csv",
+      "pair": 4
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.60918,
+      "query": 10,
+      "wall_with_compile_s": 1.7170086999976775,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q010.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q010.csv",
+      "pair": 27
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.53821,
+      "query": 11,
+      "wall_with_compile_s": 1.7374822000019776,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q011.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q011.csv",
+      "pair": 33
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.53821,
+      "query": 12,
+      "wall_with_compile_s": 1.7094670000005863,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q012.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q012.csv",
+      "pair": 18
+    },
+    {
+      "inputs": 65536,
+      "WCE": 4,
+      "witness_A": 3025,
+      "witness_B": 0,
+      "witness_Y": 51,
+      "MAE": 1.53821,
+      "query": 13,
+      "wall_with_compile_s": 1.6741911999997683,
+      "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q013.cpp",
+      "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q013.csv",
+      "stage": "final"
+    }
+  ],
+  "final": {
+    "inputs": 65536,
+    "WCE": 4,
+    "witness_A": 3025,
+    "witness_B": 0,
+    "witness_Y": 51,
+    "MAE": 1.53821,
+    "query": 13,
+    "wall_with_compile_s": 1.6741911999997683,
+    "source": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\src\\isqrt16_b4_state_window_q013.cpp",
+    "result": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round20\\results\\isqrt16_b4_state_window_q013.csv"
+  },
+  "seconds": 88.46021909999763,
+  "context_input_count": 851968,
+  "forced_output_evaluations": 3407872,
+  "independent_scalar_probes": 416
+}

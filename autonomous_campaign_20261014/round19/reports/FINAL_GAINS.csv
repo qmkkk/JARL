@@ -1,0 +1,4 @@
+case,width,budget,best_core_baseline,baseline_LUT,proposed_LUT,core_gain_pct,best_integration_baseline,baseline_integrated_LUT,proposed_integrated_LUT,integration_gain_pct
+mac8_add8_b256_column,8,256,serial_then_quadol,52,52,0.0,serial_then_quadol,107,103,3.738317757009346
+mac9_add6_b1024_column,9,1024,serial_then_quadol,69,66,4.347826086956519,seed,121,118,2.4793388429752095
+mac10_add4_b4096_column,10,4096,serial_then_quadol,64,62,3.125,serial_then_quadol,125,123,1.6000000000000014

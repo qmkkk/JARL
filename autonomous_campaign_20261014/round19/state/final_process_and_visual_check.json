@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checked": "2026-10-15T12:29:04.098431+08:00",
+  "windows": "No campaign-owned Python, Vivado or simulator writers remained in Win32_Process inspection.",
+  "wsl": "ps -eo pid,comm,args showed no campaign experiment processes.",
+  "formal_sessions": [
+    {
+      "id": 90565,
+      "exit_code": 0
+    },
+    {
+      "id": 40805,
+      "exit_code": 0
+    },
+    {
+      "id": 83148,
+      "exit_code": 0
+    }
+  ],
+  "figures_visually_inspected": [
+    "FINAL_COMBINED_EVIDENCE.png",
+    "CORE_EVIDENCE.png"
+  ]
+}

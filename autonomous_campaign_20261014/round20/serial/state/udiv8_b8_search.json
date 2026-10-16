@@ -1,0 +1,39 @@
+{
+  "case": "udiv8_b8",
+  "status": "COMPLETE",
+  "candidate_pairs": 4,
+  "author_error": 0,
+  "author_abstract_cost": 75,
+  "author_selection": [
+    1
+  ],
+  "selected": [
+    0
+  ],
+  "implementation": [
+    0
+  ],
+  "selected_query": {
+    "query": 1,
+    "selected": [
+      0
+    ],
+    "impl": [
+      0
+    ],
+    "status": "FULL_DOMAIN",
+    "WCE": 0,
+    "inputs": 65536,
+    "witness_A": 0,
+    "witness_B": 0,
+    "witness_Y": 0,
+    "wall_s": 0.001120723,
+    "MAE": 0.0,
+    "graph_sha256": "312a61da307a3f0ed7b5a1405b491c5b350f4eb3af875fdf4954e729589fddbd"
+  },
+  "endpoint_protection_changed_selection": true,
+  "queries": 9,
+  "full_inputs": 589824,
+  "full_eval_wall_s": 0.010061804,
+  "invalid_graphs": 0
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "case": "mac8_add8_b256_column",
+    "method": "seed",
+    "top": "r19_dot16_mac8_add8_b256_column_seed",
+    "coretop": "r19_mac8_add8_b256_column_seed",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac8_add8_b256_column_seed.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac8_add8_b256_column_seed.v",
+    "sha256": "c65112493b1f331553a92819e849dd45c7b3a27bc9501a8d9db33fb00b902d09",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac8_add8_b256_column",
+    "method": "quadol_wce",
+    "top": "r19_dot16_mac8_add8_b256_column_quadol_wce",
+    "coretop": "r19_mac8_add8_b256_column_quadol_wce",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac8_add8_b256_column_quadol_wce.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac8_add8_b256_column_quadol_wce.v",
+    "sha256": "e8f7dd39a0ea8d9d70164d2e412837107ec2e051083271f4af55428649f6c0c9",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac8_add8_b256_column",
+    "method": "state_window",
+    "top": "r19_dot16_mac8_add8_b256_column_state_window",
+    "coretop": "r19_mac8_add8_b256_column_state_window",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac8_add8_b256_column_state_window.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac8_add8_b256_column_state_window.v",
+    "sha256": "0be8d177067e86667abda11a544300567ba24d60a9c917018b386e72f56ec551",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac9_add6_b1024_column",
+    "method": "seed",
+    "top": "r19_dot16_mac9_add6_b1024_column_seed",
+    "coretop": "r19_mac9_add6_b1024_column_seed",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac9_add6_b1024_column_seed.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac9_add6_b1024_column_seed.v",
+    "sha256": "847e950bbfef28a6224d0613742c2f9fa9ac676cb1196dc232e3eedfa845ce69",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac9_add6_b1024_column",
+    "method": "quadol_wce",
+    "top": "r19_dot16_mac9_add6_b1024_column_quadol_wce",
+    "coretop": "r19_mac9_add6_b1024_column_quadol_wce",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac9_add6_b1024_column_quadol_wce.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac9_add6_b1024_column_quadol_wce.v",
+    "sha256": "b66199f55f439fa1545f89e51fcf66b9bb84b36a026f7c54ea773996a4e95895",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac9_add6_b1024_column",
+    "method": "state_window",
+    "top": "r19_dot16_mac9_add6_b1024_column_state_window",
+    "coretop": "r19_mac9_add6_b1024_column_state_window",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac9_add6_b1024_column_state_window.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac9_add6_b1024_column_state_window.v",
+    "sha256": "d31c4c2338c395f627192bf4a01319b1392b03b14cc6750eec2c932a8a8126f1",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac10_add4_b4096_column",
+    "method": "seed",
+    "top": "r19_dot16_mac10_add4_b4096_column_seed",
+    "coretop": "r19_mac10_add4_b4096_column_seed",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac10_add4_b4096_column_seed.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac10_add4_b4096_column_seed.v",
+    "sha256": "a53365e129948a1bb7da11855bb0bd8f825500ca75b5cd620695194500106fd6",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac10_add4_b4096_column",
+    "method": "quadol_wce",
+    "top": "r19_dot16_mac10_add4_b4096_column_quadol_wce",
+    "coretop": "r19_mac10_add4_b4096_column_quadol_wce",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac10_add4_b4096_column_quadol_wce.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac10_add4_b4096_column_quadol_wce.v",
+    "sha256": "ed41456795e8ce6265b8c331590877d6d510debf706092606860d1ec01df39de",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  },
+  {
+    "case": "mac10_add4_b4096_column",
+    "method": "state_window",
+    "top": "r19_dot16_mac10_add4_b4096_column_state_window",
+    "coretop": "r19_mac10_add4_b4096_column_state_window",
+    "rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\integration\\r19_dot16_mac10_add4_b4096_column_state_window.v",
+    "core_rtl": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round19\\rtl\\r19_mac10_add4_b4096_column_state_window.v",
+    "sha256": "9dcc99b274b7681c5fd7e0a4d56b62c7197f1df015b9f6a1fe57924f4a65ba43",
+    "clock_ns": 15,
+    "block_length": 16,
+    "accumulator_width": 32
+  }
+]

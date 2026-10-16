@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_AWAIT_DECISION",
+  "endpoints": 12,
+  "unique_synth": 12,
+  "unique_route": 12,
+  "timing_pass": 12,
+  "hdl_checks": 51760,
+  "quality_changed_cases": 3,
+  "quality_pareto_improved_cases": 3,
+  "quality_improvement_count": 3,
+  "mechanism_status_counts": {
+    "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY": 20,
+    "ACCEPTED_QUALITY": 3
+  },
+  "finished": "2026-10-15T15:04:30.131736+08:00"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "top": "r23_fir9_quality_window",
+  "checks": 6144,
+  "latency": 19,
+  "II": 20,
+  "routed": false,
+  "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window\\simulate_1.log"
+}

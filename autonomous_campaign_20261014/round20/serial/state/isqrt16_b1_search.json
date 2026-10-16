@@ -1,0 +1,59 @@
+{
+  "case": "isqrt16_b1",
+  "status": "COMPLETE",
+  "candidate_pairs": 95,
+  "author_error": 1,
+  "author_abstract_cost": 369,
+  "author_selection": [
+    52,
+    66,
+    67,
+    88,
+    90
+  ],
+  "selected": [
+    52,
+    65,
+    67,
+    88,
+    90
+  ],
+  "implementation": [
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "selected_query": {
+    "query": 206,
+    "selected": [
+      52,
+      65,
+      67,
+      88,
+      90
+    ],
+    "impl": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "status": "FULL_DOMAIN",
+    "WCE": 1,
+    "inputs": 65536,
+    "witness_A": 1,
+    "witness_B": 0,
+    "witness_Y": 0,
+    "wall_s": 0.006700608,
+    "MAE": 0.478393554688,
+    "graph_sha256": "4be80f73b03ccd0c6c92d8d9edbe85c554eb85b53b548ea902c5258bd566bdbf"
+  },
+  "endpoint_protection_changed_selection": true,
+  "queries": 234,
+  "full_inputs": 15335424,
+  "full_eval_wall_s": 1.5933023099999999,
+  "invalid_graphs": 0
+}

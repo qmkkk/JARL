@@ -1,0 +1,17 @@
+umul8_b64 0 support 6 to 6
+umul8_b64 1 support 6 to 0
+umul8_b64 2 support 6 to 6
+umul8_b64 3 support 6 to 6
+umul8_b64 4 support 6 to 6
+umul8_b64 5 support 6 to 6
+umul8_b64 6 support 4 to 4
+umul8_b64 7 support 4 to 4
+umul8_b64 8 support 4 to 4
+umul8_b64 9 support 4 to 4
+umul8_b64 10 support 2 to 2
+umul8_b64 11 support 6 to 6
+umul8_b64 12 support 6 to 4
+umul8_b64 13 support 6 to 6
+umul8_b64 14 support 4 to 3
+umul8_b64 15 support 5 to 5
+SERIAL_SUPPORT_COMPLETE umul8_b64

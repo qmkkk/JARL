@@ -1,0 +1,16 @@
+from pathlib import Path
+import json,hashlib,datetime,shutil
+R=Path(__file__).resolve().parents[1];Q=R/'round4';assert not Q.exists()
+for p in ['configs','state','reports','tools','inputs','graphs','rtl','src','logs','build','results/hardware']:(Q/p).mkdir(parents=True,exist_ok=True)
+def dump(p,x):p.write_text(json.dumps(x,indent=2,ensure_ascii=False),encoding='utf-8')
+old=json.loads((R/'round3/configs/plan.json').read_text());plan=dict(round=4,registered=datetime.datetime.now().astimezone().isoformat(),question='Does the already effective joint relation implementation retain physical value against conventional exact LUT-network resynthesis?',cases=old['cases'],baselines=['seed','abc_exact'],innovations=['relation'],methods=['seed','abc_exact','relation'],relation='Frozen R3 exact_joint result; no new mechanism or tuning in this round',abc='Existing retained ABC executable copied into this round; strash; dc2; if -K 6; mfs2; write_blif. One fixed recipe, no search for directives.',boundary='Preserve all original registers, CARRY4, INV and constant cells. Optimize the complete LUT-only network, treating non-LUT sources as independent inputs and non-LUT sinks as outputs. This is a carry-preserving regional exact control, not a complete author ALS flow or unconstrained global mapper.',correctness='ABC CEC of region; full effective-domain output equivalence to identical seed for all three methods and mathematical WCE; vendor HDL vectors, same clocks and timing/DRC checks',physical='Fresh synthesis/place/route for all 12 designs, same R3 flow, no reroute search. Identical RTL may be deduplicated.',inputs='Same four R3/R2 seed graphs; archived R3 exact_joint RTL and choices, pinned ABC binary',max_physical_variants=12,score=old['score'],stop='Complete entire fixed round, analyze and score; then decide justified next round. No new candidate optimization in this round.',limits=['ABC cannot exploit actual constraints across retained CARRY/register boundaries; joint relation can, which must be stated','This test isolates generic regional exact reoptimization as an alternative explanation, not all state-of-the-art algorithms','No new circuit family, error budget or clock search'])
+dump(Q/'configs/plan.json',plan);hashes={}
+for c in plan['cases']:
+ n=c['name']
+ for src,dst in [(R/f'round3/graphs/{n}.json',Q/f'graphs/{n}_seed.json'),(R/f'round3/rtl/{n}.xdc',Q/f'rtl/{n}.xdc'),(R/f'round3/rtl/r3_{n}_exact_joint.v',Q/f'inputs/r3_{n}_exact_joint.v')]:
+  shutil.copy2(src,dst);hashes[str(src)]=hashlib.sha256(src.read_bytes()).hexdigest()
+for name in ['design_manifest.json']:
+ src=R/'round3/rtl'/name;dst=Q/'inputs'/name;shutil.copy2(src,dst);hashes[str(src)]=hashlib.sha256(src.read_bytes()).hexdigest()
+src=R.parent/'round6_work_20261013/inputs/abc_executable';shutil.copy2(src,Q/'inputs/abc_executable');hashes[str(src)]=hashlib.sha256(src.read_bytes()).hexdigest()
+dump(Q/'state/input_hashes.json',hashes);dump(Q/'state/progress.json',dict(phase='REGISTERED',round=4));dump(Q/'state/round_status.json',dict(status='REGISTERED',round=4))
+c=json.loads((R/'state/campaign.json').read_text());c.update(status='ROUND4_REGISTERED',active_round=4,root=str(Q),latest_progress='round4/state/progress.json');dump(R/'state/campaign.json',c);print('Round4 registered',Q)

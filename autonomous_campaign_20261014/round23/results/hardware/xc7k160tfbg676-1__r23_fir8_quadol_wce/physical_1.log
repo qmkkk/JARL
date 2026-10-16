@@ -1,0 +1,21 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 03-sep-2027.
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Thu Oct 15 16:37:58 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source {D:\paper_project_5\project_3\autonomous_campaign_20261014\round23\tools\physical23.tcl}
+# set out [lindex $argv 0]
+# set rtl [lindex $argv 1]
+# set top [lindex $argv 2]
+# set part [lindex $argv 3]
+# set xdc [lindex $argv 4]
+# set_param general.maxThreads 4
+# create_project -in_memory -part $part
+WARNING: [Device 21-436] No parts matched 'xc7k160tfbg676-1'
+ERROR: [Coretcl 2-106] Specified part could not be found.
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 16:38:00 2026...

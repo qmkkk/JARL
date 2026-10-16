@@ -1,0 +1,15 @@
+udiv8_b8 0 control {'numeric_window': True}
+udiv8_b8 1 control {'numeric_window': True}
+udiv8_b8 2 control {'numeric_window': True}
+udiv8_b8 3 control {'numeric_window': True}
+udiv8_b8 4 control {'numeric_window': True}
+udiv8_b8 5 control {'numeric_window': True}
+udiv8_b8 6 strict_new {'numeric_window': False}
+udiv8_b8 7 strict_new {'numeric_window': False}
+udiv8_b8 8 strict_new {'numeric_window': True}
+udiv8_b8 9 strict_new {'numeric_window': False}
+udiv8_b8 10 dependent_window {'numeric_window': True}
+udiv8_b8 11 dependent_window {'numeric_window': True}
+udiv8_b8 12 dependent_window {'numeric_window': True}
+udiv8_b8 13 dependent_window {'numeric_window': True}
+udiv8_b8 14 dependent_window {'numeric_window': True}

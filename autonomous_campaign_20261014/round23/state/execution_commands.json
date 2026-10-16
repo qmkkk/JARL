@@ -1,0 +1,2687 @@
+[
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\compile_1.log",
+    "returncode": 0,
+    "seconds": 2.660917499997595
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.517236600000615
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir8_quadol_wce/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 3.678566899998259
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\compile_2.log",
+    "returncode": 0,
+    "seconds": 2.4244614000017464
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\elaborate_2.log",
+    "returncode": 0,
+    "seconds": 2.2000635000003967
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir8_quadol_wce/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quadol_wce\\simulate_2.log",
+    "returncode": 0,
+    "seconds": 3.700448100000358
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_serial_then_quadol.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.6655930999986595
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.2431342999989283
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir8_serial_then_quadol/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_serial_then_quadol\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 3.6167424999985087
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_state_window.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.6419530000021041
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.2889146999987133
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir8_state_window/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_state_window\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 3.7371977000002516
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quality_window.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.6462774999999965
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.2696641000002273
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir8_quality_window/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir8_quality_window\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 3.6812953000007838
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.7309432999973069
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.2668244000014965
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir9_quadol_wce/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quadol_wce\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 4.068651699999464
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_serial_then_quadol.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.677736300000106
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.088658199998463
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir9_serial_then_quadol/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_serial_then_quadol\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 4.040012800000113
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_state_window.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.6979387999999744
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.57163650000075
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir9_state_window/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_state_window\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 3.9719084999996994
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quality_window.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.7452974000007089
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.306339900002058
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir9_quality_window/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir9_quality_window\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 4.183715199997096
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quadol_wce.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce\\compile_1.log",
+    "returncode": 0,
+    "seconds": 1.0263097999995807
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.4989411999995355
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir10_quadol_wce/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quadol_wce\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 4.974719800000457
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_serial_then_quadol.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.6712616000004346
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.4478398999999627
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir10_serial_then_quadol/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_serial_then_quadol\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 4.396904199998971
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_state_window.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.7011039999997593
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.396319699997548
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir10_state_window/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_state_window\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 4.049430400002166
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quality_window.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.643482600000425
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 2.325960900001519
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/rtl_r23_fir10_quality_window/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\rtl_r23_fir10_quality_window\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 3.995351199999277
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_quadol_wce.v",
+      "r23_fir8_quadol_wce",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\physical_1.log",
+    "returncode": 0,
+    "seconds": 59.017555400001584
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.8049310999995214
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.330646999998862
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_quadol_wce/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.343002200002957
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_quadol_wce"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quadol_wce\\power_1.log",
+    "returncode": 0,
+    "seconds": 13.861297199997352
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_serial_then_quadol.v",
+      "r23_fir8_serial_then_quadol",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\physical_1.log",
+    "returncode": 0,
+    "seconds": 53.54539619999923
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.563796099999308
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.471151400000963
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_serial_then_quadol/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.509094199998799
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_serial_then_quadol"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_serial_then_quadol\\power_1.log",
+    "returncode": 0,
+    "seconds": 14.376980000000913
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_state_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_state_window.v",
+      "r23_fir8_state_window",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 54.965246800002205
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.8528815000026952
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.4947734999987006
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_state_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.774207700000261
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_state_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_state_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 13.919308900000033
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_quality_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_quality_window.v",
+      "r23_fir8_quality_window",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 57.325641400002496
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.8394551999990654
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.4141994999990857
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_quality_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.967371099999582
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir8_quality_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir8_quality_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 14.84373079999932
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_quadol_wce.v",
+      "r23_fir9_quadol_wce",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\physical_1.log",
+    "returncode": 0,
+    "seconds": 55.782537000002776
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.232067400000233
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.415507300000172
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_quadol_wce/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 9.619991200001095
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_quadol_wce"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quadol_wce\\power_1.log",
+    "returncode": 0,
+    "seconds": 13.893433400000504
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_serial_then_quadol.v",
+      "r23_fir9_serial_then_quadol",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\physical_1.log",
+    "returncode": 0,
+    "seconds": 53.42841570000019
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.8174331999980495
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.367782700002863
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_serial_then_quadol/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 13.048444000000018
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_serial_then_quadol"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_serial_then_quadol\\power_1.log",
+    "returncode": 0,
+    "seconds": 13.891556300000957
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_state_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_state_window.v",
+      "r23_fir9_state_window",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 55.34092280000186
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.8155974999972386
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.851405400004296
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_state_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 9.741308900003787
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_state_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_state_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 13.740004700004647
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_quality_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_quality_window.v",
+      "r23_fir9_quality_window",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 59.06989999999496
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.76073809999798
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 4.17141580000316
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_quality_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 11.027217799994105
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir9_quality_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir9_quality_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 17.010991999995895
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quadol_wce.v",
+      "r23_fir10_quadol_wce",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\physical_1.log",
+    "returncode": 0,
+    "seconds": 55.142395800001395
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.232284899997467
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.2652455999996164
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quadol_wce/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.683251100002963
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quadol_wce"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quadol_wce\\power_1.log",
+    "returncode": 0,
+    "seconds": 14.636031499998353
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_serial_then_quadol.v",
+      "r23_fir10_serial_then_quadol",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\physical_1.log",
+    "returncode": 0,
+    "seconds": 54.93986899999436
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.7867217000020901
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.4550677000006544
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_serial_then_quadol/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.835624300001655
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_serial_then_quadol"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_serial_then_quadol\\power_1.log",
+    "returncode": 0,
+    "seconds": 16.94199700000172
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_state_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_state_window.v",
+      "r23_fir10_state_window",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 54.303284800000256
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.7441562999956659
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.4051053000002867
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_state_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.650501999996777
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_state_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_state_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 13.988363600001321
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quality_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v",
+      "r23_fir10_quality_window",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\physical_1.log",
+    "returncode": 1,
+    "seconds": 25.7881708000059
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quality_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v",
+      "r23_fir10_quality_window",
+      "xc7a100tcsg324-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\physical_2.log",
+    "returncode": 0,
+    "seconds": 56.90234699999564
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.76751140000124
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.433618800001568
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quality_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.906442100000277
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a100tcsg324-1__r23_fir10_quality_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a100tcsg324-1__r23_fir10_quality_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 13.658663700000034
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7k160tfbg676-1__r23_fir8_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_quadol_wce.v",
+      "r23_fir8_quadol_wce",
+      "xc7k160tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7k160tfbg676-1__r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7k160tfbg676-1__r23_fir8_quadol_wce\\physical_1.log",
+    "returncode": 1,
+    "seconds": 2.194251600005373
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_quadol_wce.v",
+      "r23_fir8_quadol_wce",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\physical_1.log",
+    "returncode": 1,
+    "seconds": 30.05004120000376
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_quadol_wce.v",
+      "r23_fir8_quadol_wce",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\physical_2.log",
+    "returncode": 0,
+    "seconds": 80.95051499999681
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.7809531000020797
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.4532769999932498
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_quadol_wce/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.730793300004734
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_quadol_wce"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quadol_wce\\power_1.log",
+    "returncode": 0,
+    "seconds": 15.482044600001245
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_serial_then_quadol.v",
+      "r23_fir8_serial_then_quadol",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\physical_1.log",
+    "returncode": 1,
+    "seconds": 25.63173580000148
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_serial_then_quadol.v",
+      "r23_fir8_serial_then_quadol",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\physical_retry_1.log",
+    "returncode": 0,
+    "seconds": 77.30477200000314
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.33644419999473
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.560928499995498
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_serial_then_quadol/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.202989100005652
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_serial_then_quadol"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_serial_then_quadol\\power_1.log",
+    "returncode": 0,
+    "seconds": 14.619643000005453
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_state_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_state_window.v",
+      "r23_fir8_state_window",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 81.82442350000201
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.178019200000563
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.5182141000041156
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_state_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 9.824044499997399
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_state_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_state_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 15.902707200002624
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_quality_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir8_quality_window.v",
+      "r23_fir8_quality_window",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 80.15255599999364
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir8_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.143194300006144
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.4401034000038635
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_quality_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.984351400002197
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir8_quality_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir8_quality_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 16.20610590000433
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_quadol_wce.v",
+      "r23_fir9_quadol_wce",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\physical_1.log",
+    "returncode": 1,
+    "seconds": 27.193101999997452
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_quadol_wce.v",
+      "r23_fir9_quadol_wce",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\physical_retry_1.log",
+    "returncode": 0,
+    "seconds": 79.188184000006
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.5633880000023055
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.3098525000023074
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_quadol_wce/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 9.680855200000224
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_quadol_wce"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quadol_wce\\power_1.log",
+    "returncode": 0,
+    "seconds": 14.77591169999505
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_serial_then_quadol.v",
+      "r23_fir9_serial_then_quadol",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\physical_1.log",
+    "returncode": 1,
+    "seconds": 26.82348930000444
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_serial_then_quadol.v",
+      "r23_fir9_serial_then_quadol",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\physical_retry_1.log",
+    "returncode": 1,
+    "seconds": 27.352560899998934
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\implement_from_synth.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_serial_then_quadol",
+      "r23_fir9_serial_then_quadol",
+      "xc7a200tfbg676-1"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\checkpoint_recovery_1.log",
+    "returncode": 0,
+    "seconds": 71.36045239999657
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 0.8347831999999471
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.3627639999976964
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_serial_then_quadol/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 10.643450600000506
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_serial_then_quadol"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\power_1.log",
+    "returncode": 0,
+    "seconds": 16.255422000002
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_state_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_state_window.v",
+      "r23_fir9_state_window",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 79.85609530000511
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.66869030000089
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.93807740000193
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_state_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 10.005886500002816
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_state_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_state_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 15.035338499998034
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_quality_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir9_quality_window.v",
+      "r23_fir9_quality_window",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 77.30704179999884
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir9_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.115239999999176
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.5838160999992397
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_quality_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 9.767433600005461
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir9_quality_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_quality_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 15.381234500004211
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_quadol_wce",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quadol_wce.v",
+      "r23_fir10_quadol_wce",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\physical_1.log",
+    "returncode": 0,
+    "seconds": 80.22052509999776
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quadol_wce_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.556393699996988
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.682028499999433
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_quadol_wce/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.775231300001906
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_quadol_wce"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quadol_wce\\power_1.log",
+    "returncode": 0,
+    "seconds": 15.44025099999999
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_serial_then_quadol",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_serial_then_quadol.v",
+      "r23_fir10_serial_then_quadol",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\physical_1.log",
+    "returncode": 0,
+    "seconds": 78.53830040000321
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_serial_then_quadol_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 4.105531000001065
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.5109605999969062
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_serial_then_quadol/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 8.848328699998092
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_serial_then_quadol"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_serial_then_quadol\\power_1.log",
+    "returncode": 0,
+    "seconds": 14.997332799997821
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_state_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_state_window.v",
+      "r23_fir10_state_window",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 88.5891174999997
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_state_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 2.9171894999963115
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.817332600003283
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_state_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 9.957123000000138
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_state_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_state_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 18.474218800001836
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\physical23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_quality_window",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/r23_fir10_quality_window.v",
+      "r23_fir10_quality_window",
+      "xc7a200tfbg676-1",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/rtl/system.xdc"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\physical_1.log",
+    "returncode": 0,
+    "seconds": 100.64232980000088
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xvlog.bat",
+      "--sv",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\routed.v",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\rtl\\r23_fir10_quality_window_tb.sv",
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\data\\verilog\\src\\glbl.v"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim\\compile_1.log",
+    "returncode": 0,
+    "seconds": 2.877819900000759
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xelab.bat",
+      "--debug",
+      "typical",
+      "-L",
+      "unisims_ver",
+      "-L",
+      "unimacro_ver",
+      "tb",
+      "glbl",
+      "-s",
+      "fir_sim"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim\\elaborate_1.log",
+    "returncode": 0,
+    "seconds": 3.690406499998062
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\xsim.bat",
+      "fir_sim",
+      "-tclbatch",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_quality_window/sim/run.tcl"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\sim\\simulate_1.log",
+    "returncode": 0,
+    "seconds": 10.410348500001419
+  },
+  {
+    "argv": [
+      "E:\\AMDDesignTools\\2026.1\\Vivado\\bin\\vivado.bat",
+      "-mode",
+      "batch",
+      "-nojournal",
+      "-nolog",
+      "-source",
+      "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\tools\\power23.tcl",
+      "-tclargs",
+      "D:/paper_project_5/project_3/autonomous_campaign_20261014/round23/results/hardware/xc7a200tfbg676-1__r23_fir10_quality_window"
+    ],
+    "cwd": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window",
+    "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir10_quality_window\\power_1.log",
+    "returncode": 0,
+    "seconds": 22.082541499999934
+  }
+]

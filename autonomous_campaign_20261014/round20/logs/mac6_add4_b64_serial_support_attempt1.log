@@ -1,0 +1,27 @@
+mac6_add4_b64 0 support 2 to 2
+mac6_add4_b64 1 support 6 to 0
+mac6_add4_b64 2 support 6 to 6
+mac6_add4_b64 3 support 6 to 6
+mac6_add4_b64 4 support 5 to 5
+mac6_add4_b64 5 support 6 to 6
+mac6_add4_b64 6 support 5 to 5
+mac6_add4_b64 7 support 5 to 5
+mac6_add4_b64 8 support 5 to 5
+mac6_add4_b64 9 support 4 to 4
+mac6_add4_b64 10 support 4 to 4
+mac6_add4_b64 11 support 4 to 4
+mac6_add4_b64 12 support 2 to 2
+mac6_add4_b64 13 support 6 to 6
+mac6_add4_b64 14 support 2 to 2
+mac6_add4_b64 15 support 6 to 6
+mac6_add4_b64 16 support 2 to 2
+mac6_add4_b64 17 support 6 to 6
+mac6_add4_b64 18 support 6 to 6
+mac6_add4_b64 19 support 6 to 6
+mac6_add4_b64 20 support 6 to 4
+mac6_add4_b64 21 support 6 to 6
+mac6_add4_b64 22 support 5 to 5
+mac6_add4_b64 23 support 5 to 5
+mac6_add4_b64 24 support 5 to 5
+mac6_add4_b64 25 support 5 to 5
+SERIAL_SUPPORT_COMPLETE mac6_add4_b64

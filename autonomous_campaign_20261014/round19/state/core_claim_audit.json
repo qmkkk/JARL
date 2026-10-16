@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "completed": "2026-10-15T11:30:11.655598+08:00",
+  "checks": [
+    {
+      "check": "2SAT_feasibility_independent_bruteforce",
+      "cases": 128,
+      "traversals": 256,
+      "status": "PASS",
+      "scope": "Reduced support masks, satisfiable andunsatisfiable relations; mathematical proof covers general fixedmasks."
+    },
+    {
+      "check": "actual_accepted_functions_against_full_relation",
+      "reachable_rows": 4832,
+      "status": "PASS"
+    },
+    {
+      "check": "input_domains_column_reference_32bit_composition_overflow",
+      "cases": 3,
+      "status": "PASS"
+    },
+    {
+      "check": "independent_composition_math_on_all_HDL_blocks",
+      "status": "PASS",
+      "rows": [
+        {
+          "case": "mac8_add8_b256_column",
+          "method": "seed",
+          "blocks": 128,
+          "observed_max_error": 2576,
+          "proved_bound": 4096
+        },
+        {
+          "case": "mac8_add8_b256_column",
+          "method": "quadol_wce",
+          "blocks": 128,
+          "observed_max_error": 2576,
+          "proved_bound": 4096
+        },
+        {
+          "case": "mac8_add8_b256_column",
+          "method": "state_window",
+          "blocks": 128,
+          "observed_max_error": 3600,
+          "proved_bound": 4096
+        },
+        {
+          "case": "mac9_add6_b1024_column",
+          "method": "seed",
+          "blocks": 128,
+          "observed_max_error": 14352,
+          "proved_bound": 16384
+        },
+        {
+          "case": "mac9_add6_b1024_column",
+          "method": "quadol_wce",
+          "blocks": 128,
+          "observed_max_error": 14352,
+          "proved_bound": 16384
+        },
+        {
+          "case": "mac9_add6_b1024_column",
+          "method": "state_window",
+          "blocks": 128,
+          "observed_max_error": 14352,
+          "proved_bound": 16384
+        },
+        {
+          "case": "mac10_add4_b4096_column",
+          "method": "seed",
+          "blocks": 128,
+          "observed_max_error": 32784,
+          "proved_bound": 65536
+        },
+        {
+          "case": "mac10_add4_b4096_column",
+          "method": "quadol_wce",
+          "blocks": 128,
+          "observed_max_error": 40960,
+          "proved_bound": 65536
+        },
+        {
+          "case": "mac10_add4_b4096_column",
+          "method": "state_window",
+          "blocks": 128,
+          "observed_max_error": 49152,
+          "proved_bound": 65536
+        }
+      ]
+    }
+  ],
+  "repairs": [],
+  "scope": "No general bughunt. Domain, analyticreference, actualcofactoradmissibility,2SATsoundness,wideaccumulator overflow andsourceprovenance. Sequential latency andfullmath/HDL rechecked by formalrun."
+}
