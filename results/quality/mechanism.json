@@ -1,0 +1,232 @@
+[
+  {
+    "case": "mac8_add8_b256_column_mse",
+    "pair": 17,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 310919561216,
+    "after_SSE": 310919561216,
+    "variables": 2,
+    "context": "results/quality/mac8_add8_b256_column_mse_quality_context0.csv"
+  },
+  {
+    "case": "mac8_add8_b256_column_mse",
+    "pair": 0,
+    "status": "ACCEPTED_QUALITY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 310919561216,
+    "after_SSE": 222402969600,
+    "variables": 64,
+    "context": "results/quality/mac8_add8_b256_column_mse_quality_context1.csv"
+  },
+  {
+    "case": "mac8_add8_b256_column_mse",
+    "pair": 2,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 222402969600,
+    "after_SSE": 222402969600,
+    "variables": 48,
+    "context": "results/quality/mac8_add8_b256_column_mse_quality_context2.csv"
+  },
+  {
+    "case": "mac8_add8_b256_column_mse",
+    "pair": 5,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 222402969600,
+    "after_SSE": 222402969600,
+    "variables": 48,
+    "context": "results/quality/mac8_add8_b256_column_mse_quality_context3.csv"
+  },
+  {
+    "case": "mac8_add8_b256_column_mse",
+    "pair": 1,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 222402969600,
+    "after_SSE": 222402969600,
+    "variables": 64,
+    "context": "results/quality/mac8_add8_b256_column_mse_quality_context4.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 22,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2721545453568,
+    "after_SSE": 2721545453568,
+    "variables": 12,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context0.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 6,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2721545453568,
+    "after_SSE": 2721545453568,
+    "variables": 33,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context1.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 1,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2721545453568,
+    "after_SSE": 2721545453568,
+    "variables": 36,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context2.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 21,
+    "status": "ACCEPTED_QUALITY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2721545453568,
+    "after_SSE": 2448882139136,
+    "variables": 48,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context3.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 4,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2448882139136,
+    "after_SSE": 2448882139136,
+    "variables": 48,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context4.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 0,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2448882139136,
+    "after_SSE": 2448882139136,
+    "variables": 64,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context5.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 26,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2448882139136,
+    "after_SSE": 2448882139136,
+    "variables": 36,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context6.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 23,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2448882139136,
+    "after_SSE": 2448882139136,
+    "variables": 48,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context7.csv"
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "pair": 24,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 2448882139136,
+    "after_SSE": 2448882139136,
+    "variables": 48,
+    "context": "results/quality/mac9_add6_b1024_column_mse_quality_context8.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 9,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 64358461734912,
+    "after_SSE": 64358461734912,
+    "variables": 2,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context0.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 0,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 64358461734912,
+    "after_SSE": 64358461734912,
+    "variables": 5,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context1.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 30,
+    "status": "ACCEPTED_QUALITY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 64358461734912,
+    "after_SSE": 62933589557248,
+    "variables": 17,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context2.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 32,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 62933589557248,
+    "after_SSE": 62933589557248,
+    "variables": 2,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context3.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 39,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 62933589557248,
+    "after_SSE": 62933589557248,
+    "variables": 3,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context4.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 7,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 62933589557248,
+    "after_SSE": 62933589557248,
+    "variables": 12,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context5.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 1,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 62933589557248,
+    "after_SSE": 62933589557248,
+    "variables": 32,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context6.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 4,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 62933589557248,
+    "after_SSE": 62933589557248,
+    "variables": 48,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context7.csv"
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "pair": 5,
+    "status": "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY",
+    "solver_status": "OPTIMAL_FIXED_ENERGY",
+    "before_SSE": 62933589557248,
+    "after_SSE": 62933589557248,
+    "variables": 48,
+    "context": "results/quality/mac10_add4_b4096_column_mse_quality_context8.csv"
+  }
+]

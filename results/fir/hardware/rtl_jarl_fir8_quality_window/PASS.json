@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "top": "jarl_fir8_quality_window",
+  "checks": 6144,
+  "latency": 19,
+  "II": 20,
+  "routed": false,
+  "log": "results/fir/hardware/rtl_jarl_fir8_quality_window/simulate_1.log"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "mac8_add8_b256_column",
+    "source_case": "mac8_add8_b256",
+    "kind": "mac",
+    "width": 8,
+    "add_width": 8,
+    "domain_bits": 24,
+    "budget": 256,
+    "clock_ns": 10.0,
+    "flow": "column",
+    "cut": 6,
+    "removed_max": 321,
+    "compensation": 160,
+    "seed_budget": 161
+  },
+  {
+    "name": "mac9_add6_b1024_column",
+    "source_case": "mac9_add6_b1024",
+    "kind": "mac",
+    "width": 9,
+    "add_width": 6,
+    "domain_bits": 24,
+    "budget": 1024,
+    "clock_ns": 12.5,
+    "flow": "column",
+    "cut": 8,
+    "removed_max": 1793,
+    "compensation": 896,
+    "seed_budget": 897
+  },
+  {
+    "name": "mac10_add4_b4096_column",
+    "source_case": "mac10_add4_b4096",
+    "kind": "mac",
+    "width": 10,
+    "add_width": 4,
+    "domain_bits": 24,
+    "budget": 4096,
+    "clock_ns": 15.0,
+    "flow": "column",
+    "cut": 9,
+    "removed_max": 4097,
+    "compensation": 2048,
+    "seed_budget": 2049
+  }
+]

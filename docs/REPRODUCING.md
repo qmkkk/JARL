@@ -1,70 +1,62 @@
-# Reproducing the artifact
+# Reproduction
 
-## 1. Numerical evidence replay
+## Result reconstruction
 
-From the repository root, run `python -B tools/review_release.py all`.
-The script first checks `MANIFEST.json`, then uses Python integer arithmetic
-to reconstruct FIR outputs from the supplied unsigned product tables,
-coefficients, and signals. It compares every output to the archived golden
-file, recomputes SSE/MAE/RMSE/bias, and checks the saved physical comparisons.
-No commercial tool or Python package installation is needed for this step.
+Run `python -B scripts/reproduce_results.py all` from the repository root.
+This checks `MANIFEST.json`, reconstructs the FIR outputs using integer
+arithmetic and the provided product tables, and compares numerical statistics
+and saved resource measurements. The product tables are inputs to this check;
+the command does not rerun synthesis or independently prove the tables.
 
-The product table itself is an input to this replay. Its independent circuit
-checks belong to the historical experiment, not to this numerical command.
+## Numerical resynthesis
 
-## 2. RTL simulation and physical rebuild
+Install the method package: `python -m pip install -e .`.
+A C++17 compiler compatible with GCC's `unsigned __int128` is required.
+Select a case from `benchmarks/quality/cases.json`, then use a new directory:
 
-Use `tools/prepare_r23_replay.py --out <fresh-absolute-directory> --vivado-bin <Vivado-bin>`.
-It copies frozen RTL and inputs, maps testbench data paths, and emits
-`commands.json`. Run each selected record's `argv` with its `cwd`, in order.
-Records of kind `RTL` come in compile/elaborate/simulate triples; records of
-kind `PHYSICAL` perform synthesis, placement and routing. All output must go
-to the fresh directory. Preparation alone is not a successful simulation.
+```sh
+python scripts/run_resynthesis.py --suite quality --case mac8_add8_b256_column_mse --out /absolute/path/to/jarl-work --cxx g++
+```
 
-Expected completion markers:
+This starts from the provided seed graph and fixed candidate list, reconstructs
+the current-state numerical pass, and performs the fixed-support quality pass.
+`--suite relation` runs the numerical pass on the relation-study cases. These
+are full-domain computations and can take substantially longer than table
+reconstruction. Use a GCC installation on Linux or a compatible local setup.
+No vendor tool is needed for this stage. The candidate discovery stage and
+external author baselines are separate from this seeded replay.
 
-- RTL: `R23_FIR_PASS checks=6144 latency=19 II=20`
-- Physical: `R23_ROUTE_COMPLETE <top> <part>`
+Generated arithmetic C++ checkers are also provided in
+`benchmarks/quality/checkers/`; compile with `g++ -O3 -std=c++17` in a scratch
+directory. These checkers evaluate the supplied final circuits over their
+recorded domains. Scalar references and generator source are included.
 
-Recorded tool: Vivado 2026.1, build 6511674. Parts:
-`xc7a100tcsg324-1`, `xc7a200tfbg676-1`; period 15 ns; DSP use disabled.
-The portable preparer was inherited from the prior release. Its `.bat`
-executables target Windows; Linux users must use the native tool filenames.
-The full archived `run23.py` additionally records routed functional simulation
-and SAIF-based estimates, but contains historical tool/path settings which
-must be mapped to a separate working copy before execution.
+## Hardware simulation and implementation
 
-## 3. Method implementation and full-domain arithmetic checks
+Install Vivado, including the two Artix-7 device parts and simulation libraries.
 
-`round19/tools/state19.py` generates contexts from the current circuit after
-each accepted edit; `configure19.py` searches the registered LUT6_2 topologies
-and calls support-constrained completion. `round21/tools/quality21.py` adds
-one fixed-support SSE pass; context CSVs and accepted configurations are
-provided in the corresponding results/state directories.
+```sh
+python scripts/prepare_hardware.py --out /absolute/path/to/jarl-hardware --vivado-bin /absolute/path/to/Vivado/bin
+```
 
-The original code uses NumPy/NetworkX and a C++/WSL toolchain. Historical
-versions are in `round19/state/tool_versions.json`; signal generation also
-uses SciPy. Standalone generated final-check C++ files retained in
-`round21/src/` can be built with a compatible GCC C++17 compiler (`-O3`) and
-run outside the archive. They enumerate the recorded arithmetic domain;
-they do not constitute a new topology search.
+The preparer emits explicit `cwd`/`argv` records in `commands.json` for 12 RTL
+simulations and 24 physical jobs. Execute selected records in order with
+`subprocess.run(record["argv"], cwd=record["cwd"], check=True)`.
+RTL records are compile/elaborate/simulate triples. Preparation does not run
+the jobs. Expected markers are `JARL_FIR_PASS` and `JARL_ROUTE_COMPLETE`.
 
-These research scripts are preserved source, not a newly validated
-cross-platform end-to-end product. Some scripts contain original absolute
-paths and reference omitted intermediate artifacts. Recreate missing build
-products or map paths explicitly in a working copy. Never blindly execute
-all historical prepare/finish/close scripts.
+Recorded settings: Vivado 2026.1 build 6511674;
+`xc7a100tcsg324-1` and `xc7a200tfbg676-1`; 15 ns period; DSP use disabled.
+FIR stimulus files are relative to each prepared simulation directory.
+`scripts/vivado/power.tcl` records the power-estimation procedure; activity
+must be supplied from a corresponding simulation. Report values are estimates.
 
-## Baselines
+## External baselines
 
-The generated measurements and benchmark outputs are included. Original
-QUADOL/FABM author sources are not. Fixed source URLs and revisions are in
-`THIRD_PARTY_NOTICES.md`; obtain them separately under their applicable terms
-when rebuilding those baselines. Keep the same inputs, error budgets, tool
-settings and effective work across comparisons.
+Author sources are linked at fixed revisions in `THIRD_PARTY_NOTICES.md`.
+They are not installed or redistributed by this repository. Generated
+benchmark measurements are provided alongside JARL results for comparison.
+Use matched inputs, budgets, clocks and effective work when rebuilding them.
 
-## Release status
-
-This publication repackages existing completed experiments. At the user's
-request no new experiments or validation reruns were launched for this GitHub
-upload. Historical pass records remain dated historical evidence.
+The published interfaces reorganize existing implementation and evidence.
+No new performance or hardware experiment is implied by source packaging.

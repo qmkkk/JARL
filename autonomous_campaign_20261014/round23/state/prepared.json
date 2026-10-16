@@ -1,8 +1,0 @@
-{
-  "status": "PREPARED",
-  "designs": 12,
-  "physical_endpoints": 24,
-  "quality_rows": 72,
-  "independent_signed_oracle": true,
-  "latency": "19 and II20 asserted by HDL testbench, not yet passed"
-}

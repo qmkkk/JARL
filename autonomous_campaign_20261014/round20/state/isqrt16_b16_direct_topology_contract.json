@@ -1,7 +1,0 @@
-{
-  "case": "isqrt16_b16",
-  "status": "PASS",
-  "selected_pairs": 19,
-  "topology_truth_checks": 248,
-  "source_selected_graph_sha256": "0e21e9362356d5afe637fc2637604f141330d4de21da649737e7877a57623b71"
-}

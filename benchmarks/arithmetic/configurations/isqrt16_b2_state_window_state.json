@@ -1,0 +1,953 @@
+{
+  "case": "isqrt16_b2",
+  "status": "COMPLETE",
+  "accepted": [
+    [
+      29,
+      "state_window"
+    ],
+    [
+      28,
+      "state_window"
+    ],
+    [
+      15,
+      "state_window"
+    ],
+    [
+      24,
+      "state_window"
+    ],
+    [
+      25,
+      "state_window"
+    ],
+    [
+      2,
+      "state_window"
+    ],
+    [
+      4,
+      "state_window"
+    ],
+    [
+      27,
+      "state_window"
+    ],
+    [
+      12,
+      "state_window"
+    ],
+    [
+      18,
+      "state_window"
+    ],
+    [
+      22,
+      "state_window"
+    ],
+    [
+      10,
+      "state_window"
+    ]
+  ],
+  "history": [
+    {
+      "pair": 29,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 38,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 5.007772100001603,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair29.csv"
+      },
+      "solve_seconds": 0.48400959999707993,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          48,
+          53,
+          55,
+          136,
+          144
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "ffffffff",
+        "wce": 1,
+        "local_hd": 96,
+        "proxy": [
+          366,
+          1157,
+          0,
+          0
+        ],
+        "distinct_completions": 4,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 1,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 1,
+        "witness_A": 1,
+        "witness_B": 0,
+        "witness_Y": 0,
+        "MAE": 0.149323,
+        "query": 0,
+        "wall_with_compile_s": 1.8193796999985352,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q000.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q000.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 28,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 64,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.9061141000020143,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair28.csv"
+      },
+      "solve_seconds": 0.47636659999989206,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          53,
+          55,
+          156
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "00000000",
+        "wce": 1,
+        "local_hd": 112,
+        "proxy": [
+          362,
+          1139,
+          0,
+          0
+        ],
+        "distinct_completions": 3,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 1,
+        "first_B_only_sample_bound": 1,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 1,
+        "witness_A": 1,
+        "witness_B": 0,
+        "witness_Y": 0,
+        "MAE": 0.195587,
+        "query": 1,
+        "wall_with_compile_s": 1.8698638999994728,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q001.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q001.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 15,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 66,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.922693700002128,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair15.csv"
+      },
+      "solve_seconds": 5.717171000000235,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          53,
+          135
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "aaaaaaaa",
+        "wce": 2,
+        "local_hd": 164,
+        "proxy": [
+          360,
+          1127,
+          1,
+          1
+        ],
+        "distinct_completions": 435,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 1,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 7056,
+        "witness_B": 0,
+        "witness_Y": 86,
+        "MAE": 0.404709,
+        "query": 2,
+        "wall_with_compile_s": 1.8232898999995086,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q002.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q002.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 24,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 64,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 3.0071744000015315,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair24.csv"
+      },
+      "solve_seconds": 0.4799468999990495,
+      "diagnostic": {
+        "topologies": 24,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          49,
+          53,
+          55,
+          135
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "ffffffff",
+        "wce": 2,
+        "local_hd": 60,
+        "proxy": [
+          358,
+          1116,
+          0,
+          0
+        ],
+        "distinct_completions": 4,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 7056,
+        "witness_B": 0,
+        "witness_Y": 86,
+        "MAE": 0.400253,
+        "query": 3,
+        "wall_with_compile_s": 1.7271194999993895,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q003.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q003.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 25,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 64,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.9334563999982493,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair25.csv"
+      },
+      "solve_seconds": 0.45335500000146567,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          53,
+          375
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "00000000",
+        "initB": "3333cc00",
+        "wce": 2,
+        "local_hd": 84,
+        "proxy": [
+          357,
+          1108,
+          3,
+          3
+        ],
+        "distinct_completions": 11,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.455383,
+        "query": 4,
+        "wall_with_compile_s": 1.7591613000004145,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q004.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q004.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 2,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 18,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.8559576000006928,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair2.csv"
+      },
+      "solve_seconds": 5.109806100001151,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          50,
+          51,
+          135
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "00000000",
+        "initB": "ffff0000",
+        "wce": 2,
+        "local_hd": 17,
+        "proxy": [
+          355,
+          1098,
+          1,
+          1
+        ],
+        "distinct_completions": 344,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.545822,
+        "query": 5,
+        "wall_with_compile_s": 1.7548791999979585,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q005.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q005.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 4,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 18,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.8641953999976977,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair4.csv"
+      },
+      "solve_seconds": 3.7289877999974124,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          50,
+          51,
+          135
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "33333333",
+        "initB": "55555555",
+        "wce": 2,
+        "local_hd": 35,
+        "proxy": [
+          353,
+          1088,
+          2,
+          1
+        ],
+        "distinct_completions": 286,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.557907,
+        "query": 6,
+        "wall_with_compile_s": 1.7387180999976408,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q006.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q006.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 27,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 47,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.9307386000000406,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair27.csv"
+      },
+      "solve_seconds": 0.8509835000004387,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          53,
+          55,
+          134,
+          135,
+          138
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "ffffffff",
+        "initB": "00000000",
+        "wce": 2,
+        "local_hd": 112,
+        "proxy": [
+          351,
+          1078,
+          0,
+          0
+        ],
+        "distinct_completions": 35,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 3,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.565247,
+        "query": 7,
+        "wall_with_compile_s": 1.7522057999995013,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q007.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q007.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 30,
+      "context": {
+        "status": "DEPENDENT_SUPPORT_REJECTED"
+      },
+      "status": "DEPENDENT_SUPPORT_REJECTED"
+    },
+    {
+      "pair": 12,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 34,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.8459145999986504,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair12.csv"
+      },
+      "solve_seconds": 0.39080099999773665,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          134,
+          135
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "05555000",
+        "initB": "6204e4cc",
+        "wce": 2,
+        "local_hd": 224,
+        "proxy": [
+          350,
+          1075,
+          9,
+          5
+        ],
+        "distinct_completions": 7,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.693024,
+        "query": 8,
+        "wall_with_compile_s": 2.037013900000602,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q008.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q008.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 18,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 18,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.8828834000014467,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair18.csv"
+      },
+      "solve_seconds": 0.45349699999860604,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 6
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          50,
+          135,
+          711
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "bb88bb88",
+        "initB": "ee005588",
+        "wce": 2,
+        "local_hd": 128,
+        "proxy": [
+          350,
+          1071,
+          7,
+          4
+        ],
+        "distinct_completions": 12,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.693024,
+        "query": 9,
+        "wall_with_compile_s": 1.7427490999980364,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q009.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q009.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 22,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 34,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.9382029000007606,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair22.csv"
+      },
+      "solve_seconds": 0.44413820000045234,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          50,
+          619
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "e2e2d2d2",
+        "initB": "ff3fbfe8",
+        "wce": 2,
+        "local_hd": 104,
+        "proxy": [
+          350,
+          1069,
+          9,
+          5
+        ],
+        "distinct_completions": 5,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.735687,
+        "query": 10,
+        "wall_with_compile_s": 1.745133699998405,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q010.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q010.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 10,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 34,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 2.8883094000011624,
+        "path": "results/arithmetic/isqrt16_b2_state_window_current_pair10.csv"
+      },
+      "solve_seconds": 0.42631469999832916,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          47,
+          48,
+          49,
+          134,
+          135
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "566aa880",
+        "initB": "fcccfccc",
+        "wce": 2,
+        "local_hd": 212,
+        "proxy": [
+          350,
+          1065,
+          8,
+          5
+        ],
+        "distinct_completions": 7,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 1936,
+        "witness_B": 0,
+        "witness_Y": 46,
+        "MAE": 0.735687,
+        "query": 11,
+        "wall_with_compile_s": 1.7816916000010679,
+        "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q011.cpp",
+        "result": "results/arithmetic/isqrt16_b2_state_window_q011.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 33,
+      "context": {
+        "status": "DEPENDENT_SUPPORT_REJECTED"
+      },
+      "status": "DEPENDENT_SUPPORT_REJECTED"
+    }
+  ],
+  "checks": [
+    {
+      "inputs": 65536,
+      "WCE": 1,
+      "witness_A": 1,
+      "witness_B": 0,
+      "witness_Y": 0,
+      "MAE": 0.149323,
+      "query": 0,
+      "wall_with_compile_s": 1.8193796999985352,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q000.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q000.csv",
+      "pair": 29
+    },
+    {
+      "inputs": 65536,
+      "WCE": 1,
+      "witness_A": 1,
+      "witness_B": 0,
+      "witness_Y": 0,
+      "MAE": 0.195587,
+      "query": 1,
+      "wall_with_compile_s": 1.8698638999994728,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q001.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q001.csv",
+      "pair": 28
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 7056,
+      "witness_B": 0,
+      "witness_Y": 86,
+      "MAE": 0.404709,
+      "query": 2,
+      "wall_with_compile_s": 1.8232898999995086,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q002.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q002.csv",
+      "pair": 15
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 7056,
+      "witness_B": 0,
+      "witness_Y": 86,
+      "MAE": 0.400253,
+      "query": 3,
+      "wall_with_compile_s": 1.7271194999993895,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q003.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q003.csv",
+      "pair": 24
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.455383,
+      "query": 4,
+      "wall_with_compile_s": 1.7591613000004145,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q004.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q004.csv",
+      "pair": 25
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.545822,
+      "query": 5,
+      "wall_with_compile_s": 1.7548791999979585,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q005.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q005.csv",
+      "pair": 2
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.557907,
+      "query": 6,
+      "wall_with_compile_s": 1.7387180999976408,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q006.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q006.csv",
+      "pair": 4
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.565247,
+      "query": 7,
+      "wall_with_compile_s": 1.7522057999995013,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q007.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q007.csv",
+      "pair": 27
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.693024,
+      "query": 8,
+      "wall_with_compile_s": 2.037013900000602,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q008.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q008.csv",
+      "pair": 12
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.693024,
+      "query": 9,
+      "wall_with_compile_s": 1.7427490999980364,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q009.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q009.csv",
+      "pair": 18
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.735687,
+      "query": 10,
+      "wall_with_compile_s": 1.745133699998405,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q010.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q010.csv",
+      "pair": 22
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.735687,
+      "query": 11,
+      "wall_with_compile_s": 1.7816916000010679,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q011.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q011.csv",
+      "pair": 10
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 1936,
+      "witness_B": 0,
+      "witness_Y": 46,
+      "MAE": 0.735687,
+      "query": 12,
+      "wall_with_compile_s": 1.7391334000021743,
+      "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q012.cpp",
+      "result": "results/arithmetic/isqrt16_b2_state_window_q012.csv",
+      "stage": "final"
+    }
+  ],
+  "final": {
+    "inputs": 65536,
+    "WCE": 2,
+    "witness_A": 1936,
+    "witness_B": 0,
+    "witness_Y": 46,
+    "MAE": 0.735687,
+    "query": 12,
+    "wall_with_compile_s": 1.7391334000021743,
+    "source": "benchmarks/arithmetic/checkers/isqrt16_b2_state_window_q012.cpp",
+    "result": "results/arithmetic/isqrt16_b2_state_window_q012.csv"
+  },
+  "seconds": 83.33303779999915,
+  "context_input_count": 786432,
+  "forced_output_evaluations": 3145728,
+  "independent_scalar_probes": 384
+}

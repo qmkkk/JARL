@@ -1,7 +1,0 @@
-{
-  "case": "dot2_u4_b16",
-  "status": "PASS",
-  "selected_pairs": 1,
-  "topology_truth_checks": 8,
-  "source_selected_graph_sha256": "89b1d05867285161cec5479fe245e9bc70c9a44e469f3a0e0b746e4937e5bd61"
-}

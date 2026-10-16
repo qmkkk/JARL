@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "D:\paper_project_5\project_3\autonomous_campaign_20261014\round19\tools\audit19.py", line 57, in <module>
-    versions[key]=version_command(key,cmd)
-                  ~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\paper_project_5\project_3\autonomous_campaign_20261014\round19\tools\audit19.py", line 52, in version_command
-    assert p.returncode==0,receipt
-           ^^^^^^^^^^^^^^^
-AssertionError: {'argv': ['E:/AMDDesignTools/2026.1/Vivado/bin/vivado.bat', '-version'], 'returncode': 1, 'stdout': 'vivado v2026.1 (64-bit)\r\nTool Version Limit: 2026.06\r\nSW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026\r\nIP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026\r\nSharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026\r\nCopyright 1986-2022 Xilinx, Inc. All Rights Reserved.\r\nCopyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.\r\n', 'stderr': ''}

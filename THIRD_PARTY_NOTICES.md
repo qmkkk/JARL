@@ -20,7 +20,7 @@ Source: https://github.com/YnuGuoLab/FPGA_Signed_Approx_Mul
 
 Pinned revision: `86d94d1286286d2ab7be2dc78910b02ec00feaeb`.
 The previously inspected pinned tree did not contain a LICENSE/COPYING file.
-Author RTL and derived R22 RTL/netlists are omitted. R22 aggregate result
+Author RTL and derived signed-multiplier transfer RTL/netlists are omitted. signed-multiplier transfer aggregate result
 tables and original JARL driver code are retained. These summaries do not
 provide a self-contained reproduction of the third-party circuit.
 

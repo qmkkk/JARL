@@ -1,0 +1,82 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Thu Oct 15 16:24:25 2026
+| Host         : LAPTOP-T3JRTQ8Q running 64-bit major release  (build 9200)
+| Command      : report_timing -from [all_registers] -to [all_registers] -max_paths 1 -file results/fir/hardware/xc7a100tcsg324-1__jarl_fir8_quality_window/ff_critical_path.rpt
+| Design       : jarl_fir8_quality_window
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             7.318ns  (required time - arrival time)
+  Source:                 core/u/c93/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@7.500ns period=15.000ns})
+  Destination:            core/u/c73/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@7.500ns period=15.000ns})
+  Path Group:             clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            15.000ns  (clk rise@15.000ns - clk rise@0.000ns)
+  Data Path Delay:        7.736ns  (logic 3.455ns (44.659%)  route 4.281ns (55.341%))
+  Logic Levels:           8  (CARRY4=4 LUT3=1 LUT5=2 LUT6=1)
+  Clock Path Skew:        -0.019ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.516ns = ( 16.516 - 15.000 ) 
+    Source Clock Delay      (SCD):    1.632ns
+    Clock Pessimism Removal (CPR):    0.097ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=284, unset)          1.632     1.632    core/u/clk
+    SLICE_X13Y78         FDRE                                         r  core/u/c93/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X13Y78         FDRE (Prop_fdre_C_Q)         0.419     2.051 r  core/u/c93/Q
+                         net (fo=10, routed)          0.892     2.943    core/u/v[69]
+    SLICE_X13Y78         LUT6 (Prop_lut6_I3_O)        0.296     3.239 r  core/u/c18/O
+                         net (fo=3, routed)           0.971     4.210    core/u/merge_2/I0
+    SLICE_X12Y79         LUT5 (Prop_lut5_I0_O)        0.150     4.360 r  core/u/merge_2/LUT5/O
+                         net (fo=1, routed)           0.346     4.707    core/u/v[96]
+    SLICE_X13Y79         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.729     5.436 r  core/u/c71/CO[3]
+                         net (fo=1, routed)           0.000     5.436    core/u/v[159]
+    SLICE_X13Y80         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.222     5.658 r  core/u/c77/O[0]
+                         net (fo=3, routed)           0.580     6.238    core/u/v[59]
+    SLICE_X15Y80         LUT3 (Prop_lut3_I1_O)        0.299     6.537 r  core/u/c3/O
+                         net (fo=3, routed)           1.137     7.674    core/u/merge_5/I1
+    SLICE_X15Y81         LUT5 (Prop_lut5_I1_O)        0.152     7.826 r  core/u/merge_5/LUT5/O
+                         net (fo=1, routed)           0.355     8.180    core/u/v[108]
+    SLICE_X14Y81         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.865     9.045 r  core/u/c70/CO[3]
+                         net (fo=1, routed)           0.000     9.045    core/u/v[154]
+    SLICE_X14Y82         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.323     9.368 r  core/u/c75/O[1]
+                         net (fo=1, routed)           0.000     9.368    core/u/v[165]
+    SLICE_X14Y82         FDRE                                         r  core/u/c73/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)       15.000    15.000 r  <hidden>
+                                                      0.000    15.000 r  clk
+                         net (fo=284, unset)          1.516    16.516    core/u/clk
+    SLICE_X14Y82         FDRE                                         r  core/u/c73/C
+                         clock pessimism              0.097    16.613    <hidden>
+                         clock uncertainty           -0.035    16.578    <hidden>
+    SLICE_X14Y82         FDRE (Setup_fdre_C_D)        0.109    16.687    core/u/c73
+  -------------------------------------------------------------------
+                         required time                         16.687    <hidden>
+                         arrival time                          -9.368    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  7.318    <hidden>
+
+
+
+

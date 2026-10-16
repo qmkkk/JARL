@@ -1,7 +1,0 @@
-{
-  "case": "umul8_b16",
-  "status": "PASS",
-  "selected_pairs": 0,
-  "topology_truth_checks": 0,
-  "source_selected_graph_sha256": "69ef812e120208991389f2001a266d18ddde0d16c34b0b1d03ca4722395b57ba"
-}

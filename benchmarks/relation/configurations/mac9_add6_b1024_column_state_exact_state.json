@@ -1,0 +1,728 @@
+{
+  "case": "mac9_add6_b1024_column",
+  "status": "COMPLETE",
+  "accepted": [
+    [
+      7,
+      "state_exact"
+    ],
+    [
+      2,
+      "state_exact"
+    ],
+    [
+      21,
+      "state_exact"
+    ],
+    [
+      5,
+      "state_exact"
+    ],
+    [
+      0,
+      "state_exact"
+    ],
+    [
+      1,
+      "state_exact"
+    ],
+    [
+      26,
+      "state_exact"
+    ],
+    [
+      24,
+      "state_exact"
+    ],
+    [
+      27,
+      "state_exact"
+    ]
+  ],
+  "history": [
+    {
+      "pair": 7,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.7611144999991666,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair7.csv"
+      },
+      "solve_seconds": 0.3954001000001881,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          57,
+          67,
+          77,
+          89,
+          91
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "00000000",
+        "initB": "5800f000",
+        "wce": 0,
+        "local_hd": 3,
+        "proxy": [
+          85,
+          364,
+          5,
+          5
+        ],
+        "distinct_completions": 17,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 16384,
+        "first_B_only_sample_bound": 16384,
+        "both_single_edits_violate_sample_budget": true
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 0,
+        "wall_with_compile_s": 0.8520642000003136,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q000.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q000.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 2,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.7203306999999768,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair2.csv"
+      },
+      "solve_seconds": 0.3275439000008191,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          57,
+          67,
+          77,
+          89,
+          91
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "d2f0aa00",
+        "initB": "f000f000",
+        "wce": 0,
+        "local_hd": 6,
+        "proxy": [
+          84,
+          362,
+          7,
+          5
+        ],
+        "distinct_completions": 3,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 1,
+        "wall_with_compile_s": 0.9554282999997668,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q001.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q001.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 15,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.7343731000000844,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair15.csv"
+      },
+      "solve_seconds": 0.010284300000421354,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 21,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 128,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.7267229999997653,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair21.csv"
+      },
+      "solve_seconds": 0.16632639999988896,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 1
+        }
+      },
+      "configuration": {
+        "shared": [
+          55,
+          57,
+          58,
+          59,
+          60
+        ],
+        "select": 61,
+        "mode": "g6",
+        "initA": "ffffffff",
+        "initB": "6a95c03f",
+        "wce": 0,
+        "local_hd": 128,
+        "proxy": [
+          84,
+          361,
+          11,
+          6
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 2,
+        "wall_with_compile_s": 0.8601226999999199,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q002.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q002.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 5,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 22,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.8075573999994958,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair5.csv"
+      },
+      "solve_seconds": 0.3022039000006771,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          54,
+          77,
+          137,
+          138,
+          166
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "87780000",
+        "initB": "87788778",
+        "wce": 0,
+        "local_hd": 0,
+        "proxy": [
+          84,
+          361,
+          9,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 3,
+        "wall_with_compile_s": 0.8460438000001886,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q003.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q003.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 0,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.7045751000005112,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair0.csv"
+      },
+      "solve_seconds": 0.30513579999933427,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          54,
+          56,
+          62,
+          69,
+          70
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "6996c33c",
+        "initB": "d4e8fcc0",
+        "wce": 0,
+        "local_hd": 0,
+        "proxy": [
+          84,
+          361,
+          10,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 4,
+        "wall_with_compile_s": 0.8511837999994896,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q004.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q004.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 1,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 24,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.8712061999995058,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair1.csv"
+      },
+      "solve_seconds": 0.29176669999833393,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          60,
+          77,
+          113,
+          114,
+          121
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "78878778",
+        "initB": "f770f880",
+        "wce": 0,
+        "local_hd": 0,
+        "proxy": [
+          84,
+          361,
+          10,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 5,
+        "wall_with_compile_s": 0.8964698999989196,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q005.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q005.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 26,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.720463199999358,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair26.csv"
+      },
+      "solve_seconds": 0.30369620000055875,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          63,
+          64,
+          65,
+          80,
+          103
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "be4141be",
+        "initB": "bebebebe",
+        "wce": 0,
+        "local_hd": 0,
+        "proxy": [
+          84,
+          363,
+          8,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 6,
+        "wall_with_compile_s": 0.914409799999703,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q006.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q006.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 24,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.8978257999988273,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair24.csv"
+      },
+      "solve_seconds": 0.3142794000013964,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          52,
+          53,
+          54,
+          55,
+          133
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "0000e888",
+        "initB": "e888e888",
+        "wce": 0,
+        "local_hd": 0,
+        "proxy": [
+          84,
+          366,
+          9,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 7,
+        "wall_with_compile_s": 0.8719479000010324,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q007.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q007.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 27,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 16777216,
+        "forced_output_evaluations": 67108864,
+        "reachable_rows": 64,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 1.7539827000000514,
+        "path": "results/relation/mac9_add6_b1024_column_state_exact_current_pair27.csv"
+      },
+      "solve_seconds": 0.3158458999987488,
+      "diagnostic": {
+        "topologies": 24,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          52,
+          53,
+          54,
+          55,
+          80
+        ],
+        "select": 81,
+        "mode": "g6",
+        "initA": "69999666",
+        "initB": "96669666",
+        "wce": 0,
+        "local_hd": 0,
+        "proxy": [
+          84,
+          369,
+          10,
+          6
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 16777216,
+        "WCE": 897,
+        "witness_A": 255,
+        "witness_B": 255,
+        "witness_Y": 64128,
+        "MAE": 461.811,
+        "query": 8,
+        "wall_with_compile_s": 0.9257968999991135,
+        "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q008.cpp",
+        "result": "results/relation/mac9_add6_b1024_column_state_exact_q008.csv"
+      },
+      "status": "ACCEPTED"
+    }
+  ],
+  "checks": [
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 0,
+      "wall_with_compile_s": 0.8520642000003136,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q000.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q000.csv",
+      "pair": 7
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 1,
+      "wall_with_compile_s": 0.9554282999997668,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q001.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q001.csv",
+      "pair": 2
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 2,
+      "wall_with_compile_s": 0.8601226999999199,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q002.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q002.csv",
+      "pair": 21
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 3,
+      "wall_with_compile_s": 0.8460438000001886,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q003.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q003.csv",
+      "pair": 5
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 4,
+      "wall_with_compile_s": 0.8511837999994896,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q004.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q004.csv",
+      "pair": 0
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 5,
+      "wall_with_compile_s": 0.8964698999989196,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q005.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q005.csv",
+      "pair": 1
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 6,
+      "wall_with_compile_s": 0.914409799999703,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q006.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q006.csv",
+      "pair": 26
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 7,
+      "wall_with_compile_s": 0.8719479000010324,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q007.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q007.csv",
+      "pair": 24
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 8,
+      "wall_with_compile_s": 0.9257968999991135,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q008.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q008.csv",
+      "pair": 27
+    },
+    {
+      "inputs": 16777216,
+      "WCE": 897,
+      "witness_A": 255,
+      "witness_B": 255,
+      "witness_Y": 64128,
+      "MAE": 461.811,
+      "query": 9,
+      "wall_with_compile_s": 0.8716057000001456,
+      "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q009.cpp",
+      "result": "results/relation/mac9_add6_b1024_column_state_exact_q009.csv",
+      "stage": "final"
+    }
+  ],
+  "final": {
+    "inputs": 16777216,
+    "WCE": 897,
+    "witness_A": 255,
+    "witness_B": 255,
+    "witness_Y": 64128,
+    "MAE": 461.811,
+    "query": 9,
+    "wall_with_compile_s": 0.8716057000001456,
+    "source": "benchmarks/relation/checkers/mac9_add6_b1024_column_state_exact_q009.cpp",
+    "result": "results/relation/mac9_add6_b1024_column_state_exact_q009.csv"
+  },
+  "seconds": 29.355971099999806,
+  "context_input_count": 167772160,
+  "forced_output_evaluations": 671088640,
+  "independent_scalar_probes": 320
+}

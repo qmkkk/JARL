@@ -1,0 +1,48 @@
+[
+  {
+    "case": "fabm16_f12",
+    "author_LUT": 223,
+    "quadol_LUT": 223,
+    "method_LUT": 218,
+    "LUT_gain_percent": 2.242152466367713,
+    "accepted": 13,
+    "proposal_status": {
+      "ACCEPTED": 13,
+      "OVERLAP_SKIPPED": 22,
+      "UNPROVEN_TIMEOUT": 1
+    },
+    "formal_checks": 5,
+    "WNS_ns": 6.098,
+    "WHS_ns": -1.081
+  },
+  {
+    "case": "fabm16_f15",
+    "author_LUT": 208,
+    "quadol_LUT": 208,
+    "method_LUT": 204,
+    "LUT_gain_percent": 1.9230769230769231,
+    "accepted": 13,
+    "proposal_status": {
+      "ACCEPTED": 13,
+      "OVERLAP_SKIPPED": 22
+    },
+    "formal_checks": 5,
+    "WNS_ns": 6.372,
+    "WHS_ns": -1.193
+  },
+  {
+    "case": "fabm16_f18",
+    "author_LUT": 190,
+    "quadol_LUT": 190,
+    "method_LUT": 186,
+    "LUT_gain_percent": 2.1052631578947367,
+    "accepted": 13,
+    "proposal_status": {
+      "ACCEPTED": 13,
+      "OVERLAP_SKIPPED": 22
+    },
+    "formal_checks": 5,
+    "WNS_ns": 6.289,
+    "WHS_ns": -1.001
+  }
+]

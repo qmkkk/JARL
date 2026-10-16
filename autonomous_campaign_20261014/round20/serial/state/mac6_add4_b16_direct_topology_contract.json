@@ -1,7 +1,0 @@
-{
-  "case": "mac6_add4_b16",
-  "status": "PASS",
-  "selected_pairs": 2,
-  "topology_truth_checks": 40,
-  "source_selected_graph_sha256": "787b0600242bee2c3b76eb155e9fae1cb61ec2bade734b878f199e4ff1b8154d"
-}

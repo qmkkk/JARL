@@ -1,9 +1,0 @@
-{
-  "top": "r23_fir9_serial_then_quadol",
-  "part": "xc7a200tfbg676-1",
-  "source_sha256": "1235c52fd1df5215218a7072dabf0cdd08c3b2ad01f80bbfae4d2bb55bd56ae0",
-  "synth_checkpoint_sha256": "a296c12f9fdc8b3fd897f0b14af3e745457695d61d48be1689fba80d6c147292",
-  "status": "RECOVERED",
-  "reason": "Two opt_design Synth20-411 failures after successful synth and DRC; restart standard implementation from saved synthesis checkpoint, same constraints and strategies.",
-  "log": "D:\\paper_project_5\\project_3\\autonomous_campaign_20261014\\round23\\results\\hardware\\xc7a200tfbg676-1__r23_fir9_serial_then_quadol\\checkpoint_recovery_1.log"
-}

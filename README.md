@@ -2,76 +2,65 @@
 
 **Joint Approximate Resynthesis of Dual-Output LUTs for FPGAs**
 
-Research code, frozen experimental results, RTL, and reproduction entry points
-for JARL. This repository publishes the existing Project 3 evidence through
-R23; publication of the artifact does not imply journal acceptance.
+JARL jointly resynthesizes two LUT outputs under a numerical-error constraint
+while respecting the shared truth-table structure of FPGA dual-output LUTs.
+The repository provides the method implementation, arithmetic benchmarks,
+experimental data, and a programmable FIR application.
 
-JARL jointly chooses the functions of two LUT outputs using downstream
-numerical-error constraints, while respecting the shared half-table structure
-of an FPGA LUT6_2. A fixed-support quality pass minimizes squared error when
-the resulting binary energy admits a consistent submodular orientation.
+## Method
 
-## Quick start
+1. Build a numerical permission relation for a pair of outputs in the current circuit.
+2. Project that relation onto legal LUT6_2 shared inputs and half-table supports.
+3. Construct feasible functions using support-constrained Boolean completion.
+4. Recompute the relation after an accepted change. Optionally complete the
+   fixed-support functions to reduce squared error without violating the error budget.
+
+The implementation uses standard 2-SAT and graph-cut reductions. The latter
+solves an orientable fixed-factor energy; it does not imply a globally optimal
+FPGA area result. See [method and API](docs/METHOD.md).
+
+## Reproduce the published data
 
 ```sh
 git clone https://github.com/qmkkk/JARL.git
 cd JARL
-python -B tools/review_release.py all
+python -B scripts/reproduce_results.py all
 ```
 
-Python 3.10+; this entry point uses only the standard library. It checks the
-artifact manifest and recomputes **73,728 FIR outputs**, **72 quality records**,
-and the paired resource comparisons from the **24 saved physical endpoints**.
-It reanalyzes archived evidence; it does not launch synthesis or manufacture
-new measurement results.
+Python 3.10+ is sufficient for this standard-library entry point. It verifies
+the distributed files and reconstructs 73,728 FIR outputs, 72 quality records,
+and comparisons for 24 recorded implementation endpoints. Vivado is needed
+only for hardware simulation and implementation.
 
-## Hardware replay
+To use the method code, install the package with `python -m pip install -e .`.
+See [reproduction instructions](docs/REPRODUCING.md) for resynthesis and hardware jobs.
 
-Install Vivado separately. In a fresh output directory:
+## Repository layout
 
-```sh
-python -B tools/prepare_r23_replay.py --out /absolute/path/to/jarl-replay --vivado-bin /absolute/path/to/Vivado/bin
-```
-
-The preparer emits `commands.json` with explicit working directories and
-argument arrays for 12 RTL simulations and 24 implementation jobs. The
-original launcher targets Windows (`.bat` tool entry points); on Linux use the
-corresponding executable names. See [reproduction instructions](docs/REPRODUCING.md).
-
-## Main implementation
-
-All paths below are under `autonomous_campaign_20261014/`.
-
-| Component | Source |
+| Directory | Contents |
 |---|---|
-| Numerical relation and state-conditioned pass | `round19/tools/state19.py` |
-| Joint physical LUT6_2 function construction | `round19/tools/configure19.py` |
-| Support aliasing and 2-SAT completion | `tools/core.py` |
-| Circuit representation and RTL emission | `input/legacy_code/` |
-| Fixed-support quality pass | `round21/tools/quality21.py` |
-| Binary energy / min-cut implementation | `tools/candidate_quality_tables.py`, `tools/candidate_quality_cut.py` |
-| FIR system generator | `tools/fir_system_harness.py`, `round23/tools/prepare23.py` |
-| Frozen final RTL and testbenches | `round23/rtl/` |
-| Physical implementation and power scripts | `round23/tools/physical23.tcl`, `power23.tcl`, `run23.py` |
+| `src/jarl/` | Numerical relations, LUT function construction, quality completion, netlist and RTL utilities |
+| `benchmarks/` | Arithmetic cases, circuit graphs, saved configurations, FIR stimuli and full-domain checkers |
+| `results/` | Numerical, resource, timing and application measurements, grouped by experiment |
+| `rtl/` | Arithmetic and programmable FIR implementations and testbenches |
+| `scripts/` | Result reproduction, method execution and Vivado job preparation |
+| `docs/` | Method, data schema and reproduction guidance |
 
-2-SAT and graph-cut optimization are standard techniques, not claimed as new
-algorithms. Exactness of the energy solution applies to its fixed variables,
-supports and factors, not to globally optimal FPGA area.
+## Experiments
 
-## Evidence
-
-| Round | Included evidence |
+| Study | Data |
 |---|---|
-| R19 | Numerical relation, ablations, strong serial baseline, formal core results |
-| R20 | Six arithmetic structures, five error budgets, positive and negative outcomes |
-| R21 | Fixed-support quality completion, three widths, unchanged error budgets |
-| R22 | Summary measurements for 16-bit author-circuit equivalence transfer; author RTL is external |
-| R23 | Complete programmable 16-tap FIR, four methods, three widths, two Artix-7 devices |
+| Numerical relations and ablations | [results/relation](results/relation) |
+| Six arithmetic structures and five error budgets | [results/arithmetic](results/arithmetic) |
+| Fixed-support quality completion at three widths | [results/quality](results/quality) |
+| Exact transfer to signed multiplier circuits | [results/transfer](results/transfer) |
+| Programmable 16-tap FIR | [results/fir](results/fir) |
 
-In R23, the final method uses fewer routed LUTs than the better of the two
-baselines at all six width/device points:
+The FIR experiment compares two baselines, an ablation and the complete
+method at three operand widths on two Artix-7 devices. Routed LUT counts for
+the complete method and the smaller of the two baselines are:
 
-| Device | Width | Best baseline LUTs | JARL LUTs |
+| Device | Width | Best baseline | JARL |
 |---|---:|---:|---:|
 | xc7a100t | 8 | 190 | 187 |
 | xc7a100t | 9 | 229 | 227 |
@@ -80,26 +69,19 @@ baselines at all six width/device points:
 | xc7a200t | 9 | 229 | 226 |
 | xc7a200t | 10 | 215 | 214 |
 
-The 24 archived physical endpoints meet the registered 15 ns timing target.
-The FIR has initiation interval 20 cycles and latency 19 cycles. Quality
-trade-offs, non-improving cases, and engineering limitations remain in the
-data. Two devices here belong to the same Artix-7 family. Power estimates do
-not establish a power/energy reduction; these are not board measurements.
+All 24 FIR endpoints meet the 15 ns implementation target. The design has an
+initiation interval of 20 cycles and latency of 19 cycles. Accuracy/resource
+trade-offs and non-improving cases are retained in the data. The two devices
+are from the same FPGA family. The supplied power estimates do not establish
+an energy reduction. See [data guide](docs/DATA.md) for definitions and scope.
 
-Primary tables: `round23/results/baseline_comparison.csv`,
-`quality_aggregate.csv`, `system_quality.csv`, and `physical_results.csv`.
-See [artifact scope](docs/ARTIFACT_SCOPE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+## License and attribution
 
-## License and citation
+Original JARL source code is distributed under the [MIT License](LICENSE).
+See [third-party notices](THIRD_PARTY_NOTICES.md) for baseline sources and tool
+requirements. When using the artifact, cite the title above and this repository.
 
-Original JARL code is released under the [MIT License](LICENSE). External
-author implementations and vendor tools are not redistributed or relicensed.
-When using this artifact, cite the title above and this repository URL. No
-publication DOI or accepted-paper status is asserted.
+## 中文
 
-## 中文说明
-
-本仓库公开 JARL 的方法代码、R19–R23 核心数据、最终 FIR RTL、测试输入和复现入口。
-先运行上面的 `review_release.py all` 可离线复核现有结果；完整硬件重放需要自行安装 Vivado。
-原始研究脚本保留历史目录与路径，不能在冻结证据目录中直接批量重跑。
-本次发布不追加实验；未捆绑许可未明确的第三方作者原码。
+本仓库按方法、基准、实验数据和复现流程组织。快速复核入口为
+`scripts/reproduce_results.py`；方法实现位于 `src/jarl/`。

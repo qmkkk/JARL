@@ -1,7 +1,0 @@
-{
-  "case": "mac8_add8_b256_column",
-  "status": "PASS",
-  "selected_pairs": 1,
-  "topology_truth_checks": 8,
-  "source_selected_graph_sha256": "7be496608879772db654319577cd5c16e7a091b31ece72805f82bef32a0ad9d6"
-}

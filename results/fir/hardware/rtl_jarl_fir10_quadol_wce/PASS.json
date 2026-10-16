@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "top": "jarl_fir10_quadol_wce",
+  "checks": 6144,
+  "latency": 19,
+  "II": 20,
+  "routed": false,
+  "log": "results/fir/hardware/rtl_jarl_fir10_quadol_wce/simulate_1.log"
+}

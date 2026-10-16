@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "top": "jarl_fir9_state_window",
+  "checks": 6144,
+  "latency": 19,
+  "II": 20,
+  "routed": true,
+  "log": "results/fir/hardware/xc7a200tfbg676-1__jarl_fir9_state_window/sim/simulate_1.log",
+  "saif_sha256": "0de90e1287bd36a2d095d2d5f43d4fdf225de06b1d68590fa74914d7ff7715eb",
+  "saif_bytes": 138494
+}

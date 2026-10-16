@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "top": "jarl_fir10_serial_then_quadol",
+  "checks": 6144,
+  "latency": 19,
+  "II": 20,
+  "routed": true,
+  "log": "results/fir/hardware/xc7a100tcsg324-1__jarl_fir10_serial_then_quadol/sim/simulate_1.log",
+  "saif_sha256": "f762e3cc347efc2173d304079ac2b420a9549ed9ddceb97d8e69e0c6710bfd9b",
+  "saif_bytes": 137115
+}

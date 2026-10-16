@@ -1,0 +1,233 @@
+[
+  {
+    "case": "mac8_add8_b256_column_mse",
+    "compensation": 80,
+    "seed_WCE": 241,
+    "best_baseline": "serial_then_quadol",
+    "LUT": {
+      "quadol_wce": 54,
+      "serial_then_quadol": 51,
+      "state_window": 49,
+      "quality_window": 49
+    },
+    "FF": {
+      "quadol_wce": 40,
+      "serial_then_quadol": 40,
+      "state_window": 40,
+      "quality_window": 40
+    },
+    "CARRY4": {
+      "quadol_wce": 8,
+      "serial_then_quadol": 8,
+      "state_window": 8,
+      "quality_window": 8
+    },
+    "WCE": {
+      "quadol_wce": 256,
+      "serial_then_quadol": 241,
+      "state_window": 241,
+      "quality_window": 245
+    },
+    "MAE": {
+      "quadol_wce": 63.2880859375,
+      "serial_then_quadol": 87.006591796875,
+      "state_window": 125.1962890625,
+      "quality_window": 103.288818359375
+    },
+    "RMSE": {
+      "quadol_wce": 78.98259301896843,
+      "serial_then_quadol": 104.45214215132211,
+      "state_window": 136.13320682331698,
+      "quality_window": 115.13578939669455
+    },
+    "SSE": {
+      "quadol_wce": 104660467712,
+      "serial_then_quadol": 183043620864,
+      "state_window": 310919561216,
+      "quality_window": 222402969600
+    },
+    "bias": {
+      "quadol_wce": 7.75,
+      "serial_then_quadol": 55.75,
+      "state_window": 107.75,
+      "quality_window": 75.75
+    },
+    "WNS_ns": {
+      "quadol_wce": 4.053,
+      "serial_then_quadol": 3.675,
+      "state_window": 2.374,
+      "quality_window": 2.374
+    },
+    "timing": {
+      "quadol_wce": true,
+      "serial_then_quadol": true,
+      "state_window": true,
+      "quality_window": true
+    },
+    "main_LUT_gain_vs_best_baseline_pct": 3.9215686274509802,
+    "quality_LUT_gain_vs_best_baseline_pct": 3.9215686274509802,
+    "quality_RMSE_improvement_vs_main_pct": 15.424170132034224,
+    "quality_LUT_change_vs_main": 0,
+    "quality_changes": 1,
+    "window_status_counts": {
+      "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY": 4,
+      "ACCEPTED_QUALITY": 1
+    },
+    "quality_dominates_main": true,
+    "quality_dominated_by_any_baseline": false
+  },
+  {
+    "case": "mac9_add6_b1024_column_mse",
+    "compensation": 769,
+    "seed_WCE": 1024,
+    "best_baseline": "serial_then_quadol",
+    "LUT": {
+      "quadol_wce": 69,
+      "serial_then_quadol": 69,
+      "state_window": 66,
+      "quality_window": 66
+    },
+    "FF": {
+      "quadol_wce": 41,
+      "serial_then_quadol": 41,
+      "state_window": 41,
+      "quality_window": 41
+    },
+    "CARRY4": {
+      "quadol_wce": 10,
+      "serial_then_quadol": 10,
+      "state_window": 10,
+      "quality_window": 10
+    },
+    "WCE": {
+      "quadol_wce": 1024,
+      "serial_then_quadol": 1024,
+      "state_window": 1024,
+      "quality_window": 1024
+    },
+    "MAE": {
+      "quadol_wce": 354.5128173828125,
+      "serial_then_quadol": 318.5729064941406,
+      "state_window": 343.6497497558594,
+      "quality_window": 318.5578155517578
+    },
+    "RMSE": {
+      "quadol_wce": 406.56457051740256,
+      "serial_then_quadol": 379.20541926507326,
+      "state_window": 402.7614057975267,
+      "quality_window": 382.0533339731509
+    },
+    "SSE": {
+      "quadol_wce": 2773185724416,
+      "serial_then_quadol": 2412509134848,
+      "state_window": 2721545453568,
+      "quality_window": 2448882139136
+    },
+    "bias": {
+      "quadol_wce": 320.75,
+      "serial_then_quadol": 236.75,
+      "state_window": 292.75,
+      "quality_window": 236.75
+    },
+    "WNS_ns": {
+      "quadol_wce": 5.402,
+      "serial_then_quadol": 5.003,
+      "state_window": 4.802,
+      "quality_window": 4.802
+    },
+    "timing": {
+      "quadol_wce": true,
+      "serial_then_quadol": true,
+      "state_window": true,
+      "quality_window": true
+    },
+    "main_LUT_gain_vs_best_baseline_pct": 4.3478260869565215,
+    "quality_LUT_gain_vs_best_baseline_pct": 4.3478260869565215,
+    "quality_RMSE_improvement_vs_main_pct": 5.141523374954651,
+    "quality_LUT_change_vs_main": 0,
+    "quality_changes": 1,
+    "window_status_counts": {
+      "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY": 8,
+      "ACCEPTED_QUALITY": 1
+    },
+    "quality_dominates_main": true,
+    "quality_dominated_by_any_baseline": false
+  },
+  {
+    "case": "mac10_add4_b4096_column_mse",
+    "compensation": 1024,
+    "seed_WCE": 3073,
+    "best_baseline": "serial_then_quadol",
+    "LUT": {
+      "quadol_wce": 70,
+      "serial_then_quadol": 63,
+      "state_window": 62,
+      "quality_window": 62
+    },
+    "FF": {
+      "quadol_wce": 39,
+      "serial_then_quadol": 39,
+      "state_window": 38,
+      "quality_window": 38
+    },
+    "CARRY4": {
+      "quadol_wce": 11,
+      "serial_then_quadol": 11,
+      "state_window": 11,
+      "quality_window": 11
+    },
+    "WCE": {
+      "quadol_wce": 3841,
+      "serial_then_quadol": 4096,
+      "state_window": 4096,
+      "quality_window": 4096
+    },
+    "MAE": {
+      "quadol_wce": 849.800464630127,
+      "serial_then_quadol": 1502.5221519470215,
+      "state_window": 1669.9047546386719,
+      "quality_window": 1644.3097877502441
+    },
+    "RMSE": {
+      "quadol_wce": 1022.2398201987634,
+      "serial_then_quadol": 1805.947466013339,
+      "state_window": 1958.5870544859629,
+      "quality_window": 1936.7845130524975
+    },
+    "SSE": {
+      "quadol_wce": 17531758706688,
+      "serial_then_quadol": 54717988208640,
+      "state_window": 64358461734912,
+      "quality_window": 62933589557248
+    },
+    "bias": {
+      "quadol_wce": 191.75,
+      "serial_then_quadol": 1231.75,
+      "state_window": 1545.75,
+      "quality_window": 1503.75
+    },
+    "WNS_ns": {
+      "quadol_wce": 7.207,
+      "serial_then_quadol": 7.303,
+      "state_window": 7.174,
+      "quality_window": 7.174
+    },
+    "timing": {
+      "quadol_wce": true,
+      "serial_then_quadol": true,
+      "state_window": true,
+      "quality_window": true
+    },
+    "main_LUT_gain_vs_best_baseline_pct": 1.5873015873015872,
+    "quality_LUT_gain_vs_best_baseline_pct": 1.5873015873015872,
+    "quality_RMSE_improvement_vs_main_pct": 1.1131770417622597,
+    "quality_LUT_change_vs_main": 0,
+    "quality_changes": 1,
+    "window_status_counts": {
+      "KEEP_ALREADY_OPTIMAL_FIXED_ENERGY": 8,
+      "ACCEPTED_QUALITY": 1
+    },
+    "quality_dominates_main": true,
+    "quality_dominated_by_any_baseline": false
+  }
+]

@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "D:\paper_project_5\project_3\autonomous_campaign_20261014\round19\tools\identity19.py", line 8, in <module>
-    for e in new:assert e['canonical_sha256']==old[e['case'],e['method']]['canonical_sha256'],('MODEL_CHANGED',e['case'],e['method']);assert not e['inherited_physical']and e['duplicate_of']is None
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: ('MODEL_CHANGED', 'mac8_add8_b256_column', 'quadol_wce')

@@ -1,9 +1,10 @@
 __pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
 .Xil/
 xsim.dir/
 *.dcp
 *.exe
 *.zip
-replay/
+work/

@@ -1,0 +1,64 @@
+[
+  {
+    "method": "numeric_window",
+    "choices": [
+      [
+        9,
+        "numeric_window"
+      ],
+      [
+        15,
+        "numeric_window"
+      ],
+      [
+        0,
+        "numeric_window"
+      ],
+      [
+        30,
+        "numeric_window"
+      ],
+      [
+        32,
+        "numeric_window"
+      ],
+      [
+        38,
+        "numeric_window"
+      ],
+      [
+        39,
+        "numeric_window"
+      ],
+      [
+        33,
+        "numeric_window"
+      ],
+      [
+        7,
+        "numeric_window"
+      ],
+      [
+        1,
+        "numeric_window"
+      ],
+      [
+        11,
+        "numeric_window"
+      ],
+      [
+        4,
+        "numeric_window"
+      ],
+      [
+        5,
+        "numeric_window"
+      ],
+      [
+        23,
+        "numeric_window"
+      ]
+    ],
+    "cycle_rejected_pairs": []
+  }
+]

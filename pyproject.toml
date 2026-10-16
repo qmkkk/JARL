@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jarl-fpga"
+version = "0.1.0"
+description = "Joint Approximate Resynthesis of Dual-Output LUTs for FPGAs"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.1", "networkx>=3.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

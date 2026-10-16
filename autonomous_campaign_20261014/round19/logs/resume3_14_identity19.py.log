@@ -1,1 +1,0 @@
-{'phase': 'application_and_integration', 'status': 'PASS_WITH_DISCLOSED_BASELINE_VARIATION', 'identical_nonbaseline_tables': 15, 'identical_nonbaseline_application_outputs': 90, 'identical_integration_wrappers': 9}

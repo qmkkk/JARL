@@ -1,0 +1,87 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Thu Oct 15 14:57:17 2026
+| Host         : LAPTOP-T3JRTQ8Q running 64-bit major release  (build 9200)
+| Command      : report_timing -from [all_registers] -to [all_registers] -max_paths 1 -file results/quality/hardware/jarl_quality_mac10_add4_b4096_column_mse_quality_window/ff_critical_path.rpt
+| Design       : jarl_quality_mac10_add4_b4096_column_mse_quality_window
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             7.174ns  (required time - arrival time)
+  Source:                 c122/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@7.500ns period=15.000ns})
+  Destination:            c101/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@7.500ns period=15.000ns})
+  Path Group:             clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            15.000ns  (clk rise@15.000ns - clk rise@0.000ns)
+  Data Path Delay:        7.877ns  (logic 3.899ns (49.500%)  route 3.978ns (50.500%))
+  Logic Levels:           10  (CARRY4=5 LUT4=1 LUT5=3 LUT6=1)
+  Clock Path Skew:        -0.023ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.522ns = ( 16.522 - 15.000 ) 
+    Source Clock Delay      (SCD):    1.642ns
+    Clock Pessimism Removal (CPR):    0.097ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=37, unset)           1.642     1.642    clk
+    SLICE_X12Y87         FDRE                                         r  c122/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X12Y87         FDRE (Prop_fdre_C_Q)         0.478     2.120 r  c122/Q
+                         net (fo=22, routed)          1.246     3.366    v[82]
+    SLICE_X15Y85         LUT4 (Prop_lut4_I1_O)        0.295     3.661 r  c54/O
+                         net (fo=1, routed)           0.000     3.661    v[140]
+    SLICE_X15Y85         CARRY4 (Prop_carry4_S[1]_O[3])
+                                                      0.640     4.301 r  c99/O[3]
+                         net (fo=2, routed)           0.434     4.735    v[119]
+    SLICE_X14Y86         LUT5 (Prop_lut5_I0_O)        0.306     5.041 r  c39/O
+                         net (fo=2, routed)           0.577     5.618    v[118]
+    SLICE_X14Y87         LUT6 (Prop_lut6_I0_O)        0.124     5.742 r  c42/O
+                         net (fo=1, routed)           0.000     5.742    v[129]
+    SLICE_X14Y87         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.376     6.118 r  c98/CO[3]
+                         net (fo=1, routed)           0.000     6.118    v[203]
+    SLICE_X14Y88         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.323     6.441 r  c108/O[1]
+                         net (fo=5, routed)           0.963     7.405    merge_1/I3
+    SLICE_X11Y88         LUT5 (Prop_lut5_I3_O)        0.332     7.737 r  merge_1/LUT5/O
+                         net (fo=1, routed)           0.757     8.494    v[90]
+    SLICE_X12Y88         LUT5 (Prop_lut5_I2_O)        0.326     8.820 r  c56/O
+                         net (fo=1, routed)           0.000     8.820    v[142]
+    SLICE_X12Y88         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.376     9.196 r  c96/CO[3]
+                         net (fo=1, routed)           0.000     9.196    v[195]
+    SLICE_X12Y89         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.323     9.519 r  c103/O[1]
+                         net (fo=1, routed)           0.000     9.519    v[213]
+    SLICE_X12Y89         FDRE                                         r  c101/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)       15.000    15.000 r  <hidden>
+                                                      0.000    15.000 r  clk
+                         net (fo=37, unset)           1.522    16.522    clk
+    SLICE_X12Y89         FDRE                                         r  c101/C
+                         clock pessimism              0.097    16.619    <hidden>
+                         clock uncertainty           -0.035    16.584    <hidden>
+    SLICE_X12Y89         FDRE (Setup_fdre_C_D)        0.109    16.693    c101
+  -------------------------------------------------------------------
+                         required time                         16.693    <hidden>
+                         arrival time                          -9.519    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  7.174    <hidden>
+
+
+
+

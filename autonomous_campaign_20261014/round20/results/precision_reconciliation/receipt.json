@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "unique_rechecked": 60,
-  "endpoints": 90,
-  "reason": "Original main C++ stream used6significant digits versus baseline12; exact integer SAE/SSE resolves false near-equality Pareto classifications.",
-  "sources_changed": false,
-  "raw_results_overwritten": false
-}

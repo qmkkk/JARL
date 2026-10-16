@@ -1,2 +1,0 @@
-D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/s19_mac8_add8_b256_column_quadol_wce.v
-D:/paper_project_5/project_3/autonomous_campaign_20261014/round19/results/serial_claim_check/rtl/integration/s19_dot16_mac8_add8_b256_column_quadol_wce.v

@@ -1,0 +1,578 @@
+{
+  "case": "mac6_add4_b64",
+  "status": "COMPLETE",
+  "accepted": [
+    [
+      27,
+      "state_window"
+    ],
+    [
+      0,
+      "state_window"
+    ],
+    [
+      3,
+      "state_window"
+    ],
+    [
+      1,
+      "state_window"
+    ],
+    [
+      2,
+      "state_window"
+    ]
+  ],
+  "history": [
+    {
+      "pair": 27,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 96,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8741886999996495,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair27.csv"
+      },
+      "solve_seconds": 0.3414513999996416,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          48,
+          49,
+          50,
+          69,
+          70
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "3f3f3f3f",
+        "wce": 64,
+        "local_hd": 64,
+        "proxy": [
+          47,
+          201,
+          2,
+          2
+        ],
+        "distinct_completions": 4,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 0,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 32,
+        "witness_B": 2,
+        "witness_Y": 128,
+        "MAE": 30.5625,
+        "query": 0,
+        "wall_with_compile_s": 0.7294600999994145,
+        "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q000.cpp",
+        "result": "results/arithmetic/mac6_add4_b64_state_window_q000.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 6,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8134597999996913,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair6.csv"
+      },
+      "solve_seconds": 0.010025700001278892,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 18,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 128,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.812604899998405,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair18.csv"
+      },
+      "solve_seconds": 0.006709500001306878,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 0,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8212033999989217,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair0.csv"
+      },
+      "solve_seconds": 0.28942280000046594,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          54,
+          56,
+          73,
+          75,
+          76
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "935f6ca0",
+        "initB": "eca08000",
+        "wce": 64,
+        "local_hd": 0,
+        "proxy": [
+          46,
+          201,
+          10,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 32,
+        "witness_B": 2,
+        "witness_Y": 128,
+        "MAE": 30.5625,
+        "query": 1,
+        "wall_with_compile_s": 0.7492294000003312,
+        "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q001.cpp",
+        "result": "results/arithmetic/mac6_add4_b64_state_window_q001.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 22,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 128,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8509204000001773,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair22.csv"
+      },
+      "solve_seconds": 0.006747499999619322,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 3,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9881286000018008,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair3.csv"
+      },
+      "solve_seconds": 0.29441099999894504,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          75,
+          77,
+          80,
+          81,
+          83
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "66aacc00",
+        "initB": "6ac06ac0",
+        "wce": 64,
+        "local_hd": 0,
+        "proxy": [
+          46,
+          201,
+          8,
+          4
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 32,
+        "witness_B": 2,
+        "witness_Y": 128,
+        "MAE": 30.5625,
+        "query": 2,
+        "wall_with_compile_s": 0.7788177000002179,
+        "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q002.cpp",
+        "result": "results/arithmetic/mac6_add4_b64_state_window_q002.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 30,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 76,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8217675000014424,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair30.csv"
+      },
+      "solve_seconds": 0.006266000000323402,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 31,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 76,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8270950000005541,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair31.csv"
+      },
+      "solve_seconds": 0.006250100002944237,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 32,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 128,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8157352000016544,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair32.csv"
+      },
+      "solve_seconds": 0.006619499999942491,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 8,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8351657999992312,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair8.csv"
+      },
+      "solve_seconds": 0.00970719999895664,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 4,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8115692999999737,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair4.csv"
+      },
+      "solve_seconds": 0.009976199999073287,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 1,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8228066000010585,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair1.csv"
+      },
+      "solve_seconds": 0.295875600000727,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          50,
+          54,
+          56,
+          73,
+          74
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "87777888",
+        "initB": "f8888000",
+        "wce": 64,
+        "local_hd": 0,
+        "proxy": [
+          46,
+          201,
+          10,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 32,
+        "witness_B": 2,
+        "witness_Y": 128,
+        "MAE": 30.5625,
+        "query": 3,
+        "wall_with_compile_s": 0.7333839999992051,
+        "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q003.cpp",
+        "result": "results/arithmetic/mac6_add4_b64_state_window_q003.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 2,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8450532000024396,
+        "path": "results/arithmetic/mac6_add4_b64_state_window_current_pair2.csv"
+      },
+      "solve_seconds": 0.29459939999651397,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          50,
+          54,
+          56,
+          57,
+          72
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "935f6ca0",
+        "initB": "eca08000",
+        "wce": 64,
+        "local_hd": 0,
+        "proxy": [
+          46,
+          201,
+          10,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 64,
+        "first_B_only_sample_bound": 64,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 64,
+        "witness_A": 32,
+        "witness_B": 2,
+        "witness_Y": 128,
+        "MAE": 30.5625,
+        "query": 4,
+        "wall_with_compile_s": 0.7223131999999168,
+        "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q004.cpp",
+        "result": "results/arithmetic/mac6_add4_b64_state_window_q004.csv"
+      },
+      "status": "ACCEPTED"
+    }
+  ],
+  "checks": [
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 32,
+      "witness_B": 2,
+      "witness_Y": 128,
+      "MAE": 30.5625,
+      "query": 0,
+      "wall_with_compile_s": 0.7294600999994145,
+      "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q000.cpp",
+      "result": "results/arithmetic/mac6_add4_b64_state_window_q000.csv",
+      "pair": 27
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 32,
+      "witness_B": 2,
+      "witness_Y": 128,
+      "MAE": 30.5625,
+      "query": 1,
+      "wall_with_compile_s": 0.7492294000003312,
+      "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q001.cpp",
+      "result": "results/arithmetic/mac6_add4_b64_state_window_q001.csv",
+      "pair": 0
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 32,
+      "witness_B": 2,
+      "witness_Y": 128,
+      "MAE": 30.5625,
+      "query": 2,
+      "wall_with_compile_s": 0.7788177000002179,
+      "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q002.cpp",
+      "result": "results/arithmetic/mac6_add4_b64_state_window_q002.csv",
+      "pair": 3
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 32,
+      "witness_B": 2,
+      "witness_Y": 128,
+      "MAE": 30.5625,
+      "query": 3,
+      "wall_with_compile_s": 0.7333839999992051,
+      "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q003.cpp",
+      "result": "results/arithmetic/mac6_add4_b64_state_window_q003.csv",
+      "pair": 1
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 32,
+      "witness_B": 2,
+      "witness_Y": 128,
+      "MAE": 30.5625,
+      "query": 4,
+      "wall_with_compile_s": 0.7223131999999168,
+      "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q004.cpp",
+      "result": "results/arithmetic/mac6_add4_b64_state_window_q004.csv",
+      "pair": 2
+    },
+    {
+      "inputs": 65536,
+      "WCE": 64,
+      "witness_A": 32,
+      "witness_B": 2,
+      "witness_Y": 128,
+      "MAE": 30.5625,
+      "query": 5,
+      "wall_with_compile_s": 0.7366025000010268,
+      "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q005.cpp",
+      "result": "results/arithmetic/mac6_add4_b64_state_window_q005.csv",
+      "stage": "final"
+    }
+  ],
+  "final": {
+    "inputs": 65536,
+    "WCE": 64,
+    "witness_A": 32,
+    "witness_B": 2,
+    "witness_Y": 128,
+    "MAE": 30.5625,
+    "query": 5,
+    "wall_with_compile_s": 0.7366025000010268,
+    "source": "benchmarks/arithmetic/checkers/mac6_add4_b64_state_window_q005.cpp",
+    "result": "results/arithmetic/mac6_add4_b64_state_window_q005.csv"
+  },
+  "seconds": 17.04601189999812,
+  "context_input_count": 851968,
+  "forced_output_evaluations": 3407872,
+  "independent_scalar_probes": 416
+}

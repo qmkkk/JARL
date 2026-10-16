@@ -1,0 +1,188 @@
+{
+  "case": "dot2_u4_b2",
+  "status": "COMPLETE",
+  "accepted": [
+    [
+      0,
+      "state_window"
+    ],
+    [
+      1,
+      "state_window"
+    ]
+  ],
+  "history": [
+    {
+      "pair": 0,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8519363000013982,
+        "path": "results/arithmetic/dot2_u4_b2_state_window_current_pair0.csv"
+      },
+      "solve_seconds": 0.3131281999994826,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          46,
+          48,
+          49,
+          52,
+          53
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "00000000",
+        "initB": "66aacc00",
+        "wce": 2,
+        "local_hd": 12,
+        "proxy": [
+          43,
+          178,
+          4,
+          4
+        ],
+        "distinct_completions": 5,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 0,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 2,
+        "witness_B": 1,
+        "witness_Y": 4,
+        "MAE": 0.75,
+        "query": 0,
+        "wall_with_compile_s": 0.7058958999987226,
+        "source": "benchmarks/arithmetic/checkers/dot2_u4_b2_state_window_q000.cpp",
+        "result": "results/arithmetic/dot2_u4_b2_state_window_q000.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 1,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.8072965999999724,
+        "path": "results/arithmetic/dot2_u4_b2_state_window_current_pair1.csv"
+      },
+      "solve_seconds": 0.29668060000039986,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          59,
+          61,
+          62,
+          63,
+          66
+        ],
+        "select": null,
+        "mode": "f6",
+        "initA": "6ac06ac0",
+        "initB": "77888888",
+        "wce": 2,
+        "local_hd": 0,
+        "proxy": [
+          42,
+          178,
+          8,
+          4
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 2,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 2,
+        "witness_A": 2,
+        "witness_B": 1,
+        "witness_Y": 4,
+        "MAE": 0.75,
+        "query": 1,
+        "wall_with_compile_s": 0.7365327999978035,
+        "source": "benchmarks/arithmetic/checkers/dot2_u4_b2_state_window_q001.cpp",
+        "result": "results/arithmetic/dot2_u4_b2_state_window_q001.csv"
+      },
+      "status": "ACCEPTED"
+    }
+  ],
+  "checks": [
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 2,
+      "witness_B": 1,
+      "witness_Y": 4,
+      "MAE": 0.75,
+      "query": 0,
+      "wall_with_compile_s": 0.7058958999987226,
+      "source": "benchmarks/arithmetic/checkers/dot2_u4_b2_state_window_q000.cpp",
+      "result": "results/arithmetic/dot2_u4_b2_state_window_q000.csv",
+      "pair": 0
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 2,
+      "witness_B": 1,
+      "witness_Y": 4,
+      "MAE": 0.75,
+      "query": 1,
+      "wall_with_compile_s": 0.7365327999978035,
+      "source": "benchmarks/arithmetic/checkers/dot2_u4_b2_state_window_q001.cpp",
+      "result": "results/arithmetic/dot2_u4_b2_state_window_q001.csv",
+      "pair": 1
+    },
+    {
+      "inputs": 65536,
+      "WCE": 2,
+      "witness_A": 2,
+      "witness_B": 1,
+      "witness_Y": 4,
+      "MAE": 0.75,
+      "query": 2,
+      "wall_with_compile_s": 0.8953066999965813,
+      "source": "benchmarks/arithmetic/checkers/dot2_u4_b2_state_window_q002.cpp",
+      "result": "results/arithmetic/dot2_u4_b2_state_window_q002.csv",
+      "stage": "final"
+    }
+  ],
+  "final": {
+    "inputs": 65536,
+    "WCE": 2,
+    "witness_A": 2,
+    "witness_B": 1,
+    "witness_Y": 4,
+    "MAE": 0.75,
+    "query": 2,
+    "wall_with_compile_s": 0.8953066999965813,
+    "source": "benchmarks/arithmetic/checkers/dot2_u4_b2_state_window_q002.cpp",
+    "result": "results/arithmetic/dot2_u4_b2_state_window_q002.csv"
+  },
+  "seconds": 4.633111099999951,
+  "context_input_count": 131072,
+  "forced_output_evaluations": 524288,
+  "independent_scalar_probes": 64
+}

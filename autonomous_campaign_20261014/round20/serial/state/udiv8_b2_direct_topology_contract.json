@@ -1,7 +1,0 @@
-{
-  "case": "udiv8_b2",
-  "status": "PASS",
-  "selected_pairs": 1,
-  "topology_truth_checks": 8,
-  "source_selected_graph_sha256": "18d4249f855b2c53092d992d0bcb09aa9b46ebb56ca0b2f1eac98a1fcb29053c"
-}

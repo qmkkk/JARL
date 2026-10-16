@@ -1,9 +1,0 @@
-dot2_u4_b4 0 support 6 to 0
-dot2_u4_b4 1 support 6 to 2
-dot2_u4_b4 2 support 4 to 4
-dot2_u4_b4 3 support 4 to 4
-dot2_u4_b4 4 support 4 to 4
-dot2_u4_b4 5 support 4 to 4
-dot2_u4_b4 6 support 6 to 6
-dot2_u4_b4 7 support 6 to 6
-SERIAL_SUPPORT_COMPLETE dot2_u4_b4

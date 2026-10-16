@@ -1,9 +1,0 @@
-udiv8_b16 0 support 5 to 4
-udiv8_b16 1 support 5 to 0
-udiv8_b16 2 support 4 to 4
-udiv8_b16 3 support 2 to 1
-udiv8_b16 4 support 5 to 0
-udiv8_b16 5 support 4 to 4
-udiv8_b16 6 support 5 to 5
-udiv8_b16 7 support 4 to 4
-SERIAL_SUPPORT_COMPLETE udiv8_b16

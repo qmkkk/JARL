@@ -1,0 +1,506 @@
+{
+  "case": "umul8_b16",
+  "status": "COMPLETE",
+  "accepted": [
+    [
+      2,
+      "state_window"
+    ],
+    [
+      1,
+      "state_window"
+    ],
+    [
+      34,
+      "state_window"
+    ],
+    [
+      13,
+      "state_window"
+    ],
+    [
+      16,
+      "state_window"
+    ],
+    [
+      0,
+      "state_window"
+    ]
+  ],
+  "history": [
+    {
+      "pair": 2,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.952459899999667,
+        "path": "results/arithmetic/umul8_b16_state_window_current_pair2.csv"
+      },
+      "solve_seconds": 0.34755280000172206,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          59,
+          69,
+          126,
+          127,
+          129
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "00000000",
+        "initB": "00000000",
+        "wce": 10,
+        "local_hd": 24,
+        "proxy": [
+          87,
+          372,
+          0,
+          0
+        ],
+        "distinct_completions": 3,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 8,
+        "first_B_only_sample_bound": 2,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 10,
+        "witness_A": 5,
+        "witness_B": 7,
+        "witness_Y": 25,
+        "MAE": 1.3125,
+        "query": 0,
+        "wall_with_compile_s": 0.8039284000005864,
+        "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q000.cpp",
+        "result": "results/arithmetic/umul8_b16_state_window_q000.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 1,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9384844000014709,
+        "path": "results/arithmetic/umul8_b16_state_window_current_pair1.csv"
+      },
+      "solve_seconds": 0.316713999996864,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          59,
+          69,
+          75,
+          76,
+          77
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "6a6ac0c0",
+        "initB": "6ca06ca0",
+        "wce": 10,
+        "local_hd": 0,
+        "proxy": [
+          86,
+          372,
+          8,
+          4
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 10,
+        "first_B_only_sample_bound": 10,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 10,
+        "witness_A": 5,
+        "witness_B": 7,
+        "witness_Y": 25,
+        "MAE": 1.3125,
+        "query": 1,
+        "wall_with_compile_s": 0.8177235000002838,
+        "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q001.cpp",
+        "result": "results/arithmetic/umul8_b16_state_window_q001.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 34,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 80,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9468264999995881,
+        "path": "results/arithmetic/umul8_b16_state_window_current_pair34.csv"
+      },
+      "solve_seconds": 0.39436750000095344,
+      "diagnostic": {
+        "topologies": 48,
+        "retained_before_completion": {
+          "numeric_window": 8
+        }
+      },
+      "configuration": {
+        "shared": [
+          52,
+          63,
+          88,
+          95,
+          119
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "0a00aa00",
+        "initB": "ffffffff",
+        "wce": 10,
+        "local_hd": 58,
+        "proxy": [
+          86,
+          368,
+          4,
+          4
+        ],
+        "distinct_completions": 18,
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 10,
+        "first_B_only_sample_bound": 10,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 10,
+        "witness_A": 5,
+        "witness_B": 7,
+        "witness_Y": 25,
+        "MAE": 1.3125,
+        "query": 2,
+        "wall_with_compile_s": 0.7998541999986628,
+        "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q002.cpp",
+        "result": "results/arithmetic/umul8_b16_state_window_q002.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 12,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9369703000011214,
+        "path": "results/arithmetic/umul8_b16_state_window_current_pair12.csv"
+      },
+      "solve_seconds": 0.009414700001798337,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 0
+        }
+      },
+      "configuration": null,
+      "status": "NO_FEASIBLE_COMPLETION"
+    },
+    {
+      "pair": 13,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 256,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9420725000018138,
+        "path": "results/arithmetic/umul8_b16_state_window_current_pair13.csv"
+      },
+      "solve_seconds": 0.32017410000116797,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          53,
+          86,
+          126,
+          127,
+          129
+        ],
+        "select": 62,
+        "mode": "g6",
+        "initA": "ec80a000",
+        "initB": "80800000",
+        "wce": 10,
+        "local_hd": 112,
+        "proxy": [
+          85,
+          366,
+          10,
+          6
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 10,
+        "first_B_only_sample_bound": 10,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 10,
+        "witness_A": 5,
+        "witness_B": 7,
+        "witness_Y": 25,
+        "MAE": 2.46875,
+        "query": 3,
+        "wall_with_compile_s": 0.785105899998598,
+        "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q003.cpp",
+        "result": "results/arithmetic/umul8_b16_state_window_q003.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 16,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 128,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9396039999992354,
+        "path": "results/arithmetic/umul8_b16_state_window_current_pair16.csv"
+      },
+      "solve_seconds": 0.16672480000124779,
+      "diagnostic": {
+        "topologies": 64,
+        "retained_before_completion": {
+          "numeric_window": 1
+        }
+      },
+      "configuration": {
+        "shared": [
+          53,
+          59,
+          75,
+          76,
+          81
+        ],
+        "select": 69,
+        "mode": "g6",
+        "initA": "aca0535f",
+        "initB": "6ca0935f",
+        "wce": 10,
+        "local_hd": 128,
+        "proxy": [
+          85,
+          365,
+          11,
+          6
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 10,
+        "first_B_only_sample_bound": 10,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 10,
+        "witness_A": 5,
+        "witness_B": 7,
+        "witness_Y": 25,
+        "MAE": 2.46875,
+        "query": 4,
+        "wall_with_compile_s": 0.8058949000005668,
+        "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q004.cpp",
+        "result": "results/arithmetic/umul8_b16_state_window_q004.csv"
+      },
+      "status": "ACCEPTED"
+    },
+    {
+      "pair": 0,
+      "context": {
+        "status": "FULL_DOMAIN",
+        "input_count": 65536,
+        "forced_output_evaluations": 262144,
+        "reachable_rows": 32,
+        "independent_scalar_probes": 32,
+        "wall_with_compile_s": 0.9657915999996476,
+        "path": "results/arithmetic/umul8_b16_state_window_current_pair0.csv"
+      },
+      "solve_seconds": 0.3076989000001049,
+      "diagnostic": {
+        "topologies": 2,
+        "retained_before_completion": {
+          "numeric_window": 2
+        }
+      },
+      "configuration": {
+        "shared": [
+          59,
+          63,
+          65,
+          66,
+          70
+        ],
+        "select": null,
+        "mode": "g6",
+        "initA": "78888777",
+        "initB": "80008000",
+        "wce": 10,
+        "local_hd": 0,
+        "proxy": [
+          85,
+          365,
+          9,
+          5
+        ],
+        "context_error_kind": "numeric_WCE",
+        "first_A_only_sample_bound": 10,
+        "first_B_only_sample_bound": 10,
+        "both_single_edits_violate_sample_budget": false
+      },
+      "full_check": {
+        "inputs": 65536,
+        "WCE": 10,
+        "witness_A": 5,
+        "witness_B": 7,
+        "witness_Y": 25,
+        "MAE": 2.46875,
+        "query": 5,
+        "wall_with_compile_s": 0.7926477000000887,
+        "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q005.cpp",
+        "result": "results/arithmetic/umul8_b16_state_window_q005.csv"
+      },
+      "status": "ACCEPTED"
+    }
+  ],
+  "checks": [
+    {
+      "inputs": 65536,
+      "WCE": 10,
+      "witness_A": 5,
+      "witness_B": 7,
+      "witness_Y": 25,
+      "MAE": 1.3125,
+      "query": 0,
+      "wall_with_compile_s": 0.8039284000005864,
+      "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q000.cpp",
+      "result": "results/arithmetic/umul8_b16_state_window_q000.csv",
+      "pair": 2
+    },
+    {
+      "inputs": 65536,
+      "WCE": 10,
+      "witness_A": 5,
+      "witness_B": 7,
+      "witness_Y": 25,
+      "MAE": 1.3125,
+      "query": 1,
+      "wall_with_compile_s": 0.8177235000002838,
+      "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q001.cpp",
+      "result": "results/arithmetic/umul8_b16_state_window_q001.csv",
+      "pair": 1
+    },
+    {
+      "inputs": 65536,
+      "WCE": 10,
+      "witness_A": 5,
+      "witness_B": 7,
+      "witness_Y": 25,
+      "MAE": 1.3125,
+      "query": 2,
+      "wall_with_compile_s": 0.7998541999986628,
+      "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q002.cpp",
+      "result": "results/arithmetic/umul8_b16_state_window_q002.csv",
+      "pair": 34
+    },
+    {
+      "inputs": 65536,
+      "WCE": 10,
+      "witness_A": 5,
+      "witness_B": 7,
+      "witness_Y": 25,
+      "MAE": 2.46875,
+      "query": 3,
+      "wall_with_compile_s": 0.785105899998598,
+      "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q003.cpp",
+      "result": "results/arithmetic/umul8_b16_state_window_q003.csv",
+      "pair": 13
+    },
+    {
+      "inputs": 65536,
+      "WCE": 10,
+      "witness_A": 5,
+      "witness_B": 7,
+      "witness_Y": 25,
+      "MAE": 2.46875,
+      "query": 4,
+      "wall_with_compile_s": 0.8058949000005668,
+      "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q004.cpp",
+      "result": "results/arithmetic/umul8_b16_state_window_q004.csv",
+      "pair": 16
+    },
+    {
+      "inputs": 65536,
+      "WCE": 10,
+      "witness_A": 5,
+      "witness_B": 7,
+      "witness_Y": 25,
+      "MAE": 2.46875,
+      "query": 5,
+      "wall_with_compile_s": 0.7926477000000887,
+      "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q005.cpp",
+      "result": "results/arithmetic/umul8_b16_state_window_q005.csv",
+      "pair": 0
+    },
+    {
+      "inputs": 65536,
+      "WCE": 10,
+      "witness_A": 5,
+      "witness_B": 7,
+      "witness_Y": 25,
+      "MAE": 2.46875,
+      "query": 6,
+      "wall_with_compile_s": 0.778700699996989,
+      "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q006.cpp",
+      "result": "results/arithmetic/umul8_b16_state_window_q006.csv",
+      "stage": "final"
+    }
+  ],
+  "final": {
+    "inputs": 65536,
+    "WCE": 10,
+    "witness_A": 5,
+    "witness_B": 7,
+    "witness_Y": 25,
+    "MAE": 2.46875,
+    "query": 6,
+    "wall_with_compile_s": 0.778700699996989,
+    "source": "benchmarks/arithmetic/checkers/umul8_b16_state_window_q006.cpp",
+    "result": "results/arithmetic/umul8_b16_state_window_q006.csv"
+  },
+  "seconds": 14.146606599999359,
+  "context_input_count": 458752,
+  "forced_output_evaluations": 1835008,
+  "independent_scalar_probes": 224
+}

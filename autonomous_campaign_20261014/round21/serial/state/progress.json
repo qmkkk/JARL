@@ -1,6 +1,0 @@
-{
-  "phase": "QUADOL_FULL_DOMAIN_SEARCH",
-  "case": "mac10_add4_b4096_column_mse",
-  "queries": 44,
-  "candidate_pairs": 10
-}

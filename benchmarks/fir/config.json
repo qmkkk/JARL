@@ -1,0 +1,29 @@
+{
+  "devices": [
+    "xc7a100tcsg324-1",
+    "xc7a200tfbg676-1"
+  ],
+  "methods": [
+    "quadol_wce",
+    "serial_then_quadol",
+    "state_window",
+    "quality_window"
+  ],
+  "cases": [
+    {
+      "width": 8,
+      "budget": 256,
+      "source_case": "mac8_add8_b256_column_mse"
+    },
+    {
+      "width": 9,
+      "budget": 1024,
+      "source_case": "mac9_add6_b1024_column_mse"
+    },
+    {
+      "width": 10,
+      "budget": 4096,
+      "source_case": "mac10_add4_b4096_column_mse"
+    }
+  ]
+}
